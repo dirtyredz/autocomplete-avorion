@@ -4,80 +4,758 @@
 		{
 			"text": "Sector",
 			"snippet": "Sector()",
-			"type": "function",
+			"type": "method",
 			"svc": "Server/Client",
-			"icon": "F",
-			"description": "A new instance of Sector"
-		},
-		{
+			"description": "A new instance of Sector",
+			"members":
+			[
+				{
+					"text": "createStation",
+					"snippet": "createStation()",
+					"type": "method",
+					"svc": "Server",
+					"description": "Convenience function to create a station"
+				},
+				{
+					"text": "createShip",
+					"snippet": "createShip()",
+					"type": "method",
+					"svc": "Server",
+					"description": "Convenience function to create a ship"
+				},
+				{
+					"text": "createAsteroid",
+					"snippet": "createAsteroid()",
+					"type": "method",
+					"svc": "Server",
+					"description": "Convenience function to create an asteroid"
+				},
+				{
+					"text": "createWreckage",
+					"snippet": "createWreckage()",
+					"type": "method",
+					"svc": "Server",
+					"description": "Convenience function to create a wreckage"
+				},
+				{
+					"text": "createObject",
+					"snippet": "createObject()",
+					"type": "method",
+					"svc": "Server",
+					"description": "Convenience function to create a default object"
+				},
+				{
+					"text": "createWormHole",
+					"snippet": "createWormHole()",
+					"type": "method",
+					"svc": "Server",
+					"description": "Convenience function to create a wormhole"
+				},
+				{
+					"text": "createEntity",
+					"snippet": "createEntity()",
+					"type": "method",
+					"svc": "Server",
+					"description": "Creates a new arbitrary entity in the sector"
+				},
+				{
+					"text": "resendEntity",
+					"snippet": "resendEntity()",
+					"type": "method",
+					"svc": "Server",
+					"description": ""
+				},
+				{
+					"text": "dropBundle",
+					"snippet": "dropBundle()",
+					"type": "method",
+					"svc": "Server",
+					"description": ""
+				},
+				{
+					"text": "dropMoney",
+					"snippet": "dropMoney()",
+					"type": "method",
+					"svc": "Server",
+					"description": ""
+				},
+				{
+					"text": "dropResources",
+					"snippet": "dropResources()",
+					"type": "method",
+					"svc": "Server",
+					"description": "Convenience function to create a wormhole"
+				},
+				{
+					"text": "dropCargo",
+					"snippet": "dropCargo()",
+					"type": "method",
+					"svc": "Server",
+					"description": "Convenience function to create a wormhole"
+				},
+				{
+					"text": "dropColor",
+					"snippet": "dropColor()",
+					"type": "method",
+					"svc": "Server",
+					"description": "Convenience function to create a wormhole"
+				},
+				{
+					"text": "dropRandomColor",
+					"snippet": "dropRandomColor()",
+					"type": "method",
+					"svc": "Server",
+					"description": "Convenience function to create a wormhole"
+				},
+				{
+					"text": "dropTurret",
+					"snippet": "dropTurret()",
+					"type": "method",
+					"svc": "Server",
+					"description": "Convenience function to create a wormhole"
+				},
+				{
+					"text": "dropSectorTurret",
+					"snippet": "dropSectorTurret()",
+					"type": "method",
+					"svc": "Server",
+					"description": "Convenience function to create a wormhole"
+				},
+				{
+					"text": "dropUpgrade",
+					"snippet": "dropUpgrade()",
+					"type": "method",
+					"svc": "Server",
+					"description": "Convenience function to create a wormhole"
+				},
+				{
+					"text": "deleteEntity",
+					"snippet": "deleteEntity()",
+					"type": "method",
+					"svc": "Server",
+					"description": "Sets an entity for deletion"
+				},
+				{
+					"text": "deleteEntityJumped",
+					"snippet": "deleteEntityJumped()",
+					"type": "method",
+					"svc": "Server",
+					"description": "Sets an entity for deletion"
+				},
+				{
+					"text": "collectGarbage",
+					"snippet": "collectGarbage()",
+					"type": "method",
+					"svc": "Server",
+					"description": "Immediately deletes all entities in the sector that are set for deletion"
+				},
+				{
+					"text": "resolveScriptPath",
+					"snippet": "resolveScriptPath()",
+					"type": "method",
+					"svc": "Server",
+					"description": ""
+				},
+				{
+					"text": "invokeFunction",
+					"snippet": "invokeFunction()",
+					"type": "method",
+					"svc": "Server",
+					"description": ""
+				},
+				{
+					"text": "addScript",
+					"snippet": "addScript()",
+					"type": "method",
+					"svc": "Server",
+					"description": ""
+				},
+				{
+					"text": "removeScript",
+					"snippet": "removeScript()",
+					"type": "method",
+					"svc": "Server",
+					"description": ""
+				},
+				{
+					"text": "hasScript",
+					"snippet": "hasScript()",
+					"type": "method",
+					"svc": "Server",
+					"description": ""
+				},
+				{
+					"text": "getScripts",
+					"snippet": "getScripts()",
+					"type": "method",
+					"svc": "Server",
+					"description": ""
+				},
+				{
+					"text": "hasEnemies",
+					"snippet": "hasEnemies()",
+					"type": "method",
+					"svc": "Server",
+					"description": "Checks if the given faction has any enemy ships or objects in the sector"
+				},
+				{
+					"text": "getPresentFactions",
+					"snippet": "getPresentFactions()",
+					"type": "method",
+					"svc": "Server",
+					"description": "Returns all indices of all present factions"
+				},
+				{
+					"text": "registerCallback",
+					"snippet": "registerCallback()",
+					"type": "method",
+					"svc": "Server/Client",
+					"description": "Register a callback in the sector"
+				},
+				{
+					"text": "unregisterCallback",
+					"snippet": "unregisterCallback()",
+					"type": "method",
+					"svc": "Server/Client",
+					"description": ""
+				},
+				{
+					"text": "getCoordinates",
+					"snippet": "getCoordinates()",
+					"type": "method",
+					"svc": "Server/Client",
+					"description": "Access the x, y coordinates of the sector"
+				},
+				{
+					"text": "getEntity",
+					"snippet": "getEntity()",
+					"type": "method",
+					"svc": "Server/Client",
+					"description": "Find an entity by index in the sector"
+				},
+				{
+					"text": "getEntityByFactionAndName",
+					"snippet": "getEntityByFactionAndName()",
+					"type": "method",
+					"svc": "Server/Client",
+					"description": ""
+				},
+				{
+					"text": "getEnemies",
+					"snippet": "getEnemies()",
+					"type": "method",
+					"svc": "Server",
+					"description": "Returns all enemies of the given faction in the sector"
+				},
+				{
+					"text": "getEntities",
+					"snippet": "getEntities()",
+					"type": "method",
+					"svc": "Server/Client",
+					"description": "Returns all entities in the sector"
+				},
+				{
+					"text": "getEntitiesByType",
+					"snippet": "getEntitiesByType()",
+					"type": "method",
+					"svc": "Server/Client",
+					"description": "Returns all entities in the sector that have a specific type"
+				},
+				{
+					"text": "getEntitiesByScript",
+					"snippet": "getEntitiesByScript()",
+					"type": "method",
+					"svc": "Server",
+					"description": "Returns all entities in the sector that have a specific script attached to them"
+				},
+				{
+					"text": "getEntitiesByComponent",
+					"snippet": "getEntitiesByComponent()",
+					"type": "method",
+					"svc": "Server/Client",
+					"description": "Returns all entities in the sector that have a specific component"
+				},
+				{
+					"text": "getEntitiesByComponents",
+					"snippet": "getEntitiesByComponents()",
+					"type": "method",
+					"svc": "Server/Client",
+					"description": "Returns all entities in the sector that have a specific set of components"
+				},
+				{
+					"text": "getEntitiesByLocation",
+					"snippet": "getEntitiesByLocation()",
+					"type": "method",
+					"svc": "Server/Client",
+					"description": "Returns all entities in the sector whose bounding spheres intersect with the given sphere"
+				},
+				{
+					"text": "getEntitiesByFaction",
+					"snippet": "getEntitiesByFaction()",
+					"type": "method",
+					"svc": "Server/Client",
+					"description": "Returns all entities in the sector that belong to the given faction"
+				},
+				{
+					"text": "getPlayers",
+					"snippet": "getPlayers()",
+					"type": "method",
+					"svc": "Server",
+					"description": "Returns all players that are currently in the sector"
+				},
+				{
+					"text": "broadcastChatMessage",
+					"snippet": "broadcastChatMessage()",
+					"type": "method",
+					"svc": "Server",
+					"description": "Broadcast a chat message to all players that are currently in the sector"
+				},
+				{
+					"text": "getValue",
+					"snippet": "getValue()",
+					"type": "method",
+					"svc": "Server",
+					"description": "Retrieves a custom value saved in the entity with the given key"
+				},
+				{
+					"text": "getValues",
+					"snippet": "getValues()",
+					"type": "method",
+					"svc": "Server",
+					"description": "Retrieves all key-value pairs of custom values of the entity"
+				},
+				{
+					"text": "setValue",
+					"snippet": "setValue()",
+					"type": "method",
+					"svc": "Server",
+					"description": "Sets a custom value"
+				},
+				{
+					"text": "createGlow",
+					"snippet": "createGlow(${1:pos}, ${2:size}, ${3:color})",
+					"type": "method",
+					"svc": "Client",
+					"description": ""
+				},
+				{
+					"text": "createSpark",
+					"snippet": "createSpark()",
+					"type": "method",
+					"svc": "Client",
+					"description": ""
+				},
+				{
+					"text": "createExplosion",
+					"snippet": "createExplosion()",
+					"type": "method",
+					"svc": "Client",
+					"description": ""
+				},
+				{
+					"text": "createDustExplosion",
+					"snippet": "createDustExplosion()",
+					"type": "method",
+					"svc": "Client",
+					"description": ""
+				},
+				{
+					"text": "createDust",
+					"snippet": "createDust()",
+					"type": "method",
+					"svc": "Client",
+					"description": ""
+				},
+				{
+					"text": "createHyperspaceAnimation",
+					"snippet": "createHyperspaceAnimation()",
+					"type": "method",
+					"svc": "Client",
+					"description": ""
+				},
+				{
+					"text": "createLaser",
+					"snippet": "createLaser()",
+					"type": "method",
+					"svc": "Client",
+					"description": ""
+				},
+				{
+					"text": "setValue",
+					"snippet": "setValue()",
+					"type": "method",
+					"svc": "Client",
+					"description": ""
+				},
+				{
+					"text": "setValue",
+					"snippet": "setValue()",
+					"type": "method",
+					"svc": "Client",
+					"description": ""
+				},
+				{
+					"text": "setValue",
+					"snippet": "setValue()",
+					"type": "method",
+					"svc": "Client",
+					"description": ""
+				}
+			]
+		},{
 			"text": "Player",
 			"snippet": "Player()",
-			"type": "function",
+			"type": "method",
 			"svc": "Server/Client",
-			"icon": "F",
 			"description": "A new instance of Player"
+		},{
+			"text": "Tooltip",
+			"snippet": "Tooltip()",
+			"type": "method",
+			"svc": "Server/Client",
+			"description": "A new instance of Tooltip"
+		},{
+			"text": "TooltipLine",
+			"snippet": "TooltipLine(${1:int}, ${2:int})",
+			"type": "method",
+			"svc": "Server/Client",
+			"description": "A new instance of TooltipLine"
+		},{
+			"text": "Server",
+			"snippet": "Server()",
+			"type": "method",
+			"svc": "Server",
+			"description": "A new instance of Server"
+		},{
+			"text": "Galaxy",
+			"snippet": "Galaxy()",
+			"type": "method",
+			"svc": "Server/Client",
+			"description": "A new instance of Galaxy"
+		},{
+			"text": "Alliance",
+			"snippet": "Alliance()",
+			"type": "method",
+			"svc": "Server/Client",
+			"description": "A new instance of Alliance"
+		},{
+			"text": "Faction",
+			"snippet": "Faction()",
+			"type": "method",
+			"svc": "Server/Client",
+			"description": "A new instance of Faction"
+		},{
+			"text": "Line",
+			"snippet": "Line(${1:index})",
+			"type": "method",
+			"svc": "Client",
+			"description": "A new instance of Line"
+		},{
+			"text": "UIOrganizer",
+			"snippet": "UIOrganizer(${1:a}, ${2:b})",
+			"type": "method",
+			"svc": "Client",
+			"description": "Expects either a Rect specifying the rect of this UI organizer for parameter a and nil for b, or a vec2 for a and a vec2 for b, specifying the lower and upper bounds for the UI organizer rect."
+		},{
+			"text": "UIVerticalLister",
+			"snippet": "UIVerticalLister(${1:rect}, ${2:padding}, ${1:margin})",
+			"type": "method",
+			"svc": "Client",
+			"description": "This class gets a rect and aligns given elements in a list style inside the rect."
+		},{
+			"text": "UIHorizontalSplitter",
+			"snippet": "UIHorizontalSplitter(${1:rect}, ${2:padding}, ${1:margin}, ${1:ratio})",
+			"type": "method",
+			"svc": "Client",
+			"description": "This class gets a rect and creates two new rects by splitting the given rect horizontally."
+		},{
+			"text": "UIVerticalSplitter",
+			"snippet": "UIVerticalSplitter(${1:rect}, ${2:padding}, ${1:margin}, ${1:ratio})",
+			"type": "method",
+			"svc": "Client",
+			"description": "This class gets a rect and creates two new rects by splitting the given rect vertically."
+		},{
+			"text": "UIHorizontalMultiSplitter",
+			"snippet": "UIHorizontalMultiSplitter(${1:rect}, ${2:padding}, ${1:margin}, ${1:splits})",
+			"type": "method",
+			"svc": "Client",
+			"description": "This class gets a rect and creates multiple new rects by evenly splitting the given rect horizontally n times, creating n + 1 new rects."
+		},{
+			"text": "UIVerticalMultiSplitter",
+			"snippet": "UIVerticalMultiSplitter(${1:rect}, ${2:padding}, ${1:margin}, ${1:splits})",
+			"type": "method",
+			"svc": "Client",
+			"description": "This class gets a rect and creates multiple new rects by evenly splitting the given rect vertically n times, creating n + 1 new rects."
+		},{
+			"text": "UIArbitraryVerticalSplitter",
+			"snippet": "UIArbitraryVerticalSplitter(${1:rect}, ${2:padding}, ${1:margin}, ${1:splits})",
+			"type": "method",
+			"svc": "Client",
+			"description": "This class gets a rect and creates multiple new rects by arbitrarily splitting the given rect vertically n times, creating n + 1 new rects."
+		},{
+			"text": "Tab",
+			"snippet": "Tab(${1:index})",
+			"type": "method",
+			"svc": "Client",
+			"description": "A new instance of Tab"
+		},{
+			"text": "TabbedWindow",
+			"snippet": "TabbedWindow(${1:index})",
+			"type": "method",
+			"svc": "Client",
+			"description": "A new instance of TabbedWindow"
+		},{
+			"text": "StatisticsBar",
+			"snippet": "StatisticsBar(${1:index})",
+			"type": "method",
+			"svc": "Client",
+			"description": "A new instance of StatisticsBar"
+		},{
+			"text": "ComboBox",
+			"snippet": "ComboBox(${1:index})",
+			"type": "method",
+			"svc": "Client",
+			"description": "A new instance of ComboBox"
+		},{
+			"text": "MultiLineTextBox",
+			"snippet": "MultiLineTextBox(${1:index})",
+			"type": "method",
+			"svc": "Client",
+			"description": "A new instance of MultiLineTextBox"
+		},{
+			"text": "InventorySelection",
+			"snippet": "InventorySelection(${1:index})",
+			"type": "method",
+			"svc": "Client",
+			"description": "A new instance of InventorySelection"
+		},{
+			"text": "UIElement",
+			"snippet": "UIElement()",
+			"type": "method",
+			"svc": "Client",
+			"description": "A new instance of UIElement"
+		},{
+			"text": "PlanDisplayer",
+			"snippet": "PlanDisplayer(${1:index})",
+			"type": "method",
+			"svc": "Client",
+			"description": "A new instance of PlanDisplayer"
+		},{
+			"text": "ListBoxEx",
+			"snippet": "ListBoxEx(${1:index})",
+			"type": "method",
+			"svc": "Client",
+			"description": "A new instance of ListBoxEx"
+		},{
+			"text": "ListBox",
+			"snippet": "ListBox(${1:index})",
+			"type": "method",
+			"svc": "Client",
+			"description": "A new instance of ListBox"
+		},{
+			"text": "Window",
+			"snippet": "Window(${1:index})",
+			"type": "method",
+			"svc": "Client",
+			"description": "A new instance of Window"
+		},{
+			"text": "ScrollFrame",
+			"snippet": "ScrollFrame(${1:index})",
+			"type": "method",
+			"svc": "Client",
+			"description": "A new instance of ScrollFrame"
+		},{
+			"text": "InventorySelectionItem",
+			"snippet": "InventorySelectionItem()",
+			"type": "method",
+			"svc": "Client",
+			"description": "A new instance of InventorySelectionItem"
+		},{
+			"text": "Slider",
+			"snippet": "Slider(${1:index})",
+			"type": "method",
+			"svc": "Client",
+			"description": "A new instance of Slider"
+		},{
+			"text": "TooltipRenderer",
+			"snippet": "TooltipRenderer()",
+			"type": "method",
+			"svc": "Client",
+			"description": "A new instance of TooltipRenderer"
+		},{
+			"text": "InputWindow",
+			"snippet": "InputWindow(${1:index})",
+			"type": "method",
+			"svc": "Client",
+			"description": "A new instance of InputWindow"
+		},{
+			"text": "Frame",
+			"snippet": "Frame(${1:index})",
+			"type": "method",
+			"svc": "Client",
+			"description": "A new instance of Frame"
+		},{
+			"text": "TextBox",
+			"snippet": "TextBox(${1:index})",
+			"type": "method",
+			"svc": "Client",
+			"description": "A new instance of TextBox"
+		},{
+			"text": "PlanSelectionItem",
+			"snippet": "PlanSelectionItem()",
+			"type": "method",
+			"svc": "Client",
+			"description": "A new instance of PlanSelectionItem"
+		},{
+			"text": "SelectionItem",
+			"snippet": "SelectionItem()",
+			"type": "method",
+			"svc": "Client",
+			"description": "A new instance of SelectionItem"
+		},{
+			"text": "Selection",
+			"snippet": "Selection(${1:index})",
+			"type": "method",
+			"svc": "Client",
+			"description": "A new instance of Selection"
+		},{
+			"text": "CheckBox",
+			"snippet": "CheckBox(${1:index})",
+			"type": "method",
+			"svc": "Client",
+			"description": "A new instance of CheckBox"
+		},{
+			"text": "Label",
+			"snippet": "Label(${1:index})",
+			"type": "method",
+			"svc": "Client",
+			"description": "A new instance of Label"
+		},{
+			"text": "TextField",
+			"snippet": "TextField(${1:index})",
+			"type": "method",
+			"svc": "Client",
+			"description": "A new instance of TextField"
+		},{
+			"text": "Button",
+			"snippet": "Button(${1:index})",
+			"type": "method",
+			"svc": "Client",
+			"description": "A new instance of Button"
+		},{
+			"text": "InventoryReferenceSelectionItem",
+			"snippet": "InventoryReferenceSelectionItem()",
+			"type": "method",
+			"svc": "Client",
+			"description": "A new instance of InventoryReferenceSelectionItem"
+		},{
+			"text": "Picture",
+			"snippet": "Picture(${1:index})",
+			"type": "method",
+			"svc": "Client",
+			"description": "A new instance of Picture"
+		},{
+			"text": "UIRenderer",
+			"snippet": "UIRenderer()",
+			"type": "method",
+			"svc": "Client",
+			"description": "A new instance of UIRenderer"
+		},{
+			"text": "NumbersBar",
+			"snippet": "NumbersBar(${1:index})",
+			"type": "method",
+			"svc": "Client",
+			"description": "A new instance of NumbersBar"
+		},{
+			"text": "UIContainer",
+			"snippet": "UIContainer(${1:index})",
+			"type": "method",
+			"svc": "Client",
+			"description": "A new instance of UIContainer"
+		},{
+			"text": "Planet",
+			"snippet": "Planet()",
+			"type": "method",
+			"svc": "Client",
+			"description": "A new instance of Planet"
+		},{
+			"text": "Achievements",
+			"snippet": "Achievements()",
+			"type": "method",
+			"svc": "Client",
+			"description": "A new instance of Achievements"
+		},{
+			"text": "GalaxyMap",
+			"snippet": "GalaxyMap()",
+			"type": "method",
+			"svc": "Client",
+			"description": "A new instance of GalaxyMap"
+		},{
+			"text": "Mouse",
+			"snippet": "Mouse()",
+			"type": "method",
+			"svc": "Client",
+			"description": "A new instance of Mouse"
+		},{
+			"text": "Keyboard",
+			"snippet": "Keyboard()",
+			"type": "method",
+			"svc": "Client",
+			"description": "A new instance of Keyboard"
+		},{
+			"text": "LaserFX",
+			"snippet": "LaserFX()",
+			"type": "method",
+			"svc": "Client",
+			"description": "A new instance of LaserFX"
+		},{
+			"text": "QuadTree",
+			"snippet": "QuadTree()",
+			"type": "method",
+			"svc": "Server/Client",
+			"description": "A new instance of QuadTree"
+		},{
+			"text": "Uuid",
+			"snippet": "Uuid(${1:uuid})",
+			"type": "method",
+			"svc": "Server/Client",
+			"description": "A new instance of Uuid"
+		},{
+			"text": "Timer",
+			"snippet": "Timer()",
+			"type": "method",
+			"svc": "Server/Client",
+			"description": "A new instance of Timer"
+		},{
+			"text": "Profiler",
+			"snippet": "Profiler(${1:str})",
+			"type": "method",
+			"svc": "Server/Client",
+			"description": "A new instance of Profiler"
+		},{
+			"text": "Ray",
+			"snippet": "Ray()",
+			"type": "method",
+			"svc": "Server/Client",
+			"description": "A new instance of Ray"
+		},{
+			"text": "Color",
+			"snippet": "Color()",
+			"type": "method",
+			"svc": "Server/Client",
+			"description": "A new instance of Color"
+		},{
+			"text": "Box",
+			"snippet": "Box()",
+			"type": "method",
+			"svc": "Server/Client",
+			"description": "A new instance of Box"
+		},{
+			"text": "vec2",
+			"snippet": "vec2(${1:float}, ${2:float})",
+			"type": "method",
+			"svc": "Server/Client",
+			"description": "A new instance of vec2"
 		}
-	],
-	"members":
-	{
-		"Sector":
-		[
-			{
-				"text": "createStation",
-				"snippet": "createStation()",
-				"type": "function",
-				"svc": "Server",
-				"icon": "F",
-				"description": "Convenience function to create a station"
-			},
-			{
-				"text": "createShip",
-				"snippet": "createShip()",
-				"type": "function",
-				"svc": "Server",
-				"icon": "F",
-				"description": "Convenience function to create a ship"
-			},
-			{
-				"text": "createAsteroid",
-				"snippet": "createAsteroid()",
-				"type": "function",
-				"svc": "Server",
-				"icon": "F",
-				"description": "Convenience function to create an asteroid"
-			},
-			{
-				"text": "createWreckage",
-				"snippet": "createWreckage()",
-				"type": "function",
-				"svc": "Server",
-				"icon": "F",
-				"description": "Convenience function to create a wreckage"
-			},
-			{
-				"text": "createObject",
-				"snippet": "createObject()",
-				"type": "function",
-				"svc": "Server",
-				"icon": "F",
-				"description": "Convenience function to create a default object"
-			},
-			{
-				"text": "createWormHole",
-				"snippet": "createWormHole()",
-				"type": "function",
-				"svc": "Server",
-				"icon": "F",
-				"description": "Convenience function to create a wormhole"
-			},
-			{
-				"text": "createEntity",
-				"snippet": "createEntity()",
-				"type": "function",
-				"svc": "Server",
-				"icon": "F",
-				"description": "Creates a new arbitrary entity in the sector"
-			}
-		]
-	}
+	]
 }
