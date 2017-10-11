@@ -7,7 +7,9 @@
 On Mac, you might need to start Atom and go to Atom > Install Shell Commands.
 On Windows, it’s probably already there.
 
-3. Open your terminal, navigate into the repo directory, then run apm link.
+3. Open your terminal, navigate into the repo directory, then run
+
+    apm link.
 
 4. Back in Atom, you should now see atom-autocomplete-boilerplate installed.
 
