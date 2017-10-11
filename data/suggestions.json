@@ -1,0 +1,83 @@
+{
+	"global":
+	[
+		{
+			"text": "Sector",
+			"snippet": "Sector()",
+			"type": "function",
+			"svc": "Server/Client",
+			"icon": "F",
+			"description": "A new instance of Sector"
+		},
+		{
+			"text": "Player",
+			"snippet": "Player()",
+			"type": "function",
+			"svc": "Server/Client",
+			"icon": "F",
+			"description": "A new instance of Player"
+		}
+	],
+	"members":
+	{
+		"Sector":
+		[
+			{
+				"text": "createStation",
+				"snippet": "createStation()",
+				"type": "function",
+				"svc": "Server",
+				"icon": "F",
+				"description": "Convenience function to create a station"
+			},
+			{
+				"text": "createShip",
+				"snippet": "createShip()",
+				"type": "function",
+				"svc": "Server",
+				"icon": "F",
+				"description": "Convenience function to create a ship"
+			},
+			{
+				"text": "createAsteroid",
+				"snippet": "createAsteroid()",
+				"type": "function",
+				"svc": "Server",
+				"icon": "F",
+				"description": "Convenience function to create an asteroid"
+			},
+			{
+				"text": "createWreckage",
+				"snippet": "createWreckage()",
+				"type": "function",
+				"svc": "Server",
+				"icon": "F",
+				"description": "Convenience function to create a wreckage"
+			},
+			{
+				"text": "createObject",
+				"snippet": "createObject()",
+				"type": "function",
+				"svc": "Server",
+				"icon": "F",
+				"description": "Convenience function to create a default object"
+			},
+			{
+				"text": "createWormHole",
+				"snippet": "createWormHole()",
+				"type": "function",
+				"svc": "Server",
+				"icon": "F",
+				"description": "Convenience function to create a wormhole"
+			},
+			{
+				"text": "createEntity",
+				"snippet": "createEntity()",
+				"type": "function",
+				"svc": "Server",
+				"icon": "F",
+				"description": "Creates a new arbitrary entity in the sector"
+			}
+		]
+	}
+}
