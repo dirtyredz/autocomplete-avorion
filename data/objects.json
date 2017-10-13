@@ -829,7 +829,7 @@
   },
   {
     "text": "Alliance",
-    "snippet": "Alliance(${1:[var]})",
+    "snippet": "Alliance(${1:var})",
     "description": "A new instance of Alliance",
     "members":[
       {
@@ -2394,21 +2394,31 @@
     "snippet": "CheckBox(${1:index})",
     "svc": "Client",
     "description": "A new instance of CheckBox",
-    "members":[
-      {
-        "text": "___",
-        "snippet": "___(${1:x})"
-      },{
-        "text": "___",
-        "snippet": "___(${1:x})"
-      }
-    ],
+    "inherited": "UIElement",
     "properties":[
       {
-        "text": "___",
+        "text": "checked",
         "type": "property"
       },{
-        "text": "___",
+        "text": "active",
+        "type": "property"
+      },{
+        "text": "caption",
+        "type": "property"
+      },{
+        "text": "fontSize",
+        "type": "property"
+      },{
+        "text": "bold",
+        "type": "property"
+      },{
+        "text": "italic",
+        "type": "property"
+      },{
+        "text": "captionLeft",
+        "type": "property"
+      },{
+        "text": "onCheckedFunction",
         "type": "property"
       }
     ]
@@ -2418,21 +2428,61 @@
     "snippet": "Label(${1:index})",
     "svc": "Client",
     "description": "A new instance of Label",
+    "inherited": "UIElement",
     "members":[
       {
-        "text": "___",
-        "snippet": "___(${1:x})"
+        "text": "setLeftAligned",
+        "snippet": "setLeftAligned()"
       },{
-        "text": "___",
-        "snippet": "___(${1:x})"
+        "text": "setRightAligned",
+        "snippet": "setRightAligned()"
+      },{
+        "text": "setBottomLeftAligned",
+        "snippet": "setBottomLeftAligned()"
+      },{
+        "text": "setBottomRightAligned",
+        "snippet": "setBottomRightAligned()"
+      },{
+        "text": "setBottomAligned",
+        "snippet": "setBottomAligned()"
+      },{
+        "text": "setTopLeftAligned",
+        "snippet": "setTopLeftAligned()"
+      },{
+        "text": "setTopRightAligned",
+        "snippet": "setTopRightAligned()"
+      },{
+        "text": "setTopAligned",
+        "snippet": "setTopAligned()"
       }
     ],
     "properties":[
       {
-        "text": "___",
+        "text": "active",
         "type": "property"
       },{
-        "text": "___",
+        "text": "caption",
+        "type": "property"
+      },{
+        "text": "font",
+        "type": "property"
+      },{
+        "text": "fontSize",
+        "type": "property"
+      },{
+        "text": "centered",
+        "type": "property"
+      },{
+        "text": "bold",
+        "type": "property"
+      },{
+        "text": "italic",
+        "type": "property"
+      },{
+        "text": "color",
+        "type": "property"
+      },{
+        "text": "mouseDownFunction",
         "type": "property"
       }
     ]
@@ -2442,21 +2492,16 @@
     "snippet": "TextField(${1:index})",
     "svc": "Client",
     "description": "A new instance of TextField",
-    "members":[
-      {
-        "text": "___",
-        "snippet": "___(${1:x})"
-      },{
-        "text": "___",
-        "snippet": "___(${1:x})"
-      }
-    ],
+    "inherited": "UIElement",
     "properties":[
       {
-        "text": "___",
+        "text": "text",
         "type": "property"
       },{
-        "text": "___",
+        "text": "fontSize",
+        "type": "property"
+      },{
+        "text": "padding",
         "type": "property"
       }
     ]
@@ -2466,21 +2511,28 @@
     "snippet": "Button(${1:index})",
     "svc": "Client",
     "description": "A new instance of Button",
-    "members":[
-      {
-        "text": "___",
-        "snippet": "___(${1:x})"
-      },{
-        "text": "___",
-        "snippet": "___(${1:x})"
-      }
-    ],
+    "inherited": "UIElement",
     "properties":[
       {
-        "text": "___",
+        "text": "active",
         "type": "property"
       },{
-        "text": "___",
+        "text": "textSize",
+        "type": "property"
+      },{
+        "text": "maxTextSize",
+        "type": "property"
+      },{
+        "text": "bold",
+        "type": "property"
+      },{
+        "text": "caption",
+        "type": "property"
+      },{
+        "text": "icon",
+        "type": "property"
+      },{
+        "text": "onPressedFunction",
         "type": "property"
       }
     ]
@@ -2490,21 +2542,39 @@
     "snippet": "InventoryReferenceSelectionItem()",
     "svc": "Client",
     "description": "A new instance of InventoryReferenceSelectionItem",
-    "members":[
-      {
-        "text": "___",
-        "snippet": "___(${1:x})"
-      },{
-        "text": "___",
-        "snippet": "___(${1:x})"
-      }
-    ],
     "properties":[
       {
-        "text": "___",
+        "text": "item",
         "type": "property"
       },{
-        "text": "___",
+        "text": "index",
+        "type": "property"
+      },{
+        "text": "deleteable",
+        "type": "property"
+      },{
+        "text": "readyForDeletion",
+        "type": "property"
+      },{
+        "text": "highlighted",
+        "type": "property"
+      },{
+        "text": "uvalue",
+        "type": "property"
+      },{
+        "text": "amount",
+        "type": "property"
+      },{
+        "text": "favorite",
+        "type": "property"
+      },{
+        "text": "trash",
+        "type": "property"
+      },{
+        "text": "recent",
+        "type": "property"
+      },{
+        "text": "border",
         "type": "property"
       }
     ]
@@ -2514,21 +2584,25 @@
     "snippet": "Picture(${1:index})",
     "svc": "Client",
     "description": "A new instance of Picture",
+    "inherited": "UIElement",
     "members":[
       {
-        "text": "___",
-        "snippet": "___(${1:x})"
-      },{
-        "text": "___",
-        "snippet": "___(${1:x})"
+        "text": "clear",
+        "snippet": "clear(${1:color})"
       }
     ],
     "properties":[
       {
-        "text": "___",
+        "text": "picture",
         "type": "property"
       },{
-        "text": "___",
+        "text": "flipped",
+        "type": "property"
+      },{
+        "text": "isIcon",
+        "type": "property"
+      },{
+        "text": "color",
         "type": "property"
       }
     ]
@@ -2540,20 +2614,32 @@
     "description": "A new instance of UIRenderer",
     "members":[
       {
-        "text": "___",
-        "snippet": "___(${1:x})"
+        "text": "renderLine",
+        "snippet": "renderLine(${1:vec2}, ${2:vec2}, ${3:color}, ${4:int})"
       },{
-        "text": "___",
-        "snippet": "___(${1:x})"
-      }
-    ],
-    "properties":[
-      {
-        "text": "___",
-        "type": "property"
+        "text": "renderOutlinedLine",
+        "snippet": "renderOutlinedLine(${1:vec2}, ${2:vec2}, ${3:int}, ${4:int}, ${5:int}, ${6:int}, ${7:color}, ${8:int})"
       },{
-        "text": "___",
-        "type": "property"
+        "text": "renderTargeter",
+        "snippet": "renderTargeter(${1:vec2}, ${2:float}, ${3:color}, ${4:int})"
+      },{
+        "text": "renderEntityTargeter",
+        "snippet": "renderEntityTargeter(${1:x}, ${2:color}, ${3:size}, ${4:layer})"
+      },{
+        "text": "renderRect",
+        "snippet": "renderRect(${1:vec2}, ${2:vec2}, ${3:color}, ${4:int})"
+      },{
+        "text": "renderArrow",
+        "snippet": "renderArrow(${1:vec2}, ${2:color}, ${3:int})"
+      },{
+        "text": "renderCentralArrow",
+        "snippet": "renderCentralArrow(${1:vec2}, ${2:float}, ${3:float}, ${4:float}, ${5:color}, ${6:int})"
+      },{
+        "text": "renderEntityArrow",
+        "snippet": "renderEntityArrow(${1:entity}, ${2width}, ${3:length}, ${4:visibilityThreshold}, ${5:color}, ${6:layer})"
+      },{
+        "text": "display",
+        "snippet": "display()"
       }
     ]
   },
@@ -2562,22 +2648,17 @@
     "snippet": "NumbersBar(${1:index})",
     "svc": "Client",
     "description": "A new instance of NumbersBar",
+    "inherited": "UIElement",
     "members":[
       {
-        "text": "___",
-        "snippet": "___(${1:x})"
+        "text": "clear",
+        "snippet": "clear()"
       },{
-        "text": "___",
-        "snippet": "___(${1:x})"
-      }
-    ],
-    "properties":[
-      {
-        "text": "___",
-        "type": "property"
+        "text": "setRange",
+        "snippet": "setRange(${1:minRange}, ${1:maxRange})"
       },{
-        "text": "___",
-        "type": "property"
+        "text": "addEntry",
+        "snippet": "addEntry(${1:num}, ${1:name}, ${1:color})"
       }
     ]
   },
@@ -2586,24 +2667,7 @@
     "snippet": "UIContainer(${1:index})",
     "svc": "Client",
     "description": "A new instance of UIContainer",
-    "members":[
-      {
-        "text": "___",
-        "snippet": "___(${1:x})"
-      },{
-        "text": "___",
-        "snippet": "___(${1:x})"
-      }
-    ],
-    "properties":[
-      {
-        "text": "___",
-        "type": "property"
-      },{
-        "text": "___",
-        "type": "property"
-      }
-    ]
+    "inherited": ["UIElement", "UIContainer"]
   },
   {
     "text": "Planet",
