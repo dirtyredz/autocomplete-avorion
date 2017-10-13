@@ -1,0 +1,4247 @@
+[
+  {
+    "text": "Sector",
+    "snippet": "Sector()",
+    "description": "A new instance of Sector",
+    "members": [
+      {
+        "text": "createStation",
+        "snippet": "createStation()",
+        "svc": "Server",
+        "description": "Convenience function to create a station"
+      },
+      {
+        "text": "createShip",
+        "snippet": "createShip()",
+        "svc": "Server",
+        "description": "Convenience function to create a ship"
+      },
+      {
+        "text": "createAsteroid",
+        "snippet": "createAsteroid()",
+        "svc": "Server",
+        "description": "Convenience function to create an asteroid"
+      },
+      {
+        "text": "createWreckage",
+        "snippet": "createWreckage()",
+        "svc": "Server",
+        "description": "Convenience function to create a wreckage"
+      },
+      {
+        "text": "createObject",
+        "snippet": "createObject()",
+        "svc": "Server",
+        "description": "Convenience function to create a default object"
+      },
+      {
+        "text": "createWormHole",
+        "snippet": "createWormHole()",
+        "svc": "Server",
+        "description": "Convenience function to create a wormhole"
+      },
+      {
+        "text": "createEntity",
+        "snippet": "createEntity()",
+        "svc": "Server",
+        "description": "Creates a new arbitrary entity in the sector"
+      },
+      {
+        "text": "resendEntity",
+        "snippet": "resendEntity()",
+        "svc": "Server",
+        "description": ""
+      },
+      {
+        "text": "dropBundle",
+        "snippet": "dropBundle()",
+        "svc": "Server",
+        "description": ""
+      },
+      {
+        "text": "dropMoney",
+        "snippet": "dropMoney()",
+        "svc": "Server",
+        "description": ""
+      },
+      {
+        "text": "dropResources",
+        "snippet": "dropResources()",
+        "svc": "Server",
+        "description": "Convenience function to create a wormhole"
+      },
+      {
+        "text": "dropCargo",
+        "snippet": "dropCargo()",
+        "svc": "Server",
+        "description": "Convenience function to create a wormhole"
+      },
+      {
+        "text": "dropColor",
+        "snippet": "dropColor()",
+        "svc": "Server",
+        "description": "Convenience function to create a wormhole"
+      },
+      {
+        "text": "dropRandomColor",
+        "snippet": "dropRandomColor()",
+        "svc": "Server",
+        "description": "Convenience function to create a wormhole"
+      },
+      {
+        "text": "dropTurret",
+        "snippet": "dropTurret()",
+        "svc": "Server",
+        "description": "Convenience function to create a wormhole"
+      },
+      {
+        "text": "dropSectorTurret",
+        "snippet": "dropSectorTurret()",
+        "svc": "Server",
+        "description": "Convenience function to create a wormhole"
+      },
+      {
+        "text": "dropUpgrade",
+        "snippet": "dropUpgrade()",
+        "svc": "Server",
+        "description": "Convenience function to create a wormhole"
+      },
+      {
+        "text": "deleteEntity",
+        "snippet": "deleteEntity()",
+        "svc": "Server",
+        "description": "Sets an entity for deletion"
+      },
+      {
+        "text": "deleteEntityJumped",
+        "snippet": "deleteEntityJumped()",
+        "svc": "Server",
+        "description": "Sets an entity for deletion"
+      },
+      {
+        "text": "collectGarbage",
+        "snippet": "collectGarbage()",
+        "svc": "Server",
+        "description": "Immediately deletes all entities in the sector that are set for deletion"
+      },
+      {
+        "text": "resolveScriptPath",
+        "snippet": "resolveScriptPath()",
+        "svc": "Server",
+        "description": ""
+      },
+      {
+        "text": "invokeFunction",
+        "snippet": "invokeFunction()",
+        "svc": "Server",
+        "description": ""
+      },
+      {
+        "text": "addScript",
+        "snippet": "addScript()",
+        "svc": "Server",
+        "description": ""
+      },
+      {
+        "text": "removeScript",
+        "snippet": "removeScript()",
+        "svc": "Server",
+        "description": ""
+      },
+      {
+        "text": "hasScript",
+        "snippet": "hasScript()",
+        "svc": "Server",
+        "description": ""
+      },
+      {
+        "text": "getScripts",
+        "snippet": "getScripts()",
+        "svc": "Server",
+        "description": ""
+      },
+      {
+        "text": "hasEnemies",
+        "snippet": "hasEnemies()",
+        "svc": "Server",
+        "description": "Checks if the given faction has any enemy ships or objects in the sector"
+      },
+      {
+        "text": "getPresentFactions",
+        "snippet": "getPresentFactions()",
+        "svc": "Server",
+        "description": "Returns all indices of all present factions"
+      },
+      {
+        "text": "registerCallback",
+        "snippet": "registerCallback()",
+        "description": "Register a callback in the sector"
+      },
+      {
+        "text": "unregisterCallback",
+        "snippet": "unregisterCallback()",
+        "description": ""
+      },
+      {
+        "text": "getCoordinates",
+        "snippet": "getCoordinates()",
+        "description": "Access the x, y coordinates of the sector"
+      },
+      {
+        "text": "getEntity",
+        "snippet": "getEntity()",
+        "description": "Find an entity by index in the sector"
+      },
+      {
+        "text": "getEntityByFactionAndName",
+        "snippet": "getEntityByFactionAndName()",
+        "description": ""
+      },
+      {
+        "text": "getEnemies",
+        "snippet": "getEnemies()",
+        "svc": "Server",
+        "description": "Returns all enemies of the given faction in the sector"
+      },
+      {
+        "text": "getEntities",
+        "snippet": "getEntities()",
+        "description": "Returns all entities in the sector"
+      },
+      {
+        "text": "getEntitiesByType",
+        "snippet": "getEntitiesByType()",
+        "description": "Returns all entities in the sector that have a specific type"
+      },
+      {
+        "text": "getEntitiesByScript",
+        "snippet": "getEntitiesByScript()",
+        "svc": "Server",
+        "description": "Returns all entities in the sector that have a specific script attached to them"
+      },
+      {
+        "text": "getEntitiesByComponent",
+        "snippet": "getEntitiesByComponent()",
+        "description": "Returns all entities in the sector that have a specific component"
+      },
+      {
+        "text": "getEntitiesByComponents",
+        "snippet": "getEntitiesByComponents()",
+        "description": "Returns all entities in the sector that have a specific set of components"
+      },
+      {
+        "text": "getEntitiesByLocation",
+        "snippet": "getEntitiesByLocation()",
+        "description": "Returns all entities in the sector whose bounding spheres intersect with the given sphere"
+      },
+      {
+        "text": "getEntitiesByFaction",
+        "snippet": "getEntitiesByFaction()",
+        "description": "Returns all entities in the sector that belong to the given faction"
+      },
+      {
+        "text": "getPlayers",
+        "snippet": "getPlayers()",
+        "svc": "Server",
+        "description": "Returns all players that are currently in the sector"
+      },
+      {
+        "text": "broadcastChatMessage",
+        "snippet": "broadcastChatMessage()",
+        "svc": "Server",
+        "description": "Broadcast a chat message to all players that are currently in the sector"
+      },
+      {
+        "text": "getValue",
+        "snippet": "getValue()",
+        "svc": "Server",
+        "description": "Retrieves a custom value saved in the entity with the given key"
+      },
+      {
+        "text": "getValues",
+        "snippet": "getValues()",
+        "svc": "Server",
+        "description": "Retrieves all key-value pairs of custom values of the entity"
+      },
+      {
+        "text": "setValue",
+        "snippet": "setValue()",
+        "svc": "Server",
+        "description": "Sets a custom value"
+      },
+      {
+        "text": "createGlow",
+        "snippet": "createGlow(${1:pos}, ${2:size}, ${3:color})",
+        "svc": "Client",
+        "description": ""
+      },
+      {
+        "text": "createSpark",
+        "snippet": "createSpark()",
+        "svc": "Client",
+        "description": ""
+      },
+      {
+        "text": "createExplosion",
+        "snippet": "createExplosion()",
+        "svc": "Client",
+        "description": ""
+      },
+      {
+        "text": "createDustExplosion",
+        "snippet": "createDustExplosion()",
+        "svc": "Client",
+        "description": ""
+      },
+      {
+        "text": "createDust",
+        "snippet": "createDust()",
+        "svc": "Client",
+        "description": ""
+      },
+      {
+        "text": "createHyperspaceAnimation",
+        "snippet": "createHyperspaceAnimation()",
+        "svc": "Client",
+        "description": ""
+      },
+      {
+        "text": "createLaser",
+        "snippet": "createLaser()",
+        "svc": "Client",
+        "description": ""
+      },
+      {
+        "text": "setValue",
+        "snippet": "setValue()",
+        "svc": "Client",
+        "description": ""
+      },
+      {
+        "text": "setValue",
+        "snippet": "setValue()",
+        "svc": "Client",
+        "description": ""
+      },
+      {
+        "text": "setValue",
+        "snippet": "setValue()",
+        "svc": "Client",
+        "description": ""
+      }
+    ]
+  },
+  {
+    "text": "Player",
+    "snippet": "Player()",
+    "description": "A new instance of Player",
+    "members":[
+      {
+        "text": "sendChatMessage",
+        "snippet": "sendChatMessage(${1:sender}, ${2:messageType}, ${3:message}, ${4:arguments})"
+      },{
+        "text": "addMail",
+        "snippet": "addMail(${1:mail})"
+      },{
+        "text": "removeMail",
+        "snippet": "removeMail(${1:int})"
+      },{
+        "text": "clearMail",
+        "snippet": "clearMail(${1:int})"
+      },{
+        "text": "readMail",
+        "snippet": "readMail(${1:int})"
+      },{
+        "text": "updateMail",
+        "snippet": "updateMail(${1:mail}, ${2:int})"
+      },{
+        "text": "getMail",
+        "snippet": "getMail(${1:int})"
+      },{
+        "text": "ownsShip",
+        "snippet": "ownsShip(${1:string})"
+      },{
+        "text": "getShipNames",
+        "snippet": "getShipNames()"
+      },{
+        "text": "getShipCargo",
+        "snippet": "getShipCargo(${1:string})"
+      },{
+        "text": "getShipPaymentTime",
+        "snippet": "getShipPaymentTime(${1:string})"
+      },{
+        "text": "getShipCrew",
+        "snippet": "getShipCrew(${1:string})"
+      },{
+        "text": "getShipPayment",
+        "snippet": "getShipPayment(${1:string})"
+      },{
+        "text": "getShipPlan",
+        "snippet": "getShipPlan(${1:string})"
+      },{
+        "text": "getShipPosition",
+        "snippet": "getShipPosition(${1:string})"
+      },{
+        "text": "getShipType",
+        "snippet": "getShipType(${1:string})"
+      },{
+        "text": "getSectorCoordinates",
+        "snippet": "getSectorCoordinates()"
+      },{
+        "text": "registerCallback",
+        "snippet": "registerCallback(${1:callbackName}, ${2:functionName})"
+      },{
+        "text": "unregisterCallback",
+        "snippet": "unregisterCallback(${1:callbackName}, ${2:functionName})"
+      },{
+        "text": "resolveScriptPath",
+        "snippet": "resolveScriptPath(${1:path})"
+      },{
+        "text": "invokeFunction",
+        "snippet": "invokeFunction(${1:script}, ${1:functionName}, ${1:arguments})"
+      },{
+        "text": "addScript",
+        "snippet": "addScript(${1:scriptPath}, ${2:arguments})"
+      },{
+        "text": "addScriptOnce",
+        "snippet": "addScriptOnce(${1:scriptPath}, ${2:arguments})"
+      },{
+        "text": "removeScript",
+        "snippet": "removeScript(${1:script})"
+      },{
+        "text": "getScripts",
+        "snippet": "getScripts()"
+      },{
+        "text": "hasScript",
+        "snippet": "hasScript(${1:name})"
+      },{
+        "text": "addColor",
+        "snippet": "addColor(${1:color})"
+      },{
+        "text": "getColor",
+        "snippet": "getColor(${1:int})"
+      },{
+        "text": "getRespawnSectorCoordinates",
+        "snippet": "getRespawnSectorCoordinates()"
+      },{
+        "text": "setRespawnSectorCoordinates",
+        "snippet": "setRespawnSectorCoordinates(${1:int}, ${2:int})"
+      },{
+        "text": "getRelations",
+        "snippet": "getRelations(${1:int})"
+      },{
+        "text": "knowsFaction",
+        "snippet": "knowsFaction(${1:int})"
+      },{
+        "text": "getHomeSectorCoordinates",
+        "snippet": "getHomeSectorCoordinates(${1:int}, ${2:int})"
+      },{
+        "text": "setHomeSectorCoordinates",
+        "snippet": "getHomeSectorCoordinates(${1:int}, ${2:int})"
+      },{
+        "text": "pay",
+        "snippet": "pay(${1:int64_t}, ${2:int64_t...})"
+      },{
+        "text": "payMoney",
+        "snippet": "payMoney(${1:int64_t})"
+      },{
+        "text": "payResource",
+        "snippet": "payResource(${1:material}, ${2:int64_t})"
+      },{
+        "text": "receive",
+        "snippet": "receive(${1:int64_t}, ${2:int64_t...})"
+      },{
+        "text": "receiveMoney",
+        "snippet": "receiveMoney(${1:int64_t})"
+      },{
+        "text": "receiveResource",
+        "snippet": "receiveResource(${1:material}, ${2:int64_t})"
+      },{
+        "text": "canPay",
+        "snippet": "canPay(${1:int64_t}, ${2:int64_t...})"
+      },{
+        "text": "canPayMoney",
+        "snippet": "canPayMoney(${1:int64_t})"
+      },{
+        "text": "canPayResource",
+        "snippet": "canPayResource(${1:material}, ${2:int64_t})"
+      },{
+        "text": "setResources",
+        "snippet": "setResources(${1:int64_t...})"
+      },{
+        "text": "getResources",
+        "snippet": "getResources()"
+      },{
+        "text": "getInventory",
+        "snippet": "getInventory()"
+      },{
+        "text": "getLanguage",
+        "snippet": "getLanguage()"
+      },{
+        "text": "getShipStyle",
+        "snippet": "getShipStyle(${1:dtring})"
+      },{
+        "text": "getStationStyle",
+        "snippet": "getStationStyle(${1:string})"
+      },{
+        "text": "getShipStyleNames",
+        "snippet": "getShipStyleNames()"
+      },{
+        "text": "getStationStyleNames",
+        "snippet": "getStationStyleNames()"
+      },{
+        "text": "createShipStyle",
+        "snippet": "createShipStyle(${1:string})"
+      },{
+        "text": "createStationStyle",
+        "snippet": "createStationStyle(${1:string})"
+      },{
+        "text": "setStaticRelationsToFaction",
+        "snippet": "setStaticRelationsToFaction(${1:int}, ${2:bool})"
+      },{
+        "text": "hasStaticRelationsToFaction",
+        "snippet": "hasStaticRelationsToFaction(${1:int})"
+      },{
+        "text": "getValue",
+        "snippet": "getValue(${1:key})",
+        "description": "Retrieves a custom value saved in the entity with the given"
+      },{
+        "text": "getValues",
+        "snippet": "getValues()",
+        "description": "Retrieves all key-value pairs of custom values"
+      },{
+        "text": "setValue",
+        "snippet": "setValue(${1:key}, ${2:value})",
+        "description": "Sets a custom value"
+      },{
+        "text": "setTrait",
+        "snippet": "setTrait(${1:trait}, ${2:value})",
+        "description": "Sets a trait value associated with a key"
+      },{
+        "text": "getTrait",
+        "snippet": "getTrait(${1:trait})",
+        "description": "Retrieves a trait value associated with a key"
+      },{
+        "text": "getTraits",
+        "snippet": "getTraits()",
+        "description": "Retrieves all key-value trait pairs of the faction"
+      }
+    ],
+    "properties":[
+      {
+        "text": "id",
+        "type": "property"
+      },{
+        "text": "craftIndex",
+        "type": "property"
+      },{
+        "text": "numShips",
+        "type": "property"
+      },{
+        "text": "numMails",
+        "type": "property"
+      },{
+        "text": "numColors",
+        "type": "property"
+      },{
+        "text": "maxNumMails",
+        "type": "property"
+      },{
+        "text": "playtime",
+        "type": "property"
+      },{
+        "text": "alliance",
+        "type": "property"
+      },{
+        "text": "allianceIndex",
+        "type": "property"
+      },{
+        "text": "money",
+        "type": "property"
+      },{
+        "text": "name",
+        "type": "property"
+      },{
+        "text": "index",
+        "type": "property"
+      },{
+        "text": "isPlayer",
+        "type": "property"
+      },{
+        "text": "isAlliance",
+        "type": "property"
+      },{
+        "text": "isAIFaction",
+        "type": "property"
+      },{
+        "text": "color1",
+        "type": "property"
+      },{
+        "text": "color2",
+        "type": "property"
+      },{
+        "text": "color3",
+        "type": "property"
+      },{
+        "text": "initialRelations",
+        "type": "property"
+      },{
+        "text": "initialRelationsToPlayer",
+        "type": "property"
+      },{
+        "text": "infiniteResources",
+        "type": "property"
+      },{
+        "text": "staticRelationsToPlayers",
+        "type": "property"
+      },{
+        "text": "staticRelationsToAI",
+        "type": "property"
+      },{
+        "text": "staticRelationsToAll",
+        "type": "property"
+      }
+    ]
+  },
+  {
+    "text": "Tooltip",
+    "snippet": "Tooltip()",
+    "description": "A new instance of Tooltip",
+    "members":[
+      {
+        "text": "addLine",
+        "snippet": "addLine(${1:line})"
+      },{
+        "text": "getLine",
+        "snippet": "getLine(${1:int})"
+      }
+    ],
+    "properties":[
+      {
+        "text": "icon",
+        "type": "property"
+      }
+    ]
+  },
+  {
+    "text": "TooltipLine",
+    "snippet": "TooltipLine(${1:int}, ${2:int})",
+    "description": "A new instance of TooltipLine",
+    "properties":[
+      {
+        "text": "ltext",
+        "type": "property"
+      },{
+        "text": "lcolor",
+        "type": "property"
+      },{
+        "text": "lbold",
+        "type": "property"
+      },{
+        "text": "litalic",
+        "type": "property"
+      },{
+        "text": "ctext",
+        "type": "property"
+      },{
+        "text": "ccolor",
+        "type": "property"
+      },{
+        "text": "cbold",
+        "type": "property"
+      },{
+        "text": "citalic",
+        "type": "property"
+      },{
+        "text": "rtext",
+        "type": "property"
+      },{
+        "text": "rcolor",
+        "type": "property"
+      },{
+        "text": "rbold",
+        "type": "property"
+      },{
+        "text": "ritalic",
+        "type": "property"
+      },{
+        "text": "icon",
+        "type": "property"
+      },{
+        "text": "height",
+        "type": "property"
+      },{
+        "text": "fontSize",
+        "type": "property"
+      },{
+        "text": "iconColor",
+        "type": "property"
+      },{
+        "text": "backgroundColor",
+        "type": "property"
+      }
+    ]
+  },
+  {
+    "text": "Server",
+    "snippet": "Server()",
+    "svc": "Server",
+    "description": "A new instance of Server",
+    "members":[
+      {
+        "text": "getOnlinePlayers",
+        "snippet": "getOnlinePlayers()"
+      },{
+        "text": "getPlayers",
+        "snippet": "getPlayers()"
+      },{
+        "text": "stop",
+        "snippet": "stop()"
+      },{
+        "text": "save",
+        "snippet": "save()"
+      },{
+        "text": "hasAdminPrivileges",
+        "snippet": "hasAdminPrivileges(${1:player})"
+      },{
+        "text": "addChatCommand",
+        "snippet": "addChatCommand(${1:sender}, ${2:command})"
+      },{
+        "text": "registerCallback",
+        "snippet": "registerCallback(${1:callbackName}, ${2:functionName})"
+      },{
+        "text": "unregisterCallback",
+        "snippet": "unregisterCallback(${1:callbackName}, ${2:functionName})"
+      },{
+        "text": "broadcastChatMessage",
+        "snippet": "broadcastChatMessage(${1:sender}, ${2:messageType}, ${1:message}, ${2:arguments})"
+      },{
+        "text": "getWhiteList",
+        "snippet": "getWhiteList()"
+      },{
+        "text": "getBlackList",
+        "snippet": "getBlackList()"
+      },{
+        "text": "removeBlacklistedIp",
+        "snippet": "removeBlacklistedIp()"
+      },{
+        "text": "removeWhitelistedName",
+        "snippet": "removeWhitelistedName()"
+      },{
+        "text": "getValue",
+        "snippet": "getValue(${1:key})"
+      },{
+        "text": "getValues",
+        "snippet": "getValues()"
+      },{
+        "text": "setValue",
+        "snippet": "setValue(${:key}, ${2: value})"
+      }
+    ],
+    "properties":[
+      {
+        "text": "difficulty",
+        "type": "property"
+      },{
+        "text": "description",
+        "type": "property"
+      },{
+        "text": "name",
+        "type": "property"
+      },{
+        "text": "seed",
+        "type": "property"
+      },{
+        "text": "infiniteResources",
+        "type": "property"
+      },{
+        "text": "collisionDamage",
+        "type": "property"
+      },{
+        "text": "accessMode",
+        "type": "property"
+      },{
+        "text": "sameStartSector",
+        "type": "property"
+      },{
+        "text": "playerToPlayerDamage",
+        "type": "property"
+      }
+    ]
+  },
+  {
+    "text": "Galaxy",
+    "snippet": "Galaxy()",
+    "description": "A new instance of Galaxy",
+    "members":[
+      {
+        "text": "createRandomFaction",
+        "snippet": "createRandomFaction(${1:x}, ${2:y})",
+        "description": "Creates a new faction with home sector at the given coordinates. Name, turrets and styles will be generated automatically."
+      },{
+        "text": "createFaction",
+        "snippet": "createFaction(${1:name}, ${1:x}, ${2:y})",
+        "description": "Creates a new faction with a specified name and home sector at the given coordinates. Turrets and styles will be generated automatically. If the faction name is already taken, returns the faction with the specified name."
+      },{
+        "text": "getLocalFaction",
+        "snippet": "getLocalFaction(${1:x}, ${2:y})",
+        "description": "Does a lookup on the faction map and retrieves the faction controlling the given sector. This may trigger a creation of a faction that does not yet exist."
+      },{
+        "text": "getNearestFaction",
+        "snippet": "getNearestFaction(${1:x}, ${2:y})",
+        "description": "Does a lookup on the faction map and retrieves the nearest faction to the given sector. Distance is calculated by the factions' home sector. This may trigger a creation of a faction that does not yet exist."
+      },{
+        "text": "getControllingFaction",
+        "snippet": "getControllingFaction(${1:x}, ${2:y})",
+        "description": "Does a lookup on the faction map and retrieves the faction controlling the sector. The faction is determined by the influence of sectors around the sector to check. As sectors are generated while players are exploring, influence over sectors is also only generated while players are exploring. It's very possible that as long as not all sectors near the tested sector have been discovered, the influence is not yet determined nor final."
+      },{
+        "text": "findFaction",
+        "snippet": "findFaction(${1:identifier})",
+        "description": "Looks for a faction with the given name or index. This will not trigger the creation of a new faction. Finding players with this method is not possible, since player names can change via Steam."
+      },{
+        "text": "getPirateFaction",
+        "snippet": "getPirateFaction(${1:level})"
+      },{
+        "text": "getPlayerNames",
+        "snippet": "getPlayerNames()"
+      },{
+        "text": "getOnlinePlayerNames",
+        "snippet": "getOnlinePlayerNames()"
+      },{
+        "text": "setFactionRelations",
+        "snippet": "setFactionRelations(${1:factionA}, ${2:factionB}, ${3:level})"
+      },{
+        "text": "changeFactionRelations",
+        "snippet": "changeFactionRelations(${1:factionA}, ${2:factionB}, ${3:delta})"
+      },{
+        "text": "registerCallback",
+        "snippet": "registerCallback(${1:callbackName}, ${2:functionName})",
+        "description": "Register a callback in the galaxy. The callback may arrive with a delay."
+      },{
+        "text": "unregisterCallback",
+        "snippet": "unregisterCallback(${1:callbackName}, ${2:functionName})"
+      },{
+        "text": "sectorExists",
+        "snippet": "sectorExists(${1:x}, ${2:y})",
+        "description": "Check if a sector exists. This function checks if the sector exists in the database."
+      }
+    ]
+  },
+  {
+    "text": "Alliance",
+    "snippet": "Alliance(${1:[var]})",
+    "description": "A new instance of Alliance",
+    "members":[
+      {
+        "text": "contains",
+        "snippet": "contains(${1:int})"
+      },{
+        "text": "getMemberRank",
+        "snippet": "getMemberRank(${1:int})"
+      },{
+        "text": "getRank",
+        "snippet": "getRank(${1:string})"
+      },{
+        "text": "rankExists",
+        "snippet": "rankExists(${1:string})"
+      },{
+        "text": "getMemberLocation",
+        "snippet": "getMemberLocation(${1:int})"
+      },{
+        "text": "hasPrivilege",
+        "snippet": "hasPrivilege(${1:int}, ${2:int})"
+      },{
+        "text": "addRank",
+        "snippet": "addRank(${1:string}, ${2:string})"
+      },{
+        "text": "removeRank",
+        "snippet": "removeRank(${1:string})"
+      },{
+        "text": "moveRank",
+        "snippet": "moveRank(${1:string}, ${2:string})"
+      },{
+        "text": "setMemberRank",
+        "snippet": "setMemberRank(${1:int}, ${2:string})"
+      },{
+        "text": "addRankPrivilege",
+        "snippet": "addRankPrivilege(${1:string}, ${2:int})"
+      },{
+        "text": "removeRankPrivilege",
+        "snippet": "removeRankPrivilege(${1:string}, ${2:int})"
+      },{
+        "text": "ownsShip",
+        "snippet": "ownsShip(${1:string})"
+      },{
+        "text": "getShipNames",
+        "snippet": "getShipNames()"
+      },{
+        "text": "getShipCargo",
+        "snippet": "getShipCargo(${1:string})"
+      },{
+        "text": "getShipPaymentTime",
+        "snippet": "getShipPaymentTime(${1:string})"
+      },{
+        "text": "getShipCrew",
+        "snippet": "getShipCrew(${1:string})"
+      },{
+        "text": "getShipPayment",
+        "snippet": "getShipPayment(${1:string})"
+      },{
+        "text": "getShipPlan",
+        "snippet": "getShipPlan(${1:string})"
+      },{
+        "text": "getShipPosition",
+        "snippet": "getShipPosition(${1:string})"
+      },{
+        "text": "getShipType",
+        "snippet": "getShipType(${1:string})"
+      },{
+        "text": "resolveScriptPath",
+        "snippet": "resolveScriptPath(${1:path})"
+      },{
+        "text": "invokeFunction",
+        "snippet": "invokeFunction(${1:script}, ${1:functionName}, ${1:arguments})"
+      },{
+        "text": "addScript",
+        "snippet": "addScript(${1:scriptPath}, ${2:arguments})"
+      },{
+        "text": "addScriptOnce",
+        "snippet": "addScriptOnce(${1:scriptPath}, ${2:arguments})"
+      },{
+        "text": "removeScript",
+        "snippet": "removeScript(${1:script})"
+      },{
+        "text": "getScripts",
+        "snippet": "getScripts()"
+      },{
+        "text": "hasScript",
+        "snippet": "hasScript(${1:name})"
+      },{
+        "text": "sendChatMessage",
+        "snippet": "sendChatMessage(${1:sender}, ${2:messageType}, ${3:message}, ${4:arguments})"
+      },{
+        "text": "getRelations",
+        "snippet": "getRelations(${1:int})"
+      },{
+        "text": "knowsFaction",
+        "snippet": "knowsFaction(${1:int})"
+      },{
+        "text": "getHomeSectorCoordinates",
+        "snippet": "getHomeSectorCoordinates(${1:int}, ${2:int})"
+      },{
+        "text": "setHomeSectorCoordinates",
+        "snippet": "getHomeSectorCoordinates(${1:int}, ${2:int})"
+      },{
+        "text": "pay",
+        "snippet": "pay(${1:int64_t}, ${2:int64_t...})"
+      },{
+        "text": "payMoney",
+        "snippet": "payMoney(${1:int64_t})"
+      },{
+        "text": "payResource",
+        "snippet": "payResource(${1:material}, ${2:int64_t})"
+      },{
+        "text": "receive",
+        "snippet": "receive(${1:int64_t}, ${2:int64_t...})"
+      },{
+        "text": "receiveMoney",
+        "snippet": "receiveMoney(${1:int64_t})"
+      },{
+        "text": "receiveResource",
+        "snippet": "receiveResource(${1:material}, ${2:int64_t})"
+      },{
+        "text": "canPay",
+        "snippet": "canPay(${1:int64_t}, ${2:int64_t...})"
+      },{
+        "text": "canPayMoney",
+        "snippet": "canPayMoney(${1:int64_t})"
+      },{
+        "text": "canPayResource",
+        "snippet": "canPayResource(${1:material}, ${2:int64_t})"
+      },{
+        "text": "setResources",
+        "snippet": "setResources(${1:int64_t...})"
+      },{
+        "text": "getResources",
+        "snippet": "getResources()"
+      },{
+        "text": "getInventory",
+        "snippet": "getInventory()"
+      },{
+        "text": "getLanguage",
+        "snippet": "getLanguage()"
+      },{
+        "text": "getShipStyle",
+        "snippet": "getShipStyle(${1:dtring})"
+      },{
+        "text": "getStationStyle",
+        "snippet": "getStationStyle(${1:string})"
+      },{
+        "text": "getShipStyleNames",
+        "snippet": "getShipStyleNames()"
+      },{
+        "text": "getStationStyleNames",
+        "snippet": "getStationStyleNames()"
+      },{
+        "text": "createShipStyle",
+        "snippet": "createShipStyle(${1:string})"
+      },{
+        "text": "createStationStyle",
+        "snippet": "createStationStyle(${1:string})"
+      },{
+        "text": "setStaticRelationsToFaction",
+        "snippet": "setStaticRelationsToFaction(${1:int}, ${2:bool})"
+      },{
+        "text": "hasStaticRelationsToFaction",
+        "snippet": "hasStaticRelationsToFaction(${1:int})"
+      },{
+        "text": "getValue",
+        "snippet": "getValue(${1:key})",
+        "description": "Retrieves a custom value saved in the entity with the given"
+      },{
+        "text": "getValues",
+        "snippet": "getValues()",
+        "description": "Retrieves all key-value pairs of custom values"
+      },{
+        "text": "setValue",
+        "snippet": "setValue(${1:key}, ${2:value})",
+        "description": "Sets a custom value"
+      },{
+        "text": "setTrait",
+        "snippet": "setTrait(${1:trait}, ${2:value})",
+        "description": "Sets a trait value associated with a key"
+      },{
+        "text": "getTrait",
+        "snippet": "getTrait(${1:trait})",
+        "description": "Retrieves a trait value associated with a key"
+      },{
+        "text": "getTraits",
+        "snippet": "getTraits()",
+        "description": "Retrieves all key-value trait pairs of the faction"
+      }
+    ],
+    "properties":[
+      {
+        "text": "numShips",
+        "type": "property"
+      },{
+        "text": "leader",
+        "type": "property"
+      },{
+        "text": "newMemberRank",
+        "type": "property"
+      },{
+        "text": "money",
+        "type": "property"
+      },{
+        "text": "name",
+        "type": "property"
+      },{
+        "text": "index",
+        "type": "property"
+      },{
+        "text": "isPlayer",
+        "type": "property"
+      },{
+        "text": "isAlliance",
+        "type": "property"
+      },{
+        "text": "isAIFaction",
+        "type": "property"
+      },{
+        "text": "color1",
+        "type": "property"
+      },{
+        "text": "color2",
+        "type": "property"
+      },{
+        "text": "color3",
+        "type": "property"
+      },{
+        "text": "initialRelations",
+        "type": "property"
+      },{
+        "text": "initialRelationsToPlayer",
+        "type": "property"
+      },{
+        "text": "infiniteResources",
+        "type": "property"
+      },{
+        "text": "staticRelationsToPlayers",
+        "type": "property"
+      },{
+        "text": "staticRelationsToAI",
+        "type": "property"
+      },{
+        "text": "staticRelationsToAll",
+        "type": "property"
+      }
+    ]
+  },
+  {
+    "text": "Faction",
+    "snippet": "Faction()",
+    "description": "A new instance of Faction",
+    "members":[
+      {
+        "text": "getRelations",
+        "snippet": "getRelations(${1:int})"
+      },{
+        "text": "knowsFaction",
+        "snippet": "knowsFaction(${1:int})"
+      },{
+        "text": "getHomeSectorCoordinates",
+        "snippet": "getHomeSectorCoordinates(${1:int}, ${2:int})"
+      },{
+        "text": "setHomeSectorCoordinates",
+        "snippet": "getHomeSectorCoordinates(${1:int}, ${2:int})"
+      },{
+        "text": "pay",
+        "snippet": "pay(${1:int64_t}, ${2:int64_t...})"
+      },{
+        "text": "payMoney",
+        "snippet": "payMoney(${1:int64_t})"
+      },{
+        "text": "payResource",
+        "snippet": "payResource(${1:material}, ${2:int64_t})"
+      },{
+        "text": "receive",
+        "snippet": "receive(${1:int64_t}, ${2:int64_t...})"
+      },{
+        "text": "receiveMoney",
+        "snippet": "receiveMoney(${1:int64_t})"
+      },{
+        "text": "receiveResource",
+        "snippet": "receiveResource(${1:material}, ${2:int64_t})"
+      },{
+        "text": "canPay",
+        "snippet": "canPay(${1:int64_t}, ${2:int64_t...})"
+      },{
+        "text": "canPayMoney",
+        "snippet": "canPayMoney(${1:int64_t})"
+      },{
+        "text": "canPayResource",
+        "snippet": "canPayResource(${1:material}, ${2:int64_t})"
+      },{
+        "text": "setResources",
+        "snippet": "setResources(${1:int64_t...})"
+      },{
+        "text": "getResources",
+        "snippet": "getResources()"
+      },{
+        "text": "getInventory",
+        "snippet": "getInventory()"
+      },{
+        "text": "getLanguage",
+        "snippet": "getLanguage()"
+      },{
+        "text": "getShipStyle",
+        "snippet": "getShipStyle(${1:dtring})"
+      },{
+        "text": "getStationStyle",
+        "snippet": "getStationStyle(${1:string})"
+      },{
+        "text": "getShipStyleNames",
+        "snippet": "getShipStyleNames()"
+      },{
+        "text": "getStationStyleNames",
+        "snippet": "getStationStyleNames()"
+      },{
+        "text": "createShipStyle",
+        "snippet": "createShipStyle(${1:string})"
+      },{
+        "text": "createStationStyle",
+        "snippet": "createStationStyle(${1:string})"
+      },{
+        "text": "setStaticRelationsToFaction",
+        "snippet": "setStaticRelationsToFaction(${1:int}, ${2:bool})"
+      },{
+        "text": "hasStaticRelationsToFaction",
+        "snippet": "hasStaticRelationsToFaction(${1:int})"
+      },{
+        "text": "getValue",
+        "snippet": "getValue(${1:key})",
+        "description": "Retrieves a custom value saved in the entity with the given"
+      },{
+        "text": "getValues",
+        "snippet": "getValues()",
+        "description": "Retrieves all key-value pairs of custom values"
+      },{
+        "text": "setValue",
+        "snippet": "setValue(${1:key}, ${2:value})",
+        "description": "Sets a custom value"
+      },{
+        "text": "setTrait",
+        "snippet": "setTrait(${1:trait}, ${2:value})",
+        "description": "Sets a trait value associated with a key"
+      },{
+        "text": "getTrait",
+        "snippet": "getTrait(${1:trait})",
+        "description": "Retrieves a trait value associated with a key"
+      },{
+        "text": "getTraits",
+        "snippet": "getTraits()",
+        "description": "Retrieves all key-value trait pairs of the faction"
+      }
+    ],
+    "properties":[
+      {
+        "text": "money",
+        "type": "property"
+      },{
+        "text": "name",
+        "type": "property"
+      },{
+        "text": "index",
+        "type": "property"
+      },{
+        "text": "isPlayer",
+        "type": "property"
+      },{
+        "text": "isAlliance",
+        "type": "property"
+      },{
+        "text": "isAIFaction",
+        "type": "property"
+      },{
+        "text": "color1",
+        "type": "property"
+      },{
+        "text": "color2",
+        "type": "property"
+      },{
+        "text": "color3",
+        "type": "property"
+      },{
+        "text": "initialRelations",
+        "type": "property"
+      },{
+        "text": "initialRelationsToPlayer",
+        "type": "property"
+      },{
+        "text": "infiniteResources",
+        "type": "property"
+      },{
+        "text": "staticRelationsToPlayers",
+        "type": "property"
+      },{
+        "text": "staticRelationsToAI",
+        "type": "property"
+      },{
+        "text": "staticRelationsToAll",
+        "type": "property"
+      }
+    ]
+  },
+  {
+    "text": "Line",
+    "snippet": "Line(${1:index})",
+    "svc": "Client",
+    "description": "A new instance of Line",
+    "inherited": "UIElement",
+    "properties":[
+      {
+        "text": "color",
+        "type": "property"
+      }
+    ]
+  },
+  {
+    "text": "UIOrganizer",
+    "snippet": "UIOrganizer(${1:a}, ${2:b})${3}",
+    "svc": "Client",
+    "description": "Expects either a Rect specifying the rect of this UI organizer for parameter a and nil for b, or a vec2 for a and a vec2 for b, specifying the lower and upper bounds for the UI organizer rect.",
+    "inherited": "UIRect"
+  },
+  {
+    "text": "UIVerticalLister",
+    "snippet": "UIVerticalLister(${1:rect}, ${2:padding}, ${1:margin})",
+    "svc": "Client",
+    "description": "This class gets a rect and aligns given elements in a list style inside the rect.",
+    "inherited": "UIRect",
+    "members":[
+      {
+        "text": "placeCenter",
+        "snippet": "placeCenter(${1:vec})",
+        "description": "Uses the given vector to create a Rect of size Rect(0, 0, vec.x, vec.y), places it in the list and centers it"
+      },{
+        "text": "placeLeft",
+        "snippet": "placeLeft(${1:vec})",
+        "description": "Uses the given vector to create a Rect of size Rect(0, 0, vec.x, vec.y), places it in the list and aligns it to the left"
+      },{
+        "text": "placeRight",
+        "snippet": "placeRight(${1:vec})",
+        "description": "Uses the given vector to create a Rect of size Rect(0, 0, vec.x, vec.y), places it in the list and aligns it to the right"
+      },{
+        "text": "hasEnoughSpace",
+        "snippet": "hasEnoughSpace(${1:vec})",
+        "description": "Checks if there is enough space to fit a rect with the given height into the lister's remaining rect"
+      },{
+        "text": "nextRect",
+        "snippet": "nextRect(${1:height})",
+        "description": "Returns the next rect of a certain height that would be created. The rect will have the full width of the rect given to the lister."
+      }
+    ]
+  },
+  {
+    "text": "UIHorizontalSplitter",
+    "snippet": "UIHorizontalSplitter(${1:rect}, ${2:padding}, ${1:margin}, ${1:ratio})",
+    "svc": "Client",
+    "description": "This class gets a rect and creates two new rects by splitting the given rect horizontally.",
+    "inherited": "UIRect",
+    "members":[
+      {
+        "text": "setTopQuadratic",
+        "snippet": "setTopQuadratic()",
+        "description": "Set the top side to have a quadratic size, if possible"
+      },{
+        "text": "setBottomQuadratic",
+        "snippet": "setBottomQuadratic()",
+        "description": "Set the bottom side to have a quadratic size, if possible"
+      }
+    ],
+    "properties":[
+      {
+        "text": "topSize",
+        "type": "property"
+      },{
+        "text": "bottomSize",
+        "type": "property"
+      },{
+        "text": "top",
+        "type": "property"
+      },{
+        "text": "bottom",
+        "type": "property"
+      },{
+        "text": "paddingInside",
+        "type": "property"
+      },{
+        "text": "ratio",
+        "type": "property"
+      }
+    ]
+  },
+  {
+    "text": "UIVerticalSplitter",
+    "snippet": "UIVerticalSplitter(${1:rect}, ${2:padding}, ${1:margin}, ${1:ratio})",
+    "svc": "Client",
+    "description": "This class gets a rect and creates two new rects by splitting the given rect vertically.",
+    "inherited": "UIRect",
+    "members":[
+      {
+        "text": "setLeftQuadratic",
+        "snippet": "setLeftQuadratic()",
+        "description": "Set the left side to have a quadratic size, if possible"
+      },{
+        "text": "setRightQuadratic",
+        "snippet": "setRightQuadratic()",
+        "description": "Set the right side to have a quadratic size, if possible"
+      }
+    ],
+    "properties":[
+      {
+        "text": "leftSize",
+        "type": "property"
+      },{
+        "text": "rightSize",
+        "type": "property"
+      },{
+        "text": "left",
+        "type": "property"
+      },{
+        "text": "right",
+        "type": "property"
+      },{
+        "text": "paddingInside",
+        "type": "property"
+      },{
+        "text": "ratio",
+        "type": "property"
+      }
+    ]
+  },
+  {
+    "text": "UIHorizontalMultiSplitter",
+    "snippet": "UIHorizontalMultiSplitter(${1:rect}, ${2:padding}, ${1:margin}, ${1:splits})",
+    "svc": "Client",
+    "description": "This class gets a rect and creates multiple new rects by evenly splitting the given rect horizontally n times, creating n + 1 new rects.",
+    "inherited": "UIRect",
+    "members":[
+      {
+        "text": "partition",
+        "snippet": "partition(${1:index})",
+        "description": "Retrieves one of the new created rects"
+      }
+    ],
+    "properties":[
+      {
+        "text": "top",
+        "type": "property"
+      },{
+        "text": "bottom",
+        "type": "property"
+      },{
+        "text": "paddingInside",
+        "type": "property"
+      }
+    ]
+  },
+  {
+    "text": "UIVerticalMultiSplitter",
+    "snippet": "UIVerticalMultiSplitter(${1:rect}, ${2:padding}, ${1:margin}, ${1:splits})",
+    "svc": "Client",
+    "description": "This class gets a rect and creates multiple new rects by evenly splitting the given rect vertically n times, creating n + 1 new rects.",
+    "inherited": "UIRect",
+    "members":[
+      {
+        "text": "partition",
+        "snippet": "partition(${1:index})",
+        "description": "Retrieves one of the new created rects"
+      }
+    ],
+    "properties":[
+      {
+        "text": "left",
+        "type": "property"
+      },{
+        "text": "right",
+        "type": "property"
+      },{
+        "text": "paddingInside",
+        "type": "property"
+      }
+    ]
+  },
+  {
+    "text": "UIArbitraryVerticalSplitter",
+    "snippet": "UIArbitraryVerticalSplitter(${1:rect}, ${2:padding}, ${1:margin}, ${1:splits})",
+    "svc": "Client",
+    "description": "This class gets a rect and creates multiple new rects by arbitrarily splitting the given rect vertically n times, creating n + 1 new rects.",
+    "inherited": "UIRect",
+    "members":[
+      {
+        "text": "partition",
+        "snippet": "partition(${1:index})",
+        "description": "Retrieves one of the new created rects"
+      }
+    ],
+    "properties":[
+      {
+        "text": "paddingInside",
+        "type": "property"
+      }
+    ]
+  },
+  {
+    "text": "Tab",
+    "snippet": "Tab(${1:index})",
+    "svc": "Client",
+    "description": "A new instance of Tab",
+    "inherited": ["UIContainer","UIElement"],
+    "properties":[
+      {
+        "text": "icon",
+        "type": "property"
+      },{
+        "text": "description",
+        "type": "property"
+      },{
+        "text": "name",
+        "type": "property"
+      }
+    ]
+  },
+  {
+    "text": "TabbedWindow",
+    "snippet": "TabbedWindow(${1:index})",
+    "svc": "Client",
+    "description": "A new instance of TabbedWindow",
+    "inherited": ["UIContainer","UIElement"],
+    "members":[
+      {
+        "text": "selectTab",
+        "snippet": "selectTab(${1:tab})"
+      },{
+        "text": "deactivateTab",
+        "snippet": "deactivateTab(${1:tab})"
+      },{
+        "text": "activateTab",
+        "snippet": "activateTab(${1:tab})"
+      },{
+        "text": "activateAllTabs",
+        "snippet": "activateAllTabs()"
+      },{
+        "text": "createTab",
+        "snippet": "createTab(${1:name}, ${2:icon}, ${3:description})"
+      },{
+        "text": "getTab",
+        "snippet": "getTab(${1:name})"
+      },{
+        "text": "getActiveTab",
+        "snippet": "getActiveTab()"
+      }
+    ],
+    "properties":[
+      {
+        "text": "onSelectedFunction",
+        "type": "property"
+      }
+    ]
+  },
+  {
+    "text": "StatisticsBar",
+    "snippet": "StatisticsBar(${1:index})",
+    "svc": "Client",
+    "description": "A new instance of StatisticsBar",
+    "inherited": "UIElement",
+    "members":[
+      {
+        "text": "setRange",
+        "snippet": "setRange(${1:minRange}, ${1:maxRange})"
+      },{
+        "text": "setValue",
+        "snippet": "setValue(${1:value}, ${1:name}, ${1:color})"
+      }
+    ],
+    "properties":[
+      {
+        "text": "value",
+        "type": "property"
+      },{
+        "text": "name",
+        "type": "property"
+      },{
+        "text": "color",
+        "type": "property"
+      }
+    ]
+  },
+  {
+    "text": "ComboBox",
+    "snippet": "ComboBox(${1:index})",
+    "svc": "Client",
+    "description": "A new instance of ComboBox",
+    "inherited": "UIElement",
+    "members":[
+      {
+        "text": "clear",
+        "snippet": "clear()"
+      },{
+        "text": "addEntry",
+        "snippet": "addEntry(${1:entry})"
+      },{
+        "text": "setSelectedIndexNoCallback",
+        "snippet": "setSelectedIndexNoCallback(${1:int})"
+      },{
+        "text": "getEntry",
+        "snippet": "getEntry(${1:index})"
+      }
+    ],
+    "properties":[
+      {
+        "text": "selectedIndex",
+        "type": "property"
+      },{
+        "text": "selectedEntry",
+        "type": "property"
+      },{
+        "text": "onSelectedFunction",
+        "type": "property"
+      }
+    ]
+  },
+  {
+    "text": "MultiLineTextBox",
+    "snippet": "MultiLineTextBox(${1:index})",
+    "svc": "Client",
+    "description": "A new instance of MultiLineTextBox",
+    "inherited": "UIElement",
+    "members":[
+      {
+        "text": "clear",
+        "snippet": "clear()"
+      },{
+        "text": "moveCursorLeft",
+        "snippet": "moveCursorLeft()"
+      },{
+        "text": "moveCursorRight",
+        "snippet": "moveCursorRight()"
+      },{
+        "text": "moveCursorLeftCtrl",
+        "snippet": "moveCursorLeftCtrl()"
+      },{
+        "text": "moveCursorRightCtrl",
+        "snippet": "moveCursorRightCtrl()"
+      },{
+        "text": "moveCursorUp",
+        "snippet": "moveCursorUp()"
+      },{
+        "text": "moveCursorDown",
+        "snippet": "moveCursorDown()"
+      }
+    ],
+    "properties":[
+      {
+        "text": "text",
+        "type": "property"
+      },{
+        "text": "active",
+        "type": "property"
+      },{
+        "text": "editable",
+        "type": "property"
+      },{
+        "text": "setFontSize",
+        "type": "property"
+      },{
+        "text": "isTypingActive",
+        "type": "property"
+      }
+    ]
+  },
+  {
+    "text": "InventorySelection",
+    "snippet": "InventorySelection(${1:index})",
+    "svc": "Client",
+    "description": "A new instance of InventorySelection",
+    "inherited": ["UIElement","UIContainer"],
+    "members":[
+      {
+        "text": "fill",
+        "snippet": "fill(${1:factionIndex}, ${2:types...})"
+      },{
+        "text": "update",
+        "snippet": "update(${1:factionIndex}, ${2:index})"
+      },{
+        "text": "clear",
+        "snippet": "clear()"
+      },{
+        "text": "add",
+        "snippet": "add(${1:item}, ${2:pos})"
+      },{
+        "text": "addEmpty",
+        "snippet": "addEmpty(${1:pos})"
+      },{
+        "text": "remove",
+        "snippet": "remove(${1:pos})"
+      },{
+        "text": "select",
+        "snippet": "select(${1:pos})"
+      },{
+        "text": "selectNoCallback",
+        "snippet": "selectNoCallback(${1:pos})"
+      },{
+        "text": "unselect",
+        "snippet": "unselect()"
+      },{
+        "text": "getKey",
+        "snippet": "getKey(${1:mouse})"
+      },{
+        "text": "getItem",
+        "snippet": "getItem(${1:key})"
+      },{
+        "text": "getRect",
+        "snippet": "getRect(${1:x}, ${2:y})"
+      },{
+        "text": "getItems",
+        "snippet": "getItems()"
+      }
+    ],
+    "properties":[
+      {
+        "text": "borderMode",
+        "type": "property"
+      },{
+        "text": "sortMode",
+        "type": "property"
+      },{
+        "text": "selected",
+        "type": "property"
+      },{
+        "text": "selectedKey",
+        "type": "property"
+      },{
+        "text": "maxHorizontalEntries",
+        "type": "property"
+      },{
+        "text": "isRenderingDraggedItem",
+        "type": "property"
+      },{
+        "text": "numEntries",
+        "type": "property"
+      },{
+        "text": "entriesSelectable",
+        "type": "property"
+      },{
+        "text": "showEntriesOnly",
+        "type": "property"
+      },{
+        "text": "dropIntoSelfEnabled",
+        "type": "property"
+      },{
+        "text": "dropIntoEnabled",
+        "type": "property"
+      },{
+        "text": "dragFromEnabled",
+        "type": "property"
+      },{
+        "text": "padding",
+        "type": "property"
+      },{
+        "text": "onInsertedFunction",
+        "type": "property"
+      },{
+        "text": "onSelectedFunction",
+        "type": "property"
+      },{
+        "text": "onDeselectedFunction",
+        "type": "property"
+      },{
+        "text": "onClickedFunction",
+        "type": "property"
+      },{
+        "text": "onDroppedFunction",
+        "type": "property"
+      },{
+        "text": "onReceivedFunction",
+        "type": "property"
+      }
+    ]
+  },
+  {
+    "text": "UIElement",
+    "snippet": "UIElement()",
+    "svc": "Client",
+    "description": "A new instance of UIElement",
+    "inherited": "UIElement"
+  },
+  {
+    "text": "PlanDisplayer",
+    "snippet": "PlanDisplayer(${1:index})",
+    "svc": "Client",
+    "description": "A new instance of PlanDisplayer",
+    "inherited": "UIElement",
+    "members":[
+      {
+        "text": "setPlans",
+        "snippet": "setPlans(${1:broken}, ${2:intect})"
+      }
+    ],
+    "properties":[
+      {
+        "text": "plan",
+        "type": "property"
+      },{
+        "text": "viewDir",
+        "type": "property"
+      },{
+        "text": "center",
+        "type": "property"
+      },{
+        "text": "autoCenter",
+        "type": "property"
+      },{
+        "text": "showStats",
+        "type": "property"
+      },{
+        "text": "zoomable",
+        "type": "property"
+      },{
+        "text": "zoom",
+        "type": "property"
+      }
+    ]
+  },
+  {
+    "text": "ListBoxEx",
+    "snippet": "ListBoxEx(${1:index})",
+    "svc": "Client",
+    "description": "A new instance of ListBoxEx",
+    "inherited": "UIElement",
+    "members":[
+      {
+        "text": "addRow",
+        "snippet": "addRow(${1:strings})"
+      },{
+        "text": "removeRow",
+        "snippet": "removeRow(${1:index})"
+      },{
+        "text": "clear",
+        "snippet": "clear()"
+      },{
+        "text": "deselect",
+        "snippet": "deselect()"
+      },{
+        "text": "select",
+        "snippet": "select(${1:index})"
+      },{
+        "text": "setEntry",
+        "snippet": "setEntry(${1:column}, ${2:row}, ${3:text}, ${4:bold}, ${5:italic}, ${6:color})"
+      },{
+        "text": "setColumnWidth",
+        "snippet": "setColumnWidth(${1:index}, ${2:width})"
+      },{
+        "text": "getEntry",
+        "snippet": "getEntry(${1:column}, ${2:row})"
+      },{
+        "text": "getColumnWidth",
+        "snippet": "getColumnWidth(${1:index})"
+      }
+    ],
+    "properties":[
+      {
+        "text": "selected",
+        "type": "property"
+      },{
+        "text": "size",
+        "type": "property"
+      },{
+        "text": "rows",
+        "type": "property"
+      },{
+        "text": "empty",
+        "type": "property"
+      },{
+        "text": "headline",
+        "type": "property"
+      },{
+        "text": "columns",
+        "type": "property"
+      },{
+        "text": "fontSize",
+        "type": "property"
+      },{
+        "text": "rowHeight",
+        "type": "property"
+      },{
+        "text": "font",
+        "type": "property"
+      },{
+        "text": "onSelectFunction",
+        "type": "property"
+      },{
+        "text": "onAddedFunction",
+        "type": "property"
+      },{
+        "text": "onRemoveFunction",
+        "type": "property"
+      },{
+        "text": "onChangedFunction",
+        "type": "property"
+      },{
+        "text": "onClearFunction",
+        "type": "property"
+      }
+    ]
+  },
+  {
+    "text": "ListBox",
+    "snippet": "ListBox(${1:index})",
+    "svc": "Client",
+    "description": "A new instance of ListBox",
+    "inherited": "UIElement",
+    "members":[
+      {
+        "text": "addEntry",
+        "snippet": "addEntry(${1:str})"
+      },{
+        "text": "removeEntry",
+        "snippet": "removeEntry(${1:index})"
+      },{
+        "text": "clear",
+        "snippet": "clear()"
+      },{
+        "text": "deselect",
+        "snippet": "deselect()"
+      },{
+        "text": "select",
+        "snippet": "select(${1:index})"
+      },{
+        "text": "setEntry",
+        "snippet": "setEntry(${1:row}, ${2:text}, ${3:bold}, ${4:italic}, ${5:color})"
+      },{
+        "text": "getEntry",
+        "snippet": "getEntry(${2:row})"
+      },{
+        "text": "getSelectedEntry",
+        "snippet": "getSelectedEntry()"
+      }
+    ],
+    "properties":[
+      {
+        "text": "selected",
+        "type": "property"
+      },{
+        "text": "size",
+        "type": "property"
+      },{
+        "text": "rows",
+        "type": "property"
+      },{
+        "text": "empty",
+        "type": "property"
+      },{
+        "text": "headline",
+        "type": "property"
+      },{
+        "text": "fontSize",
+        "type": "property"
+      },{
+        "text": "rowHeight",
+        "type": "property"
+      },{
+        "text": "font",
+        "type": "property"
+      },{
+        "text": "onSelectFunction",
+        "type": "property"
+      },{
+        "text": "onAddedFunction",
+        "type": "property"
+      },{
+        "text": "onRemoveFunction",
+        "type": "property"
+      },{
+        "text": "onChangedFunction",
+        "type": "property"
+      },{
+        "text": "onClearFunction",
+        "type": "property"
+      }
+    ]
+  },
+  {
+    "text": "Window",
+    "snippet": "Window(${1:index})",
+    "svc": "Client",
+    "description": "A new instance of Window",
+    "inherited": ["UIElement", "UIContainer"],
+    "properties":[
+      {
+        "text": "caption",
+        "type": "property"
+      },{
+        "text": "showCloseButton",
+        "type": "property"
+      },{
+        "text": "moveable",
+        "type": "property"
+      },{
+        "text": "clickThrough",
+        "type": "property"
+      },{
+        "text": "closeableWithEscape",
+        "type": "property"
+      }
+    ]
+  },
+  {
+    "text": "ScrollFrame",
+    "snippet": "ScrollFrame(${1:index})",
+    "svc": "Client",
+    "description": "A new instance of ScrollFrame",
+    "inherited": ["UIElement", "UIContainer"],
+    "members":[
+      {
+        "text": "scroll",
+        "snippet": "scroll(${1:numSteps})"
+      }
+    ],
+    "properties":[
+      {
+        "text": "scrollSpeed",
+        "type": "property"
+      },{
+        "text": "paddingTop",
+        "type": "property"
+      },{
+        "text": "paddingBottom",
+        "type": "property"
+      }
+    ]
+  },
+  {
+    "text": "InventorySelectionItem",
+    "snippet": "InventorySelectionItem()",
+    "svc": "Client",
+    "description": "A new instance of InventorySelectionItem",
+    "properties":[
+      {
+        "text": "item",
+        "type": "property"
+      },{
+        "text": "deleteable",
+        "type": "property"
+      },{
+        "text": "readyForDeletion",
+        "type": "property"
+      },{
+        "text": "highlighted",
+        "type": "property"
+      },{
+        "text": "amount",
+        "type": "property"
+      },{
+        "text": "uvalue",
+        "type": "property"
+      },{
+        "text": "border",
+        "type": "property"
+      }
+    ]
+  },
+  {
+    "text": "Slider",
+    "snippet": "Slider(${1:index})",
+    "svc": "Client",
+    "description": "A new instance of Slider",
+    "inherited": "UIElement",
+    "members":[
+      {
+        "text": "setRatio",
+        "snippet": "setRatio(${1:inFrom}, ${2:inTo})"
+      }
+    ],
+    "properties":[
+      {
+        "text": "value",
+        "type": "property"
+      },{
+        "text": "sliderPosition",
+        "type": "property"
+      },{
+        "text": "max",
+        "type": "property"
+      },{
+        "text": "min",
+        "type": "property"
+      },{
+        "text": "segments",
+        "type": "property"
+      },{
+        "text": "caption",
+        "type": "property"
+      },{
+        "text": "description",
+        "type": "property"
+      },{
+        "text": "unit",
+        "type": "property"
+      },{
+        "text": "showValue",
+        "type": "property"
+      },{
+        "text": "showCaption",
+        "type": "property"
+      },{
+        "text": "showDescription",
+        "type": "property"
+      },{
+        "text": "onChangedFunction",
+        "type": "property"
+      }
+    ]
+  },
+  {
+    "text": "TooltipRenderer",
+    "snippet": "TooltipRenderer()",
+    "svc": "Client",
+    "description": "A new instance of TooltipRenderer",
+    "members":[
+      {
+        "text": "draw",
+        "snippet": "draw(${1:vec2})"
+      },{
+        "text": "drawMouseTooltip",
+        "snippet": "drawMouseTooltip(${1:vec2})"
+      }
+    ]
+  },
+  {
+    "text": "InputWindow",
+    "snippet": "InputWindow(${1:index})",
+    "svc": "Client",
+    "description": "A new instance of InputWindow",
+    "inherited": ["UIElement", "UIContainer"],
+    "members":[
+      {
+        "text": "show",
+        "snippet": "show(${1:caption})"
+      }
+    ],
+    "properties":[
+      {
+        "text": "onOKFunction",
+        "type": "property"
+      },{
+        "text": "onCancelFunction",
+        "type": "property"
+      },{
+        "text": "text",
+        "type": "property"
+      },{
+        "text": "textBox",
+        "type": "property"
+      },{
+        "text": "label",
+        "type": "property"
+      },{
+        "text": "okButton",
+        "type": "property"
+      },{
+        "text": "cancelButton",
+        "type": "property"
+      },{
+        "text": "caption",
+        "type": "property"
+      },{
+        "text": "showCloseButton",
+        "type": "property"
+      },{
+        "text": "moveable",
+        "type": "property"
+      },{
+        "text": "clickThrough",
+        "type": "property"
+      },{
+        "text": "closeableWithEscape",
+        "type": "property"
+      }
+    ]
+  },
+  {
+    "text": "Frame",
+    "snippet": "Frame(${1:index})",
+    "svc": "Client",
+    "description": "A new instance of Frame",
+    "inherited": "UIElement",
+    "properties":[
+      {
+        "text": "backgroundColor",
+        "type": "property"
+      }
+    ]
+  },
+  {
+    "text": "TextBox",
+    "snippet": "TextBox(${1:index})",
+    "svc": "Client",
+    "description": "A new instance of TextBox",
+    "inherited": "UIElement",
+    "members":[
+      {
+        "text": "clear",
+        "snippet": "clear(${1:x})"
+      },{
+        "text": "moveCursorLeft",
+        "snippet": "moveCursorLeft(${1:x})"
+      },{
+        "text": "moveCursorRight",
+        "snippet": "moveCursorRight(${1:x})"
+      },{
+        "text": "moveCursorLeftCtrl",
+        "snippet": "moveCursorLeftCtrl(${1:x})"
+      },{
+        "text": "moveCursorRightCtrl",
+        "snippet": "moveCursorRightCtrl(${1:x})"
+      },{
+        "text": "forbidInvalidFilenameChars",
+        "snippet": "forbidInvalidFilenameChars(${1:x})"
+      }
+    ],
+    "properties":[
+      {
+        "text": "text",
+        "type": "property"
+      },{
+        "text": "active",
+        "type": "property"
+      },{
+        "text": "onTextChangedFunction",
+        "type": "property"
+      },{
+        "text": "cursor",
+        "type": "property"
+      },{
+        "text": "editable",
+        "type": "property"
+      },{
+        "text": "maxCharacters",
+        "type": "property"
+      },{
+        "text": "allowedCharacters",
+        "type": "property"
+      },{
+        "text": "forbiddenCharacters",
+        "type": "property"
+      },{
+        "text": "clearOnClick",
+        "type": "property"
+      },{
+        "text": "tabTarget",
+        "type": "property"
+      },{
+        "text": "backgroundText",
+        "type": "property"
+      },{
+        "text": "isTypingActive",
+        "type": "property"
+      }
+    ]
+  },
+  {
+    "text": "PlanSelectionItem",
+    "snippet": "PlanSelectionItem()",
+    "svc": "Client",
+    "description": "A new instance of PlanSelectionItem",
+    "members":[
+      {
+        "text": "refreshTexture",
+        "snippet": "refreshTexture()"
+      }
+    ],
+    "properties":[
+      {
+        "text": "path",
+        "type": "property"
+      },{
+        "text": "plan",
+        "type": "property"
+      },{
+        "text": "loaded",
+        "type": "property"
+      },{
+        "text": "workshopUrl",
+        "type": "property"
+      },{
+        "text": "hasWorkshopIcon",
+        "type": "property"
+      },{
+        "text": "isSubscribedPlan",
+        "type": "property"
+      },{
+        "text": "isLocalProject",
+        "type": "property"
+      },{
+        "text": "isOwnSubmission",
+        "type": "property"
+      },{
+        "text": "deleteable",
+        "type": "property"
+      },{
+        "text": "readyForDeletion",
+        "type": "property"
+      },{
+        "text": "highlighted",
+        "type": "property"
+      }
+    ]
+  },
+  {
+    "text": "SelectionItem",
+    "snippet": "SelectionItem()",
+    "svc": "Client",
+    "description": "A new instance of SelectionItem",
+    "properties":[
+      {
+        "text": "texture",
+        "type": "property"
+      },{
+        "text": "amount",
+        "type": "property"
+      },{
+        "text": "borderColor",
+        "type": "property"
+      },{
+        "text": "color",
+        "type": "property"
+      },{
+        "text": "highlightStrength",
+        "type": "property"
+      },{
+        "text": "value0",
+        "type": "property"
+      },{
+        "text": "value1",
+        "type": "property"
+      },{
+        "text": "value2",
+        "type": "property"
+      },{
+        "text": "value3",
+        "type": "property"
+      },{
+        "text": "value4",
+        "type": "property"
+      },{
+        "text": "value5",
+        "type": "property"
+      },{
+        "text": "value6",
+        "type": "property"
+      },{
+        "text": "value7",
+        "type": "property"
+      },{
+        "text": "value8",
+        "type": "property"
+      },{
+        "text": "value9",
+        "type": "property"
+      }
+    ]
+  },
+  {
+    "text": "Selection",
+    "snippet": "Selection(${1:index})",
+    "svc": "Client",
+    "description": "A new instance of Selection",
+    "inherited": "UIElement",
+    "members":[
+      {
+        "text": "add",
+        "snippet": "add(${1:item}, ${2:pos})"
+      },{
+        "text": "addEmpty",
+        "snippet": "addEmpty(${1:pos})"
+      },{
+        "text": "clear",
+        "snippet": "clear()"
+      },{
+        "text": "remove",
+        "snippet": "remove(${1key})"
+      },{
+        "text": "select",
+        "snippet": "select(${1:pos})"
+      },{
+        "text": "selectNoCallback",
+        "snippet": "selectNoCallback(${1:pos})"
+      },{
+        "text": "unselect",
+        "snippet": "unselect()"
+      },{
+        "text": "getKey",
+        "snippet": "getKey(${1:mouse})"
+      },{
+        "text": "getItem",
+        "snippet": "getItem(${1:key})"
+      },{
+        "text": "getRect",
+        "snippet": "getRect(${1:x}, ${2:y})"
+      },{
+        "text": "getItems",
+        "snippet": "getItems()"
+      }
+    ],
+    "properties":[
+      {
+        "text": "selected",
+        "type": "property"
+      },{
+        "text": "selectedKey",
+        "type": "property"
+      },{
+        "text": "maxHorizontalEntries",
+        "type": "property"
+      },{
+        "text": "isRenderingDraggedItem",
+        "type": "property"
+      },{
+        "text": "numEntries",
+        "type": "property"
+      },{
+        "text": "entriesSelectable",
+        "type": "property"
+      },{
+        "text": "showEntriesOnly",
+        "type": "property"
+      },{
+        "text": "dropIntoSelfEnabled",
+        "type": "property"
+      },{
+        "text": "dropIntoEnabled",
+        "type": "property"
+      },{
+        "text": "dragFromEnabled",
+        "type": "property"
+      },{
+        "text": "padding",
+        "type": "property"
+      },{
+        "text": "onInsertedFunction",
+        "type": "property"
+      },{
+        "text": "onSelectedFunction",
+        "type": "property"
+      },{
+        "text": "onDeselectedFunction",
+        "type": "property"
+      },{
+        "text": "onClickedFunction",
+        "type": "property"
+      },{
+        "text": "onDroppedFunction",
+        "type": "property"
+      },{
+        "text": "onReceivedFunction",
+        "type": "property"
+      }
+    ]
+  },
+  {
+    "text": "CheckBox",
+    "snippet": "CheckBox(${1:index})",
+    "svc": "Client",
+    "description": "A new instance of CheckBox",
+    "members":[
+      {
+        "text": "___",
+        "snippet": "___(${1:x})"
+      },{
+        "text": "___",
+        "snippet": "___(${1:x})"
+      }
+    ],
+    "properties":[
+      {
+        "text": "___",
+        "type": "property"
+      },{
+        "text": "___",
+        "type": "property"
+      }
+    ]
+  },
+  {
+    "text": "Label",
+    "snippet": "Label(${1:index})",
+    "svc": "Client",
+    "description": "A new instance of Label",
+    "members":[
+      {
+        "text": "___",
+        "snippet": "___(${1:x})"
+      },{
+        "text": "___",
+        "snippet": "___(${1:x})"
+      }
+    ],
+    "properties":[
+      {
+        "text": "___",
+        "type": "property"
+      },{
+        "text": "___",
+        "type": "property"
+      }
+    ]
+  },
+  {
+    "text": "TextField",
+    "snippet": "TextField(${1:index})",
+    "svc": "Client",
+    "description": "A new instance of TextField",
+    "members":[
+      {
+        "text": "___",
+        "snippet": "___(${1:x})"
+      },{
+        "text": "___",
+        "snippet": "___(${1:x})"
+      }
+    ],
+    "properties":[
+      {
+        "text": "___",
+        "type": "property"
+      },{
+        "text": "___",
+        "type": "property"
+      }
+    ]
+  },
+  {
+    "text": "Button",
+    "snippet": "Button(${1:index})",
+    "svc": "Client",
+    "description": "A new instance of Button",
+    "members":[
+      {
+        "text": "___",
+        "snippet": "___(${1:x})"
+      },{
+        "text": "___",
+        "snippet": "___(${1:x})"
+      }
+    ],
+    "properties":[
+      {
+        "text": "___",
+        "type": "property"
+      },{
+        "text": "___",
+        "type": "property"
+      }
+    ]
+  },
+  {
+    "text": "InventoryReferenceSelectionItem",
+    "snippet": "InventoryReferenceSelectionItem()",
+    "svc": "Client",
+    "description": "A new instance of InventoryReferenceSelectionItem",
+    "members":[
+      {
+        "text": "___",
+        "snippet": "___(${1:x})"
+      },{
+        "text": "___",
+        "snippet": "___(${1:x})"
+      }
+    ],
+    "properties":[
+      {
+        "text": "___",
+        "type": "property"
+      },{
+        "text": "___",
+        "type": "property"
+      }
+    ]
+  },
+  {
+    "text": "Picture",
+    "snippet": "Picture(${1:index})",
+    "svc": "Client",
+    "description": "A new instance of Picture",
+    "members":[
+      {
+        "text": "___",
+        "snippet": "___(${1:x})"
+      },{
+        "text": "___",
+        "snippet": "___(${1:x})"
+      }
+    ],
+    "properties":[
+      {
+        "text": "___",
+        "type": "property"
+      },{
+        "text": "___",
+        "type": "property"
+      }
+    ]
+  },
+  {
+    "text": "UIRenderer",
+    "snippet": "UIRenderer()",
+    "svc": "Client",
+    "description": "A new instance of UIRenderer",
+    "members":[
+      {
+        "text": "___",
+        "snippet": "___(${1:x})"
+      },{
+        "text": "___",
+        "snippet": "___(${1:x})"
+      }
+    ],
+    "properties":[
+      {
+        "text": "___",
+        "type": "property"
+      },{
+        "text": "___",
+        "type": "property"
+      }
+    ]
+  },
+  {
+    "text": "NumbersBar",
+    "snippet": "NumbersBar(${1:index})",
+    "svc": "Client",
+    "description": "A new instance of NumbersBar",
+    "members":[
+      {
+        "text": "___",
+        "snippet": "___(${1:x})"
+      },{
+        "text": "___",
+        "snippet": "___(${1:x})"
+      }
+    ],
+    "properties":[
+      {
+        "text": "___",
+        "type": "property"
+      },{
+        "text": "___",
+        "type": "property"
+      }
+    ]
+  },
+  {
+    "text": "UIContainer",
+    "snippet": "UIContainer(${1:index})",
+    "svc": "Client",
+    "description": "A new instance of UIContainer",
+    "members":[
+      {
+        "text": "___",
+        "snippet": "___(${1:x})"
+      },{
+        "text": "___",
+        "snippet": "___(${1:x})"
+      }
+    ],
+    "properties":[
+      {
+        "text": "___",
+        "type": "property"
+      },{
+        "text": "___",
+        "type": "property"
+      }
+    ]
+  },
+  {
+    "text": "Planet",
+    "snippet": "Planet()",
+    "svc": "Client",
+    "description": "A new instance of Planet",
+    "members":[
+      {
+        "text": "___",
+        "snippet": "___(${1:x})"
+      },{
+        "text": "___",
+        "snippet": "___(${1:x})"
+      }
+    ],
+    "properties":[
+      {
+        "text": "___",
+        "type": "property"
+      },{
+        "text": "___",
+        "type": "property"
+      }
+    ]
+  },
+  {
+    "text": "Achievements",
+    "snippet": "Achievements()",
+    "svc": "Client",
+    "description": "A new instance of Achievements",
+    "members":[
+      {
+        "text": "___",
+        "snippet": "___(${1:x})"
+      },{
+        "text": "___",
+        "snippet": "___(${1:x})"
+      }
+    ],
+    "properties":[
+      {
+        "text": "___",
+        "type": "property"
+      },{
+        "text": "___",
+        "type": "property"
+      }
+    ]
+  },
+  {
+    "text": "GalaxyMap",
+    "snippet": "GalaxyMap()",
+    "svc": "Client",
+    "description": "A new instance of GalaxyMap",
+    "members":[
+      {
+        "text": "___",
+        "snippet": "___(${1:x})"
+      },{
+        "text": "___",
+        "snippet": "___(${1:x})"
+      }
+    ],
+    "properties":[
+      {
+        "text": "___",
+        "type": "property"
+      },{
+        "text": "___",
+        "type": "property"
+      }
+    ]
+  },
+  {
+    "text": "Mouse",
+    "snippet": "Mouse()",
+    "svc": "Client",
+    "description": "A new instance of Mouse",
+    "members":[
+      {
+        "text": "___",
+        "snippet": "___(${1:x})"
+      },{
+        "text": "___",
+        "snippet": "___(${1:x})"
+      }
+    ],
+    "properties":[
+      {
+        "text": "___",
+        "type": "property"
+      },{
+        "text": "___",
+        "type": "property"
+      }
+    ]
+  },
+  {
+    "text": "Keyboard",
+    "snippet": "Keyboard()",
+    "svc": "Client",
+    "description": "A new instance of Keyboard",
+    "members":[
+      {
+        "text": "___",
+        "snippet": "___(${1:x})"
+      },{
+        "text": "___",
+        "snippet": "___(${1:x})"
+      }
+    ],
+    "properties":[
+      {
+        "text": "___",
+        "type": "property"
+      },{
+        "text": "___",
+        "type": "property"
+      }
+    ]
+  },
+  {
+    "text": "LaserFX",
+    "snippet": "LaserFX()",
+    "svc": "Client",
+    "description": "A new instance of LaserFX",
+    "members":[
+      {
+        "text": "___",
+        "snippet": "___(${1:x})"
+      },{
+        "text": "___",
+        "snippet": "___(${1:x})"
+      }
+    ],
+    "properties":[
+      {
+        "text": "___",
+        "type": "property"
+      },{
+        "text": "___",
+        "type": "property"
+      }
+    ]
+  },
+  {
+    "text": "QuadTree",
+    "snippet": "QuadTree()",
+    "description": "A new instance of QuadTree",
+    "members":[
+      {
+        "text": "___",
+        "snippet": "___(${1:x})"
+      },{
+        "text": "___",
+        "snippet": "___(${1:x})"
+      }
+    ],
+    "properties":[
+      {
+        "text": "___",
+        "type": "property"
+      },{
+        "text": "___",
+        "type": "property"
+      }
+    ]
+  },
+  {
+    "text": "Uuid",
+    "snippet": "Uuid(${1:uuid})",
+    "description": "A new instance of Uuid",
+    "members":[
+      {
+        "text": "___",
+        "snippet": "___(${1:x})"
+      },{
+        "text": "___",
+        "snippet": "___(${1:x})"
+      }
+    ],
+    "properties":[
+      {
+        "text": "___",
+        "type": "property"
+      },{
+        "text": "___",
+        "type": "property"
+      }
+    ]
+  },
+  {
+    "text": "Timer",
+    "snippet": "Timer()",
+    "description": "A new instance of Timer",
+    "members":[
+      {
+        "text": "___",
+        "snippet": "___(${1:x})"
+      },{
+        "text": "___",
+        "snippet": "___(${1:x})"
+      }
+    ],
+    "properties":[
+      {
+        "text": "___",
+        "type": "property"
+      },{
+        "text": "___",
+        "type": "property"
+      }
+    ]
+  },
+  {
+    "text": "Profiler",
+    "snippet": "Profiler(${1:str})",
+    "description": "A new instance of Profiler",
+    "members":[
+      {
+        "text": "___",
+        "snippet": "___(${1:x})"
+      },{
+        "text": "___",
+        "snippet": "___(${1:x})"
+      }
+    ],
+    "properties":[
+      {
+        "text": "___",
+        "type": "property"
+      },{
+        "text": "___",
+        "type": "property"
+      }
+    ]
+  },
+  {
+    "text": "Ray",
+    "snippet": "Ray()",
+    "description": "A new instance of Ray",
+    "members":[
+      {
+        "text": "___",
+        "snippet": "___(${1:x})"
+      },{
+        "text": "___",
+        "snippet": "___(${1:x})"
+      }
+    ],
+    "properties":[
+      {
+        "text": "___",
+        "type": "property"
+      },{
+        "text": "___",
+        "type": "property"
+      }
+    ]
+  },
+  {
+    "text": "Color",
+    "snippet": "Color()",
+    "description": "A new instance of Color",
+    "members":[
+      {
+        "text": "___",
+        "snippet": "___(${1:x})"
+      },{
+        "text": "___",
+        "snippet": "___(${1:x})"
+      }
+    ],
+    "properties":[
+      {
+        "text": "___",
+        "type": "property"
+      },{
+        "text": "___",
+        "type": "property"
+      }
+    ]
+  },
+  {
+    "text": "Box",
+    "snippet": "Box()",
+    "description": "A new instance of Box",
+    "members":[
+      {
+        "text": "___",
+        "snippet": "___(${1:x})"
+      },{
+        "text": "___",
+        "snippet": "___(${1:x})"
+      }
+    ],
+    "properties":[
+      {
+        "text": "___",
+        "type": "property"
+      },{
+        "text": "___",
+        "type": "property"
+      }
+    ]
+  },
+  {
+    "text": "vec3",
+    "snippet": "vec3(${1:float}, ${2:float}, ${3:float})",
+    "description": "A new instance of vec3",
+    "members":[
+      {
+        "text": "___",
+        "snippet": "___(${1:x})"
+      },{
+        "text": "___",
+        "snippet": "___(${1:x})"
+      }
+    ],
+    "properties":[
+      {
+        "text": "___",
+        "type": "property"
+      },{
+        "text": "___",
+        "type": "property"
+      }
+    ]
+  },
+  {
+    "text": "vec4",
+    "snippet": "vec4(${1:float}, ${2:float}, ${3:float}, ${4:float})",
+    "description": "A new instance of vec4",
+    "members":[
+      {
+        "text": "___",
+        "snippet": "___(${1:x})"
+      },{
+        "text": "___",
+        "snippet": "___(${1:x})"
+      }
+    ],
+    "properties":[
+      {
+        "text": "___",
+        "type": "property"
+      },{
+        "text": "___",
+        "type": "property"
+      }
+    ]
+  },
+  {
+    "text": "dvec2",
+    "snippet": "dvec2(${1:double}, ${2:double})",
+    "description": "A new instance of dvec2",
+    "members":[
+      {
+        "text": "___",
+        "snippet": "___(${1:x})"
+      },{
+        "text": "___",
+        "snippet": "___(${1:x})"
+      }
+    ],
+    "properties":[
+      {
+        "text": "___",
+        "type": "property"
+      },{
+        "text": "___",
+        "type": "property"
+      }
+    ]
+  },
+  {
+    "text": "dvec3",
+    "snippet": "dvec3(${1:double}, ${2:double}, ${3:double})",
+    "description": "A new instance of dvec3",
+    "members":[
+      {
+        "text": "___",
+        "snippet": "___(${1:x})"
+      },{
+        "text": "___",
+        "snippet": "___(${1:x})"
+      }
+    ],
+    "properties":[
+      {
+        "text": "___",
+        "type": "property"
+      },{
+        "text": "___",
+        "type": "property"
+      }
+    ]
+  },
+  {
+    "text": "dvec4",
+    "snippet": "dvec4(${1:double}, ${2:double}, ${3:double}, ${4:double})",
+    "description": "A new instance of dvec4",
+    "members":[
+      {
+        "text": "___",
+        "snippet": "___(${1:x})"
+      },{
+        "text": "___",
+        "snippet": "___(${1:x})"
+      }
+    ],
+    "properties":[
+      {
+        "text": "___",
+        "type": "property"
+      },{
+        "text": "___",
+        "type": "property"
+      }
+    ]
+  },
+  {
+    "text": "ivec2",
+    "snippet": "ivec2(${1:int}, ${2:int})",
+    "description": "A new instance of ivec2",
+    "members":[
+      {
+        "text": "___",
+        "snippet": "___(${1:x})"
+      },{
+        "text": "___",
+        "snippet": "___(${1:x})"
+      }
+    ],
+    "properties":[
+      {
+        "text": "___",
+        "type": "property"
+      },{
+        "text": "___",
+        "type": "property"
+      }
+    ]
+  },
+  {
+    "text": "ivec3",
+    "snippet": "ivec3(${1:int}, ${2:int}, ${3:int})",
+    "description": "A new instance of ivec3",
+    "members":[
+      {
+        "text": "___",
+        "snippet": "___(${1:x})"
+      },{
+        "text": "___",
+        "snippet": "___(${1:x})"
+      }
+    ],
+    "properties":[
+      {
+        "text": "___",
+        "type": "property"
+      },{
+        "text": "___",
+        "type": "property"
+      }
+    ]
+  },
+  {
+    "text": "ivec4",
+    "snippet": "ivec4(${1:int}, ${2:int}, ${3:int}, ${4:int})",
+    "description": "A new instance of ivec4",
+    "members":[
+      {
+        "text": "___",
+        "snippet": "___(${1:x})"
+      },{
+        "text": "___",
+        "snippet": "___(${1:x})"
+      }
+    ],
+    "properties":[
+      {
+        "text": "___",
+        "type": "property"
+      },{
+        "text": "___",
+        "type": "property"
+      }
+    ]
+  },
+  {
+    "text": "Rect",
+    "snippet": "Rect(${1:a}, ${2:b}, ${3:a}, ${4:b})",
+    "description": "A new instance of Rect",
+    "members":[
+      {
+        "text": "___",
+        "snippet": "___(${1:x})"
+      },{
+        "text": "___",
+        "snippet": "___(${1:x})"
+      }
+    ],
+    "properties":[
+      {
+        "text": "___",
+        "type": "property"
+      },{
+        "text": "___",
+        "type": "property"
+      }
+    ]
+  },
+  {
+    "text": "Matrix",
+    "snippet": "Matrix()",
+    "description": "A new instance of Matrix",
+    "members":[
+      {
+        "text": "___",
+        "snippet": "___(${1:x})"
+      },{
+        "text": "___",
+        "snippet": "___(${1:x})"
+      }
+    ],
+    "properties":[
+      {
+        "text": "___",
+        "type": "property"
+      },{
+        "text": "___",
+        "type": "property"
+      }
+    ]
+  },
+  {
+    "text": "Sphere",
+    "snippet": "Sphere(${1:vec3}, ${2:float})",
+    "description": "A new instance of Sphere",
+    "members":[
+      {
+        "text": "___",
+        "snippet": "___(${1:x})"
+      },{
+        "text": "___",
+        "snippet": "___(${1:x})"
+      }
+    ],
+    "properties":[
+      {
+        "text": "___",
+        "type": "property"
+      },{
+        "text": "___",
+        "type": "property"
+      }
+    ]
+  },
+  {
+    "text": "Seed",
+    "snippet": "Seed(${1:in})",
+    "description": "A new instance of Seed",
+    "members":[
+      {
+        "text": "___",
+        "snippet": "___(${1:x})"
+      },{
+        "text": "___",
+        "snippet": "___(${1:x})"
+      }
+    ],
+    "properties":[
+      {
+        "text": "___",
+        "type": "property"
+      },{
+        "text": "___",
+        "type": "property"
+      }
+    ]
+  },
+  {
+    "text": "Random",
+    "snippet": "Random(${1:seed})",
+    "description": "A new instance of Random",
+    "members":[
+      {
+        "text": "___",
+        "snippet": "___(${1:x})"
+      },{
+        "text": "___",
+        "snippet": "___(${1:x})"
+      }
+    ],
+    "properties":[
+      {
+        "text": "___",
+        "type": "property"
+      },{
+        "text": "___",
+        "type": "property"
+      }
+    ]
+  },
+  {
+    "text": "FighterTemplate",
+    "snippet": "FighterTemplate()",
+    "description": "A new instance of FighterTemplate",
+    "members":[
+      {
+        "text": "___",
+        "snippet": "___(${1:x})"
+      },{
+        "text": "___",
+        "snippet": "___(${1:x})"
+      }
+    ],
+    "properties":[
+      {
+        "text": "___",
+        "type": "property"
+      },{
+        "text": "___",
+        "type": "property"
+      }
+    ]
+  },
+  {
+    "text": "VanillaInventoryItem",
+    "snippet": "VanillaInventoryItem()",
+    "description": "A new instance of VanillaInventoryItem",
+    "members":[
+      {
+        "text": "___",
+        "snippet": "___(${1:x})"
+      },{
+        "text": "___",
+        "snippet": "___(${1:x})"
+      }
+    ],
+    "properties":[
+      {
+        "text": "___",
+        "type": "property"
+      },{
+        "text": "___",
+        "type": "property"
+      }
+    ]
+  },
+  {
+    "text": "Rarity",
+    "snippet": "Rarity(${1:int})",
+    "description": "A new instance of Rarity",
+    "members":[
+      {
+        "text": "___",
+        "snippet": "___(${1:x})"
+      },{
+        "text": "___",
+        "snippet": "___(${1:x})"
+      }
+    ],
+    "properties":[
+      {
+        "text": "___",
+        "type": "property"
+      },{
+        "text": "___",
+        "type": "property"
+      }
+    ]
+  },
+  {
+    "text": "PlanetSpecifics",
+    "snippet": "PlanetSpecifics()",
+    "description": "A new instance of PlanetSpecifics",
+    "members":[
+      {
+        "text": "___",
+        "snippet": "___(${1:x})"
+      },{
+        "text": "___",
+        "snippet": "___(${1:x})"
+      }
+    ],
+    "properties":[
+      {
+        "text": "___",
+        "type": "property"
+      },{
+        "text": "___",
+        "type": "property"
+      }
+    ]
+  },
+  {
+    "text": "CraftStyle",
+    "snippet": "CraftStyle()",
+    "description": "A new instance of CraftStyle",
+    "members":[
+      {
+        "text": "___",
+        "snippet": "___(${1:x})"
+      },{
+        "text": "___",
+        "snippet": "___(${1:x})"
+      }
+    ],
+    "properties":[
+      {
+        "text": "___",
+        "type": "property"
+      },{
+        "text": "___",
+        "type": "property"
+      }
+    ]
+  },
+  {
+    "text": "BlockPlanBlock",
+    "snippet": "BlockPlanBlock()",
+    "description": "A new instance of BlockPlanBlock",
+    "members":[
+      {
+        "text": "___",
+        "snippet": "___(${1:x})"
+      },{
+        "text": "___",
+        "snippet": "___(${1:x})"
+      }
+    ],
+    "properties":[
+      {
+        "text": "___",
+        "type": "property"
+      },{
+        "text": "___",
+        "type": "property"
+      }
+    ]
+  },
+  {
+    "text": "BlockPlan",
+    "snippet": "BlockPlan()",
+    "description": "A new instance of BlockPlan",
+    "members":[
+      {
+        "text": "___",
+        "snippet": "___(${1:x})"
+      },{
+        "text": "___",
+        "snippet": "___(${1:x})"
+      }
+    ],
+    "properties":[
+      {
+        "text": "___",
+        "type": "property"
+      },{
+        "text": "___",
+        "type": "property"
+      }
+    ]
+  },
+  {
+    "text": "EntityDescriptor",
+    "snippet": "EntityDescriptor()",
+    "description": "A new instance of EntityDescriptor",
+    "members":[
+      {
+        "text": "___",
+        "snippet": "___(${1:x})"
+      },{
+        "text": "___",
+        "snippet": "___(${1:x})"
+      }
+    ],
+    "properties":[
+      {
+        "text": "___",
+        "type": "property"
+      },{
+        "text": "___",
+        "type": "property"
+      }
+    ]
+  },
+  {
+    "text": "Language",
+    "snippet": "Language(${1:seed})",
+    "description": "A new instance of Language",
+    "members":[
+      {
+        "text": "___",
+        "snippet": "___(${1:x})"
+      },{
+        "text": "___",
+        "snippet": "___(${1:x})"
+      }
+    ],
+    "properties":[
+      {
+        "text": "___",
+        "type": "property"
+      },{
+        "text": "___",
+        "type": "property"
+      }
+    ]
+  },
+  {
+    "text": "Inventory",
+    "snippet": "Inventory()",
+    "description": "A new instance of Inventory",
+    "members":[
+      {
+        "text": "___",
+        "snippet": "___(${1:x})"
+      },{
+        "text": "___",
+        "snippet": "___(${1:x})"
+      }
+    ],
+    "properties":[
+      {
+        "text": "___",
+        "type": "property"
+      },{
+        "text": "___",
+        "type": "property"
+      }
+    ]
+  },
+  {
+    "text": "PlanBspTree",
+    "snippet": "PlanBspTree(${1:plan})",
+    "description": "A new instance of PlanBspTree",
+    "members":[
+      {
+        "text": "___",
+        "snippet": "___(${1:x})"
+      },{
+        "text": "___",
+        "snippet": "___(${1:x})"
+      }
+    ],
+    "properties":[
+      {
+        "text": "___",
+        "type": "property"
+      },{
+        "text": "___",
+        "type": "property"
+      }
+    ]
+  },
+  {
+    "text": "Weapon",
+    "snippet": "Weapon()",
+    "description": "A new instance of Weapon",
+    "members":[
+      {
+        "text": "___",
+        "snippet": "___(${1:x})"
+      },{
+        "text": "___",
+        "snippet": "___(${1:x})"
+      }
+    ],
+    "properties":[
+      {
+        "text": "___",
+        "type": "property"
+      },{
+        "text": "___",
+        "type": "property"
+      }
+    ]
+  },
+  {
+    "text": "Crew",
+    "snippet": "Crew()",
+    "description": "A new instance of Crew",
+    "members":[
+      {
+        "text": "___",
+        "snippet": "___(${1:x})"
+      },{
+        "text": "___",
+        "snippet": "___(${1:x})"
+      }
+    ],
+    "properties":[
+      {
+        "text": "___",
+        "type": "property"
+      },{
+        "text": "___",
+        "type": "property"
+      }
+    ]
+  },
+  {
+    "text": "CrewProfession",
+    "snippet": "CrewProfession(${1:int})",
+    "description": "A new instance of CrewProfession",
+    "members":[
+      {
+        "text": "___",
+        "snippet": "___(${1:x})"
+      },{
+        "text": "___",
+        "snippet": "___(${1:x})"
+      }
+    ],
+    "properties":[
+      {
+        "text": "___",
+        "type": "property"
+      },{
+        "text": "___",
+        "type": "property"
+      }
+    ]
+  },
+  {
+    "text": "CrewMan",
+    "snippet": "CrewMan(${1:profession}, ${2:specialist}, ${3:level})",
+    "description": "A new instance of CrewMan",
+    "members":[
+      {
+        "text": "___",
+        "snippet": "___(${1:x})"
+      },{
+        "text": "___",
+        "snippet": "___(${1:x})"
+      }
+    ],
+    "properties":[
+      {
+        "text": "___",
+        "type": "property"
+      },{
+        "text": "___",
+        "type": "property"
+      }
+    ]
+  },
+  {
+    "text": "TurretTemplate",
+    "snippet": "TurretTemplate()",
+    "description": "A new instance of TurretTemplate",
+    "members":[
+      {
+        "text": "___",
+        "snippet": "___(${1:x})"
+      },{
+        "text": "___",
+        "snippet": "___(${1:x})"
+      }
+    ],
+    "properties":[
+      {
+        "text": "___",
+        "type": "property"
+      },{
+        "text": "___",
+        "type": "property"
+      }
+    ]
+  },
+  {
+    "text": "InventoryTurret",
+    "snippet": "InventoryTurret()",
+    "description": "A new instance of InventoryTurret",
+    "members":[
+      {
+        "text": "___",
+        "snippet": "___(${1:x})"
+      },{
+        "text": "___",
+        "snippet": "___(${1:x})"
+      }
+    ],
+    "properties":[
+      {
+        "text": "___",
+        "type": "property"
+      },{
+        "text": "___",
+        "type": "property"
+      }
+    ]
+  },
+  {
+    "text": "AllianceRank",
+    "snippet": "AllianceRank()",
+    "description": "A new instance of AllianceRank",
+    "members":[
+      {
+        "text": "___",
+        "snippet": "___(${1:x})"
+      },{
+        "text": "___",
+        "snippet": "___(${1:x})"
+      }
+    ],
+    "properties":[
+      {
+        "text": "___",
+        "type": "property"
+      },{
+        "text": "___",
+        "type": "property"
+      }
+    ]
+  },
+  {
+    "text": "TradingGood",
+    "snippet": "TradingGood(${1:string}, ${2:string}, ${3:string}, ${4:string}, ${5:float}, ${6:float})",
+    "description": "A new instance of TradingGood",
+    "members":[
+      {
+        "text": "___",
+        "snippet": "___(${1:x})"
+      },{
+        "text": "___",
+        "snippet": "___(${1:x})"
+      }
+    ],
+    "properties":[
+      {
+        "text": "___",
+        "type": "property"
+      },{
+        "text": "___",
+        "type": "property"
+      }
+    ]
+  },
+  {
+    "text": "AllianceMember",
+    "snippet": "AllianceMember()",
+    "description": "A new instance of AllianceMember",
+    "members":[
+      {
+        "text": "___",
+        "snippet": "___(${1:x})"
+      },{
+        "text": "___",
+        "snippet": "___(${1:x})"
+      }
+    ],
+    "properties":[
+      {
+        "text": "___",
+        "type": "property"
+      },{
+        "text": "___",
+        "type": "property"
+      }
+    ]
+  },
+  {
+    "text": "Entity",
+    "snippet": "Entity(${1:index})",
+    "description": "A new instance of Entity",
+    "members":[
+      {
+        "text": "___",
+        "snippet": "___(${1:x})"
+      },{
+        "text": "___",
+        "snippet": "___(${1:x})"
+      }
+    ],
+    "properties":[
+      {
+        "text": "___",
+        "type": "property"
+      },{
+        "text": "___",
+        "type": "property"
+      }
+    ]
+  },
+  {
+    "text": "Mail",
+    "snippet": "Mail()",
+    "description": "A new instance of Mail",
+    "members":[
+      {
+        "text": "___",
+        "snippet": "___(${1:x})"
+      },{
+        "text": "___",
+        "snippet": "___(${1:x})"
+      }
+    ],
+    "properties":[
+      {
+        "text": "___",
+        "type": "property"
+      },{
+        "text": "___",
+        "type": "property"
+      }
+    ]
+  },
+  {
+    "text": "Material",
+    "snippet": "Material(${1:int})",
+    "description": "A new instance of Material",
+    "members":[
+      {
+        "text": "___",
+        "snippet": "___(${1:x})"
+      },{
+        "text": "___",
+        "snippet": "___(${1:x})"
+      }
+    ],
+    "properties":[
+      {
+        "text": "___",
+        "type": "property"
+      },{
+        "text": "___",
+        "type": "property"
+      }
+    ]
+  },
+  {
+    "text": "SystemUpgradeTemplate",
+    "snippet": "SystemUpgradeTemplate(${1:script}, ${1:rarity}, ${1:seed})",
+    "description": "A new instance of SystemUpgradeTemplate",
+    "members":[
+      {
+        "text": "___",
+        "snippet": "___(${1:x})"
+      },{
+        "text": "___",
+        "snippet": "___(${1:x})"
+      }
+    ],
+    "properties":[
+      {
+        "text": "___",
+        "type": "property"
+      },{
+        "text": "___",
+        "type": "property"
+      }
+    ]
+  },
+  {
+    "text": "PlayerId",
+    "snippet": "PlayerId()",
+    "description": "A new instance of PlayerId",
+    "members":[
+      {
+        "text": "___",
+        "snippet": "___(${1:x})"
+      },{
+        "text": "___",
+        "snippet": "___(${1:x})"
+      }
+    ],
+    "properties":[
+      {
+        "text": "___",
+        "type": "property"
+      },{
+        "text": "___",
+        "type": "property"
+      }
+    ]
+  },
+  {
+    "text": "WreckageCreator",
+    "snippet": "WreckageCreator(${1:uuid})",
+    "description": "A new instance of WreckageCreator",
+    "members":[
+      {
+        "text": "___",
+        "snippet": "___(${1:x})"
+      },{
+        "text": "___",
+        "snippet": "___(${1:x})"
+      }
+    ],
+    "properties":[
+      {
+        "text": "___",
+        "type": "property"
+      },{
+        "text": "___",
+        "type": "property"
+      }
+    ]
+  },
+  {
+    "text": "EntityTransferrer",
+    "snippet": "EntityTransferrer(${1:uuid})",
+    "description": "A new instance of EntityTransferrer",
+    "members":[
+      {
+        "text": "___",
+        "snippet": "___(${1:x})"
+      },{
+        "text": "___",
+        "snippet": "___(${1:x})"
+      }
+    ],
+    "properties":[
+      {
+        "text": "___",
+        "type": "property"
+      },{
+        "text": "___",
+        "type": "property"
+      }
+    ]
+  },
+  {
+    "text": "FighterController",
+    "snippet": "FighterController(${1:uuid})",
+    "description": "A new instance of FighterController",
+    "members":[
+      {
+        "text": "___",
+        "snippet": "___(${1:x})"
+      },{
+        "text": "___",
+        "snippet": "___(${1:x})"
+      }
+    ],
+    "properties":[
+      {
+        "text": "___",
+        "type": "property"
+      },{
+        "text": "___",
+        "type": "property"
+      }
+    ]
+  },
+  {
+    "text": "Loot",
+    "snippet": "Loot(${1:uuid})",
+    "description": "A new instance of Loot",
+    "members":[
+      {
+        "text": "___",
+        "snippet": "___(${1:x})"
+      },{
+        "text": "___",
+        "snippet": "___(${1:x})"
+      }
+    ],
+    "properties":[
+      {
+        "text": "___",
+        "type": "property"
+      },{
+        "text": "___",
+        "type": "property"
+      }
+    ]
+  },
+  {
+    "text": "EntityIcon",
+    "snippet": "EntityIcon(${1:uuid})",
+    "description": "A new instance of EntityIcon",
+    "members":[
+      {
+        "text": "___",
+        "snippet": "___(${1:x})"
+      },{
+        "text": "___",
+        "snippet": "___(${1:x})"
+      }
+    ],
+    "properties":[
+      {
+        "text": "___",
+        "type": "property"
+      },{
+        "text": "___",
+        "type": "property"
+      }
+    ]
+  },
+  {
+    "text": "EntityTooltip",
+    "snippet": "EntityTooltip(${1:uuid})",
+    "description": "A new instance of EntityTooltip",
+    "members":[
+      {
+        "text": "___",
+        "snippet": "___(${1:x})"
+      },{
+        "text": "___",
+        "snippet": "___(${1:x})"
+      }
+    ],
+    "properties":[
+      {
+        "text": "___",
+        "type": "property"
+      },{
+        "text": "___",
+        "type": "property"
+      }
+    ]
+  },
+  {
+    "text": "ScriptUI",
+    "snippet": "ScriptUI(${1:uuid})",
+    "description": "A new instance of ScriptUI",
+    "members":[
+      {
+        "text": "___",
+        "snippet": "___(${1:x})"
+      },{
+        "text": "___",
+        "snippet": "___(${1:x})"
+      }
+    ],
+    "properties":[
+      {
+        "text": "___",
+        "type": "property"
+      },{
+        "text": "___",
+        "type": "property"
+      }
+    ]
+  },
+  {
+    "text": "Hangar",
+    "snippet": "Hangar(${1:uuid})",
+    "description": "A new instance of Hangar",
+    "members":[
+      {
+        "text": "___",
+        "snippet": "___(${1:x})"
+      },{
+        "text": "___",
+        "snippet": "___(${1:x})"
+      }
+    ],
+    "properties":[
+      {
+        "text": "___",
+        "type": "property"
+      },{
+        "text": "___",
+        "type": "property"
+      }
+    ]
+  },
+  {
+    "text": "BspTree",
+    "snippet": "BspTree(${1:uuid})",
+    "description": "A new instance of BspTree",
+    "members":[
+      {
+        "text": "___",
+        "snippet": "___(${1:x})"
+      },{
+        "text": "___",
+        "snippet": "___(${1:x})"
+      }
+    ],
+    "properties":[
+      {
+        "text": "___",
+        "type": "property"
+      },{
+        "text": "___",
+        "type": "property"
+      }
+    ]
+  },
+  {
+    "text": "DeletionTimer",
+    "snippet": "DeletionTimer(${1:uuid})",
+    "description": "A new instance of DeletionTimer",
+    "members":[
+      {
+        "text": "___",
+        "snippet": "___(${1:x})"
+      },{
+        "text": "___",
+        "snippet": "___(${1:x})"
+      }
+    ],
+    "properties":[
+      {
+        "text": "___",
+        "type": "property"
+      },{
+        "text": "___",
+        "type": "property"
+      }
+    ]
+  },
+  {
+    "text": "Engine",
+    "snippet": "Engine(${1:uuid})",
+    "description": "A new instance of Engine",
+    "members":[
+      {
+        "text": "___",
+        "snippet": "___(${1:x})"
+      },{
+        "text": "___",
+        "snippet": "___(${1:x})"
+      }
+    ],
+    "properties":[
+      {
+        "text": "___",
+        "type": "property"
+      },{
+        "text": "___",
+        "type": "property"
+      }
+    ]
+  },
+  {
+    "text": "Weapons",
+    "snippet": "Weapons(${1:uuid})",
+    "description": "A new instance of Weapons",
+    "members":[
+      {
+        "text": "___",
+        "snippet": "___(${1:x})"
+      },{
+        "text": "___",
+        "snippet": "___(${1:x})"
+      }
+    ],
+    "properties":[
+      {
+        "text": "___",
+        "type": "property"
+      },{
+        "text": "___",
+        "type": "property"
+      }
+    ]
+  },
+  {
+    "text": "FighterAI",
+    "snippet": "FighterAI(${1:uuid})",
+    "description": "A new instance of FighterAI",
+    "members":[
+      {
+        "text": "___",
+        "snippet": "___(${1:x})"
+      },{
+        "text": "___",
+        "snippet": "___(${1:x})"
+      }
+    ],
+    "properties":[
+      {
+        "text": "___",
+        "type": "property"
+      },{
+        "text": "___",
+        "type": "property"
+      }
+    ]
+  },
+  {
+    "text": "Physics",
+    "snippet": "Physics(${1:uuid})",
+    "description": "A new instance of Physics",
+    "members":[
+      {
+        "text": "___",
+        "snippet": "___(${1:x})"
+      },{
+        "text": "___",
+        "snippet": "___(${1:x})"
+      }
+    ],
+    "properties":[
+      {
+        "text": "___",
+        "type": "property"
+      },{
+        "text": "___",
+        "type": "property"
+      }
+    ]
+  },
+  {
+    "text": "Plan",
+    "snippet": "Plan(${1:uuid})",
+    "description": "A new instance of Plan",
+    "members":[
+      {
+        "text": "___",
+        "snippet": "___(${1:x})"
+      },{
+        "text": "___",
+        "snippet": "___(${1:x})"
+      }
+    ],
+    "properties":[
+      {
+        "text": "___",
+        "type": "property"
+      },{
+        "text": "___",
+        "type": "property"
+      }
+    ]
+  },
+  {
+    "text": "ShipAI",
+    "snippet": "ShipAI(${1:uuid})",
+    "description": "A new instance of ShipAI",
+    "members":[
+      {
+        "text": "___",
+        "snippet": "___(${1:x})"
+      },{
+        "text": "___",
+        "snippet": "___(${1:x})"
+      }
+    ],
+    "properties":[
+      {
+        "text": "___",
+        "type": "property"
+      },{
+        "text": "___",
+        "type": "property"
+      }
+    ]
+  },
+  {
+    "text": "Velocity",
+    "snippet": "Velocity(${1:uuid})",
+    "description": "A new instance of Velocity",
+    "members":[
+      {
+        "text": "___",
+        "snippet": "___(${1:x})"
+      },{
+        "text": "___",
+        "snippet": "___(${1:x})"
+      }
+    ],
+    "properties":[
+      {
+        "text": "___",
+        "type": "property"
+      },{
+        "text": "___",
+        "type": "property"
+      }
+    ]
+  },
+  {
+    "text": "InteractionText",
+    "snippet": "InteractionText(${1:uuid})",
+    "description": "A new instance of InteractionText",
+    "members":[
+      {
+        "text": "___",
+        "snippet": "___(${1:x})"
+      },{
+        "text": "___",
+        "snippet": "___(${1:x})"
+      }
+    ],
+    "properties":[
+      {
+        "text": "___",
+        "type": "property"
+      },{
+        "text": "___",
+        "type": "property"
+      }
+    ]
+  },
+  {
+    "text": "EnergySystem",
+    "snippet": "EnergySystem(${1:uuid})",
+    "description": "A new instance of EnergySystem",
+    "members":[
+      {
+        "text": "___",
+        "snippet": "___(${1:x})"
+      },{
+        "text": "___",
+        "snippet": "___(${1:x})"
+      }
+    ],
+    "properties":[
+      {
+        "text": "___",
+        "type": "property"
+      },{
+        "text": "___",
+        "type": "property"
+      }
+    ]
+  },
+  {
+    "text": "WormHole",
+    "snippet": "WormHole(${1:uuid})",
+    "description": "A new instance of WormHole",
+    "members":[
+      {
+        "text": "___",
+        "snippet": "___(${1:x})"
+      },{
+        "text": "___",
+        "snippet": "___(${1:x})"
+      }
+    ],
+    "properties":[
+      {
+        "text": "___",
+        "type": "property"
+      },{
+        "text": "___",
+        "type": "property"
+      }
+    ]
+  }
+]

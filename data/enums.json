@@ -1,0 +1,1333 @@
+[
+  {
+    "text": "SoundType",
+    "type": "enum",
+    "properties": [
+      {
+        "text": "Weapon",
+        "type": "property"
+      },
+      {
+        "text": "UI",
+        "type": "property"
+      },
+      {
+        "text": "Other",
+        "type": "property"
+      }
+    ]
+  },
+  {
+    "text": "StatsBonuses",
+    "type": "enum",
+    "properties": [
+      {
+        "text": "RadarReach",
+        "type": "property"
+      },
+      {
+        "text": "HiddenSectorRadarReach",
+        "type": "property"
+      },
+      {
+        "text": "ScannerReach",
+        "type": "property"
+      },
+      {
+        "text": "HyperspaceReach",
+        "type": "property"
+      },
+      {
+        "text": "HyperspaceCooldown",
+        "type": "property"
+      },
+      {
+        "text": "HyperspaceRechargeEnergy",
+        "type": "property"
+      },
+      {
+        "text": "ShieldDurability",
+        "type": "property"
+      },
+      {
+        "text": "ShieldRecharge",
+        "type": "property"
+      },
+      {
+        "text": "Velocity",
+        "type": "property"
+      },
+      {
+        "text": "Acceleration",
+        "type": "property"
+      },
+      {
+        "text": "GeneratedEnergy",
+        "type": "property"
+      },
+      {
+        "text": "EnergyCapacity",
+        "type": "property"
+      },
+      {
+        "text": "BatteryRecharge",
+        "type": "property"
+      },
+      {
+        "text": "ArbitraryTurrets",
+        "type": "property"
+      },
+      {
+        "text": "UnarmedTurrets",
+        "type": "property"
+      },
+      {
+        "text": "ArmedTurrets",
+        "type": "property"
+      },
+      {
+        "text": "CargoHold",
+        "type": "property"
+      },
+      {
+        "text": "Engineers",
+        "type": "property"
+      },
+      {
+        "text": "Mechanics",
+        "type": "property"
+      },
+      {
+        "text": "Gunners",
+        "type": "property"
+      },
+      {
+        "text": "Miners",
+        "type": "property"
+      },
+      {
+        "text": "Security",
+        "type": "property"
+      },
+      {
+        "text": "Attackers",
+        "type": "property"
+      },
+      {
+        "text": "Sergeants",
+        "type": "property"
+      },
+      {
+        "text": "Lieutenants",
+        "type": "property"
+      },
+      {
+        "text": "Commanders",
+        "type": "property"
+      },
+      {
+        "text": "Generals",
+        "type": "property"
+      },
+      {
+        "text": "Captains",
+        "type": "property"
+      }
+    ]
+  },
+  {
+    "text": "WeaponCategory",
+    "type": "enum",
+    "properties": [
+      {
+        "text": "Armed",
+        "type": "property"
+      },
+      {
+        "text": "Mining",
+        "type": "property"
+      },
+      {
+        "text": "Salvaging",
+        "type": "property"
+      },
+      {
+        "text": "Heal",
+        "type": "property"
+      }
+    ]
+  },
+  {
+    "text": "AIState",
+    "type": "enum",
+    "properties": [
+      {
+        "text": "None",
+        "type": "property"
+      },
+      {
+        "text": "Idle",
+        "type": "property"
+      },
+      {
+        "text": "Patrol",
+        "type": "property"
+      },
+      {
+        "text": "Escort",
+        "type": "property"
+      },
+      {
+        "text": "Aggressive",
+        "type": "property"
+      },
+      {
+        "text": "Passive",
+        "type": "property"
+      },
+      {
+        "text": "Guard",
+        "type": "property"
+      },
+      {
+        "text": "Jump",
+        "type": "property"
+      },
+      {
+        "text": "Fly",
+        "type": "property"
+      },
+      {
+        "text": "Attack",
+        "type": "property"
+      },
+      {
+        "text": "Follow",
+        "type": "property"
+      }
+    ]
+  },
+  {
+    "text": "AlliancePrivilege",
+    "type": "enum",
+    "properties": [
+      {
+        "text": "Invite",
+        "type": "property"
+      },
+      {
+        "text": "Kick",
+        "type": "property"
+      },
+      {
+        "text": "Promote",
+        "type": "property"
+      },
+      {
+        "text": "Demote",
+        "type": "property"
+      },
+      {
+        "text": "EditRanks",
+        "type": "property"
+      },
+      {
+        "text": "AddItems",
+        "type": "property"
+      },
+      {
+        "text": "SpendItems",
+        "type": "property"
+      },
+      {
+        "text": "TakeItems",
+        "type": "property"
+      },
+      {
+        "text": "AddResources",
+        "type": "property"
+      },
+      {
+        "text": "SpendResources",
+        "type": "property"
+      },
+      {
+        "text": "TakeResources",
+        "type": "property"
+      },
+      {
+        "text": "FoundShips",
+        "type": "property"
+      },
+      {
+        "text": "FoundStations",
+        "type": "property"
+      },
+      {
+        "text": "ManageStations",
+        "type": "property"
+      },
+      {
+        "text": "ManageShips",
+        "type": "property"
+      },
+      {
+        "text": "FlyCrafts",
+        "type": "property"
+      },
+      {
+        "text": "ModifyCrafts",
+        "type": "property"
+      },
+      {
+        "text": "ModifyMessageOfTheDay",
+        "type": "property"
+      }
+    ]
+  },
+  {
+    "text": "BlockType",
+    "type": "enum",
+    "properties": [
+      {
+        "text": "Hull",
+        "type": "property"
+      },
+      {
+        "text": "BlankHull",
+        "type": "property"
+      },
+      {
+        "text": "Engine",
+        "type": "property"
+      },
+      {
+        "text": "Thruster",
+        "type": "property"
+      },
+      {
+        "text": "CargoBay",
+        "type": "property"
+      },
+      {
+        "text": "Quarters",
+        "type": "property"
+      },
+      {
+        "text": "Dock",
+        "type": "property"
+      },
+      {
+        "text": "Stone",
+        "type": "property"
+      },
+      {
+        "text": "StoneEdge",
+        "type": "property"
+      },
+      {
+        "text": "StoneCorner",
+        "type": "property"
+      },
+      {
+        "text": "StoneOuterCorner",
+        "type": "property"
+      },
+      {
+        "text": "StoneInnerCorner",
+        "type": "property"
+      },
+      {
+        "text": "Glass",
+        "type": "property"
+      },
+      {
+        "text": "GlassEdge",
+        "type": "property"
+      },
+      {
+        "text": "GlassCorner",
+        "type": "property"
+      },
+      {
+        "text": "GlassOuterCorner",
+        "type": "property"
+      },
+      {
+        "text": "GlassInnerCorner",
+        "type": "property"
+      },
+      {
+        "text": "Reflector",
+        "type": "property"
+      },
+      {
+        "text": "ReflectorEdge",
+        "type": "property"
+      },
+      {
+        "text": "ReflectorCorner",
+        "type": "property"
+      },
+      {
+        "text": "ReflectorOuterCorner",
+        "type": "property"
+      },
+      {
+        "text": "ReflectorInnerCorner",
+        "type": "property"
+      },
+      {
+        "text": "ShieldGenerator",
+        "type": "property"
+      },
+      {
+        "text": "Generator",
+        "type": "property"
+      },
+      {
+        "text": "Armor",
+        "type": "property"
+      },
+      {
+        "text": "ComputerCore",
+        "type": "property"
+      },
+      {
+        "text": "SolarPanel",
+        "type": "property"
+      },
+      {
+        "text": "Light",
+        "type": "property"
+      },
+      {
+        "text": "EnergyContainer",
+        "type": "property"
+      },
+      {
+        "text": "Hangar",
+        "type": "property"
+      },
+      {
+        "text": "EdgeHull",
+        "type": "property"
+      },
+      {
+        "text": "CornerHull",
+        "type": "property"
+      },
+      {
+        "text": "OuterCornerHull",
+        "type": "property"
+      },
+      {
+        "text": "InnerCornerHull",
+        "type": "property"
+      },
+      {
+        "text": "EdgeArmor",
+        "type": "property"
+      },
+      {
+        "text": "CornerArmor",
+        "type": "property"
+      },
+      {
+        "text": "OuterCornerArmor",
+        "type": "property"
+      },
+      {
+        "text": "InnerCornerArmor",
+        "type": "property"
+      },
+      {
+        "text": "Glow",
+        "type": "property"
+      },
+      {
+        "text": "GlowEdge",
+        "type": "property"
+      },
+      {
+        "text": "GlowCorner",
+        "type": "property"
+      },
+      {
+        "text": "GlowOuterCorner",
+        "type": "property"
+      },
+      {
+        "text": "GlowInnerCorner",
+        "type": "property"
+      },
+      {
+        "text": "Halo",
+        "type": "property"
+      },
+      {
+        "text": "HaloEdge",
+        "type": "property"
+      },
+      {
+        "text": "HaloCorner",
+        "type": "property"
+      },
+      {
+        "text": "HaloOuterCorner",
+        "type": "property"
+      },
+      {
+        "text": "HaloInnerCorner",
+        "type": "property"
+      },
+      {
+        "text": "RichStone",
+        "type": "property"
+      },
+      {
+        "text": "RichStoneEdge",
+        "type": "property"
+      },
+      {
+        "text": "RichStoneCorner",
+        "type": "property"
+      },
+      {
+        "text": "RichStoneOuterCorner",
+        "type": "property"
+      },
+      {
+        "text": "RichStoneInnerCorner",
+        "type": "property"
+      },
+      {
+        "text": "Portal",
+        "type": "property"
+      },
+      {
+        "text": "TurretImmobilizer",
+        "type": "property"
+      }
+    ]
+  },
+  {
+    "text": "ChatMessageType",
+    "type": "enum",
+    "properties": [
+      {
+        "text": "Normal",
+        "type": "property"
+      },
+      {
+        "text": "Information",
+        "type": "property"
+      },
+      {
+        "text": "Error",
+        "type": "property"
+      },
+      {
+        "text": "Warning",
+        "type": "property"
+      },
+      {
+        "text": "Whisp",
+        "type": "property"
+      }
+    ]
+  },
+  {
+    "text": "ComponentType",
+    "type": "enum",
+    "description": "This enum represents all types of components that can be added to an entity. Some of these components are only available on the client, i.e. effects for explosions. Typical server components are components that manage game-related data that doesn't have to be synchronized between client and server, i.e. contribution to damage or database management.",
+    "properties": [
+      {
+        "text": "Position",
+        "type": "property"
+      },
+      {
+        "text": "Plan",
+        "type": "property"
+      },
+      {
+        "text": "Asleep",
+        "type": "property"
+      },
+      {
+        "text": "BoundingSphere",
+        "type": "property"
+      },
+      {
+        "text": "BoundingBox",
+        "type": "property"
+      },
+      {
+        "text": "Velocity",
+        "type": "property"
+      },
+      {
+        "text": "Physics",
+        "type": "property"
+      },
+      {
+        "text": "Owner",
+        "type": "property"
+      },
+      {
+        "text": "Scripts",
+        "type": "property"
+      },
+      {
+        "text": "ScriptCallback",
+        "type": "property"
+      },
+      {
+        "text": "EntityType",
+        "type": "property"
+      },
+      {
+        "text": "Children",
+        "type": "property"
+      },
+      {
+        "text": "Intersection",
+        "type": "property"
+      },
+      {
+        "text": "BspTree",
+        "type": "property"
+      },
+      {
+        "text": "StructuralIntegrity",
+        "type": "property"
+      },
+      {
+        "text": "CargoBay",
+        "type": "property"
+      },
+      {
+        "text": "Name",
+        "type": "property"
+      },
+      {
+        "text": "Crew",
+        "type": "property"
+      },
+      {
+        "text": "Durability",
+        "type": "property"
+      },
+      {
+        "text": "PlanMaxDurability",
+        "type": "property"
+      },
+      {
+        "text": "Title",
+        "type": "property"
+      },
+      {
+        "text": "Turrets",
+        "type": "property"
+      },
+      {
+        "text": "ControlUnit",
+        "type": "property"
+      },
+      {
+        "text": "ShipSystem",
+        "type": "property"
+      },
+      {
+        "text": "DockingPositions",
+        "type": "property"
+      },
+      {
+        "text": "FighterPhysics",
+        "type": "property"
+      },
+      {
+        "text": "Mothership",
+        "type": "property"
+      },
+      {
+        "text": "ShipAI",
+        "type": "property"
+      },
+      {
+        "text": "Hangar",
+        "type": "property"
+      },
+      {
+        "text": "FighterAI",
+        "type": "property"
+      },
+      {
+        "text": "FighterController",
+        "type": "property"
+      },
+      {
+        "text": "StatsBonuses",
+        "type": "property"
+      },
+      {
+        "text": "InteractionText",
+        "type": "property"
+      },
+      {
+        "text": "EnergySystem",
+        "type": "property"
+      },
+      {
+        "text": "Shield",
+        "type": "property"
+      },
+      {
+        "text": "LifeSupport",
+        "type": "property"
+      },
+      {
+        "text": "Engine",
+        "type": "property"
+      },
+      {
+        "text": "Thrusters",
+        "type": "property"
+      },
+      {
+        "text": "HyperspaceEngine",
+        "type": "property"
+      },
+      {
+        "text": "Radar",
+        "type": "property"
+      },
+      {
+        "text": "Scanners",
+        "type": "property"
+      },
+      {
+        "text": "MineableMaterial",
+        "type": "property"
+      },
+      {
+        "text": "LootPhysics",
+        "type": "property"
+      },
+      {
+        "text": "CargoLoot",
+        "type": "property"
+      },
+      {
+        "text": "ColorLoot",
+        "type": "property"
+      },
+      {
+        "text": "MoneyLoot",
+        "type": "property"
+      },
+      {
+        "text": "ResourceLoot",
+        "type": "property"
+      },
+      {
+        "text": "TurretLoot",
+        "type": "property"
+      },
+      {
+        "text": "SystemUpgradeLoot",
+        "type": "property"
+      },
+      {
+        "text": "Turret",
+        "type": "property"
+      },
+      {
+        "text": "LocalPositioner",
+        "type": "property"
+      },
+      {
+        "text": "Weapons",
+        "type": "property"
+      },
+      {
+        "text": "ParentEntity",
+        "type": "property"
+      },
+      {
+        "text": "WormHole",
+        "type": "property"
+      },
+      {
+        "text": "DeletionTimer",
+        "type": "property"
+      },
+      {
+        "text": "PlanMesh",
+        "type": "property"
+      },
+      {
+        "text": "TurretMesh",
+        "type": "property"
+      },
+      {
+        "text": "ShieldMesh",
+        "type": "property"
+      },
+      {
+        "text": "WeaponMesh",
+        "type": "property"
+      },
+      {
+        "text": "BlockExplosions",
+        "type": "property"
+      },
+      {
+        "text": "TurretExplosions",
+        "type": "property"
+      },
+      {
+        "text": "LootCollectionSound",
+        "type": "property"
+      },
+      {
+        "text": "Rotation",
+        "type": "property"
+      },
+      {
+        "text": "LootParticles",
+        "type": "property"
+      },
+      {
+        "text": "PlanSparks",
+        "type": "property"
+      },
+      {
+        "text": "WeaponSound",
+        "type": "property"
+      },
+      {
+        "text": "EngineSound",
+        "type": "property"
+      },
+      {
+        "text": "ScriptUI",
+        "type": "property"
+      },
+      {
+        "text": "Tooltip",
+        "type": "property"
+      },
+      {
+        "text": "Icon",
+        "type": "property"
+      },
+      {
+        "text": "FlickerLights",
+        "type": "property"
+      },
+      {
+        "text": "UINotifier",
+        "type": "property"
+      },
+      {
+        "text": "HangarDoorMesh",
+        "type": "property"
+      },
+      {
+        "text": "WeaponFireGlow",
+        "type": "property"
+      },
+      {
+        "text": "ShieldAmbientSound",
+        "type": "property"
+      },
+      {
+        "text": "PlacementSounds",
+        "type": "property"
+      },
+      {
+        "text": "ScannerData",
+        "type": "property"
+      },
+      {
+        "text": "ShadowMap",
+        "type": "property"
+      },
+      {
+        "text": "EffectNotifier",
+        "type": "property"
+      },
+      {
+        "text": "InstancingNotifier",
+        "type": "property"
+      },
+      {
+        "text": "CraftDecay",
+        "type": "property"
+      },
+      {
+        "text": "ShipInfoUpdater",
+        "type": "property"
+      },
+      {
+        "text": "FactionNotifier",
+        "type": "property"
+      },
+      {
+        "text": "WreckageCreator",
+        "type": "property"
+      },
+      {
+        "text": "MoneyDropper",
+        "type": "property"
+      },
+      {
+        "text": "ResourceDropper",
+        "type": "property"
+      },
+      {
+        "text": "ColorDropper",
+        "type": "property"
+      },
+      {
+        "text": "TurretDropper",
+        "type": "property"
+      },
+      {
+        "text": "CargoDropper",
+        "type": "property"
+      },
+      {
+        "text": "DroneDeleter",
+        "type": "property"
+      },
+      {
+        "text": "LootCollector",
+        "type": "property"
+      },
+      {
+        "text": "EntityTransferrer",
+        "type": "property"
+      },
+      {
+        "text": "DamageContributors",
+        "type": "property"
+      },
+      {
+        "text": "UnhappyCrewRemover",
+        "type": "property"
+      },
+      {
+        "text": "DestroyedItemReturner",
+        "type": "property"
+      },
+      {
+        "text": "SystemUpgradeDropper",
+        "type": "property"
+      },
+      {
+        "text": "CrewPayday",
+        "type": "property"
+      },
+      {
+        "text": "Loot",
+        "type": "property"
+      },
+      {
+        "text": "DummyComponent0",
+        "type": "property"
+      },
+      {
+        "text": "DummyComponent1",
+        "type": "property"
+      },
+      {
+        "text": "DummyComponent2",
+        "type": "property"
+      },
+      {
+        "text": "DummyComponent3",
+        "type": "property"
+      },
+      {
+        "text": "DummyComponent4",
+        "type": "property"
+      },
+      {
+        "text": "DummyComponent5",
+        "type": "property"
+      }
+    ]
+  },
+  {
+    "text": "CrewProfessionType",
+    "type": "enum",
+    "properties": [
+      {
+        "text": "None",
+        "type": "property"
+      },
+      {
+        "text": "Engine",
+        "type": "property"
+      },
+      {
+        "text": "Gunner",
+        "type": "property"
+      },
+      {
+        "text": "Miner",
+        "type": "property"
+      },
+      {
+        "text": "Repair",
+        "type": "property"
+      },
+      {
+        "text": "Pilot",
+        "type": "property"
+      },
+      {
+        "text": "Security",
+        "type": "property"
+      },
+      {
+        "text": "Attacker",
+        "type": "property"
+      },
+      {
+        "text": "Sergeant",
+        "type": "property"
+      },
+      {
+        "text": "Lieutenant",
+        "type": "property"
+      },
+      {
+        "text": "Commander",
+        "type": "property"
+      },
+      {
+        "text": "General",
+        "type": "property"
+      },
+      {
+        "text": "Captain",
+        "type": "property"
+      },
+      {
+        "text": "Number",
+        "type": "property"
+      }
+    ]
+  },
+  {
+    "text": "DamageType",
+    "type": "enum",
+    "properties": [
+      {
+        "text": "Physical",
+        "type": "property"
+      },
+      {
+        "text": "Energy",
+        "type": "property"
+      },
+      {
+        "text": "Crumple",
+        "type": "property"
+      },
+      {
+        "text": "Decay",
+        "type": "property"
+      },
+      {
+        "text": "Arbitrary",
+        "type": "property"
+      },
+      {
+        "text": "Invalid",
+        "type": "property"
+      }
+    ]
+  },
+  {
+    "text": "Difficulty",
+    "type": "enum",
+    "properties": [
+      {
+        "text": "Beginner",
+        "type": "property"
+      },
+      {
+        "text": "Easy",
+        "type": "property"
+      },
+      {
+        "text": "Normal",
+        "type": "property"
+      },
+      {
+        "text": "Veteran",
+        "type": "property"
+      },
+      {
+        "text": "Difficult",
+        "type": "property"
+      },
+      {
+        "text": "Hard",
+        "type": "property"
+      },
+      {
+        "text": "Insane",
+        "type": "property"
+      }
+    ]
+  },
+  {
+    "text": "EntityType",
+    "type": "enum",
+    "properties": [
+      {
+        "text": "None",
+        "type": "property"
+      },
+      {
+        "text": "Ship",
+        "type": "property"
+      },
+      {
+        "text": "Drone",
+        "type": "property"
+      },
+      {
+        "text": "Station",
+        "type": "property"
+      },
+      {
+        "text": "Turret",
+        "type": "property"
+      },
+      {
+        "text": "Asteroid",
+        "type": "property"
+      },
+      {
+        "text": "Wreckage",
+        "type": "property"
+      },
+      {
+        "text": "Anomaly",
+        "type": "property"
+      },
+      {
+        "text": "Loot",
+        "type": "property"
+      },
+      {
+        "text": "WormHole",
+        "type": "property"
+      },
+      {
+        "text": "Fighter",
+        "type": "property"
+      },
+      {
+        "text": "Unknown",
+        "type": "property"
+      },
+      {
+        "text": "Other",
+        "type": "property"
+      }
+    ]
+  },
+  {
+    "text": "FighterOrders",
+    "type": "enum",
+    "properties": [
+      {
+        "text": "Attack",
+        "type": "property"
+      },
+      {
+        "text": "Defend",
+        "type": "property"
+      },
+      {
+        "text": "Return",
+        "type": "property"
+      }
+    ]
+  },
+  {
+    "text": "FontType",
+    "type": "enum",
+    "properties": [
+      {
+        "text": "Normal",
+        "type": "property"
+      },
+      {
+        "text": "SciFi",
+        "type": "property"
+      }
+    ]
+  },
+  {
+    "text": "InventoryItemType",
+    "type": "enum",
+    "properties": [
+      {
+        "text": "Turret",
+        "type": "property"
+      },
+      {
+        "text": "TurretTemplate",
+        "type": "property"
+      },
+      {
+        "text": "SystemUpgrade",
+        "type": "property"
+      },
+      {
+        "text": "VanillaItem",
+        "type": "property"
+      }
+    ]
+  },
+  {
+    "text": "MaterialType",
+    "type": "enum",
+    "properties": [
+      {
+        "text": "Iron",
+        "type": "property"
+      },
+      {
+        "text": "Titanium",
+        "type": "property"
+      },
+      {
+        "text": "Naonite",
+        "type": "property"
+      },
+      {
+        "text": "Trinium",
+        "type": "property"
+      },
+      {
+        "text": "Xanion",
+        "type": "property"
+      },
+      {
+        "text": "Ogonite",
+        "type": "property"
+      },
+      {
+        "text": "Avorion",
+        "type": "property"
+      }
+    ]
+  },
+  {
+    "text": "MoonType",
+    "type": "enum",
+    "properties": [
+      {
+        "text": "Rocky",
+        "type": "property"
+      },
+      {
+        "text": "Smooth",
+        "type": "property"
+      },
+      {
+        "text": "Moon",
+        "type": "property"
+      },
+      {
+        "text": "Volcanic",
+        "type": "property"
+      },
+      {
+        "text": "NumMoonTypes",
+        "type": "property"
+      }
+    ]
+  },
+  {
+    "text": "PlanetType",
+    "type": "enum",
+    "properties": [
+      {
+        "text": "Terrestrial",
+        "type": "property"
+      },
+      {
+        "text": "Rocky",
+        "type": "property"
+      },
+      {
+        "text": "GasGiant",
+        "type": "property"
+      },
+      {
+        "text": "Smooth",
+        "type": "property"
+      },
+      {
+        "text": "Moon",
+        "type": "property"
+      },
+      {
+        "text": "Volcanic",
+        "type": "property"
+      },
+      {
+        "text": "BlackHole",
+        "type": "property"
+      },
+      {
+        "text": "NumPlanetTypes",
+        "type": "property"
+      }
+    ]
+  },
+  {
+    "text": "RarityType",
+    "type": "enum",
+    "properties": [
+      {
+        "text": "Petty",
+        "type": "property"
+      },
+      {
+        "text": "Common",
+        "type": "property"
+      },
+      {
+        "text": "Uncommon",
+        "type": "property"
+      },
+      {
+        "text": "Rare",
+        "type": "property"
+      },
+      {
+        "text": "Exceptional",
+        "type": "property"
+      },
+      {
+        "text": "Exotic",
+        "type": "property"
+      },
+      {
+        "text": "Legendary",
+        "type": "property"
+      }
+    ]
+  }
+]

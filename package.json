@@ -1,5 +1,5 @@
 {
-  "name": "autocomplete-avorion",
+  "name": "atom-autocomplete-avorion",
   "main": "./lib/main",
   "version": "0.2.0",
   "description": "Autocomplete for avorion scripting api.",
@@ -12,7 +12,7 @@
   "author": "Dirtyredz|David McClain <dirtyredz@live.com> (http://dirtyredz.com)",
   "license": "MIT",
   "engines": {
-    "atom": ">=1.15.0 <2.0.0"
+    "atom": ">=0.50.0 <2.0.0"
   },
   "providedServices": {
     "autocomplete.provider": {

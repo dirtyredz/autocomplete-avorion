@@ -1,0 +1,254 @@
+{
+  "UIRect":[
+    {
+      "members":[
+        {
+          "text": "setPadding",
+          "snippet": "setPadding(${1:left}, ${2:right}, ${3:top}, ${4:bottom})"
+        },{
+          "text": "setMargin",
+          "snippet": "setMargin(${1:left}, ${2:right}, ${3:top}, ${4:bottom})"
+        },{
+          "text": "getLeftRect",
+          "snippet": "getLeftRect(${1:rect})",
+          "description": "Aligns the given rect to a specific side"
+        },{
+          "text": "getRightRect",
+          "snippet": "getRightRect(${1:rect})",
+          "description": "Aligns the given rect to a specific side"
+        },{
+          "text": "getTopRect",
+          "snippet": "getTopRect(${1:rect})",
+          "description": "Aligns the given rect to a specific side"
+        },{
+          "text": "getBottomRect",
+          "snippet": "getBottomRect(${1:rect})",
+          "description": "Aligns the given rect to a specific side"
+        },{
+          "text": "getCenterRect",
+          "snippet": "getCenterRect(${1:rect})",
+          "description": "Aligns the given rect to a specific side"
+        },{
+          "text": "getTopLeftRect",
+          "snippet": "getTopLeftRect(${1:rect})",
+          "description": "Aligns the given rect to a specific side"
+        },{
+          "text": "getTopRightRect",
+          "snippet": "getTopRightRect(${1:rect})",
+          "description": "Aligns the given rect to a specific side"
+        },{
+          "text": "getBottomLeftRect",
+          "snippet": "getBottomLeftRect(${1:rect})",
+          "description": "Aligns the given rect to a specific side"
+        },{
+          "text": "getBottomRightRect",
+          "snippet": "getBottomRightRect(${1:rect})",
+          "description": "Aligns the given rect to a specific side"
+        },{
+          "text": "placeElementTop",
+          "snippet": "placeElementTop(${1:element})",
+          "description": "Aligns the given UI element to a specific side"
+        },{
+          "text": "placeElementLeft",
+          "snippet": "placeElementLeft(${1:element})",
+          "description": "Aligns the given UI element to a specific side"
+        },{
+          "text": "placeElementRight",
+          "snippet": "placeElementRight(${1:element})",
+          "description": "Aligns the given UI element to a specific side"
+        },{
+          "text": "placeElementBottom",
+          "snippet": "placeElementBottom(${1:element})",
+          "description": "Aligns the given UI element to a specific side"
+        },{
+          "text": "placeElementCenter",
+          "snippet": "placeElementCenter(${1:element})",
+          "description": "Aligns the given UI element to a specific side"
+        },{
+          "text": "placeElementTopLeft",
+          "snippet": "placeElementTopLeft(${1:element})",
+          "description": "Aligns the given UI element to a specific side"
+        },{
+          "text": "placeElementTopRight",
+          "snippet": "placeElementTopRight(${1:element})",
+          "description": "Aligns the given UI element to a specific side"
+        },{
+          "text": "placeElementBottomLeft",
+          "snippet": "placeElementBottomLeft(${1:element})",
+          "description": "Aligns the given UI element to a specific side"
+        },{
+          "text": "placeElementBottomRight",
+          "snippet": "placeElementBottomRight(${1:element})",
+          "description": "Aligns the given UI element to a specific side"
+        }
+      ],
+      "properties":[
+        {
+          "text": "paddingLeft",
+          "type": "property"
+        },{
+          "text": "paddingRight",
+          "type": "property"
+        },{
+          "text": "paddingTop",
+          "type": "property"
+        },{
+          "text": "paddingBottom",
+          "type": "property"
+        },{
+          "text": "marginLeft",
+          "type": "property"
+        },{
+          "text": "marginRight",
+          "type": "property"
+        },{
+          "text": "marginTop",
+          "type": "property"
+        },{
+          "text": "marginBottom",
+          "type": "property"
+        },{
+          "text": "inner",
+          "type": "property"
+        },{
+          "text": "padding",
+          "type": "property"
+        },{
+          "text": "margin",
+          "type": "property"
+        },{
+          "text": "rect",
+          "type": "property"
+        }
+      ]
+    }
+  ],
+  "UIContainer":[
+    {
+      "members":[
+        {
+          "text": "createInputWindow",
+          "snippet": "createInputWindow()"
+        },{
+          "text": "createListBoxEx",
+          "snippet": "createListBoxEx(${1:rect})"
+        },{
+          "text": "createListBox",
+          "snippet": "createListBox(${1:rect})"
+        },{
+          "text": "createContainer",
+          "snippet": "createContainer(${1:rect})"
+        },{
+          "text": "createScrollFrame",
+          "snippet": "createScrollFrame(${1:rect})"
+        },{
+          "text": "createPlanDisplayer",
+          "snippet": "createPlanDisplayer(${1:rect})"
+        },{
+          "text": "createCheckBox",
+          "snippet": "createCheckBox(${1:rect}, ${2:caption}, ${3:onCheckedFunction})"
+        },{
+          "text": "createComboBox",
+          "snippet": "createComboBox(${1:rect}, ${2:onSelectedFunction})"
+        },{
+          "text": "createTextBox",
+          "snippet": "createTextBox(${1:rect}, ${2:onTextChangedFunction})"
+        },{
+          "text": "createPicture",
+          "snippet": "createPicture(${1:rect}, ${2:path})"
+        },{
+          "text": "createTextField",
+          "snippet": "createTextField(${1:rect}, ${2:text})"
+        },{
+          "text": "createSlider",
+          "snippet": "createSlider(${1:rect}, ${2:min}, ${3:max}, ${4:steps}, ${5:caption}, ${6:onValueChangedFunction})"
+        },{
+          "text": "createLabel",
+          "snippet": "createLabel(${1:position}, ${2:caption}, ${3:fontSize})"
+        },{
+          "text": "createButton",
+          "snippet": "createButton(${1:rect}, ${2:caption}, ${3:function})"
+        },{
+          "text": "createFrame",
+          "snippet": "createFrame(${1:rect})"
+        },{
+          "text": "createLine",
+          "snippet": "createLine(${1:a}, ${2:b})"
+        },{
+          "text": "createTabbedWindow",
+          "snippet": "createTabbedWindow(${1:rect})"
+        },{
+          "text": "createWindow",
+          "snippet": "createWindow(${1:rect})"
+        },{
+          "text": "createNumbersBar",
+          "snippet": "createNumbersBar(${1:rect})"
+        },{
+          "text": "createStatisticsBar",
+          "snippet": "createStatisticsBar(${1:rect}, ${2:color})"
+        },{
+          "text": "createMultiLineTextBox",
+          "snippet": "createMultiLineTextBox(${1:rect})"
+        },{
+          "text": "createSelection",
+          "snippet": "createSelection(${1:rect}, ${2:width})"
+        },{
+          "text": "createInventorySelection",
+          "snippet": "createInventorySelection(${1:rect}, ${2:width})"
+        }
+      ]
+    }
+  ],
+  "UIElement":[
+    {
+      "members":[
+        {
+          "text": "hide",
+          "snippet": "hide()"
+        },{
+          "text": "show",
+          "snippet": "show()"
+        }
+      ],
+      "properties":[
+        {
+          "text": "index",
+          "type": "property"
+        },{
+          "text": "mouseOver",
+          "type": "property"
+        },{
+          "text": "visible",
+          "type": "property"
+        },{
+          "text": "position",
+          "type": "property"
+        },{
+          "text": "size",
+          "type": "property"
+        },{
+          "text": "lower",
+          "type": "property"
+        },{
+          "text": "upper",
+          "type": "property"
+        },{
+          "text": "center",
+          "type": "property"
+        },{
+          "text": "tooltip",
+          "type": "property"
+        },{
+          "text": "rect",
+          "type": "property"
+        },{
+          "text": "width",
+          "type": "property"
+        },{
+          "text": "height",
+          "type": "property"
+        }
+      ]
+    }
+  ]
+}
