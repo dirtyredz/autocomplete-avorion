@@ -1,251 +1,939 @@
 {
-  "UIRect":[
+  "UIRect": [
     {
-      "members":[
+      "members": [
         {
           "text": "setPadding",
-          "snippet": "setPadding(${1:left}, ${2:right}, ${3:top}, ${4:bottom})"
-        },{
+          "snippet": "setPadding(${1:left}, ${2:right}, ${3:top}, ${4:bottom})${20}"
+        },
+        {
           "text": "setMargin",
-          "snippet": "setMargin(${1:left}, ${2:right}, ${3:top}, ${4:bottom})"
-        },{
+          "snippet": "setMargin(${1:left}, ${2:right}, ${3:top}, ${4:bottom})${20}"
+        },
+        {
           "text": "getLeftRect",
-          "snippet": "getLeftRect(${1:rect})",
+          "snippet": "getLeftRect(${1:rect})${20}",
           "description": "Aligns the given rect to a specific side"
-        },{
+        },
+        {
           "text": "getRightRect",
-          "snippet": "getRightRect(${1:rect})",
+          "snippet": "getRightRect(${1:rect})${20}",
           "description": "Aligns the given rect to a specific side"
-        },{
+        },
+        {
           "text": "getTopRect",
-          "snippet": "getTopRect(${1:rect})",
+          "snippet": "getTopRect(${1:rect})${20}",
           "description": "Aligns the given rect to a specific side"
-        },{
+        },
+        {
           "text": "getBottomRect",
-          "snippet": "getBottomRect(${1:rect})",
+          "snippet": "getBottomRect(${1:rect})${20}",
           "description": "Aligns the given rect to a specific side"
-        },{
+        },
+        {
           "text": "getCenterRect",
-          "snippet": "getCenterRect(${1:rect})",
+          "snippet": "getCenterRect(${1:rect})${20}",
           "description": "Aligns the given rect to a specific side"
-        },{
+        },
+        {
           "text": "getTopLeftRect",
-          "snippet": "getTopLeftRect(${1:rect})",
+          "snippet": "getTopLeftRect(${1:rect})${20}",
           "description": "Aligns the given rect to a specific side"
-        },{
+        },
+        {
           "text": "getTopRightRect",
-          "snippet": "getTopRightRect(${1:rect})",
+          "snippet": "getTopRightRect(${1:rect})${20}",
           "description": "Aligns the given rect to a specific side"
-        },{
+        },
+        {
           "text": "getBottomLeftRect",
-          "snippet": "getBottomLeftRect(${1:rect})",
+          "snippet": "getBottomLeftRect(${1:rect})${20}",
           "description": "Aligns the given rect to a specific side"
-        },{
+        },
+        {
           "text": "getBottomRightRect",
-          "snippet": "getBottomRightRect(${1:rect})",
+          "snippet": "getBottomRightRect(${1:rect})${20}",
           "description": "Aligns the given rect to a specific side"
-        },{
+        },
+        {
           "text": "placeElementTop",
-          "snippet": "placeElementTop(${1:element})",
+          "snippet": "placeElementTop(${1:element})${20}",
           "description": "Aligns the given UI element to a specific side"
-        },{
+        },
+        {
           "text": "placeElementLeft",
-          "snippet": "placeElementLeft(${1:element})",
+          "snippet": "placeElementLeft(${1:element})${20}",
           "description": "Aligns the given UI element to a specific side"
-        },{
+        },
+        {
           "text": "placeElementRight",
-          "snippet": "placeElementRight(${1:element})",
+          "snippet": "placeElementRight(${1:element})${20}",
           "description": "Aligns the given UI element to a specific side"
-        },{
+        },
+        {
           "text": "placeElementBottom",
-          "snippet": "placeElementBottom(${1:element})",
+          "snippet": "placeElementBottom(${1:element})${20}",
           "description": "Aligns the given UI element to a specific side"
-        },{
+        },
+        {
           "text": "placeElementCenter",
-          "snippet": "placeElementCenter(${1:element})",
+          "snippet": "placeElementCenter(${1:element})${20}",
           "description": "Aligns the given UI element to a specific side"
-        },{
+        },
+        {
           "text": "placeElementTopLeft",
-          "snippet": "placeElementTopLeft(${1:element})",
+          "snippet": "placeElementTopLeft(${1:element})${20}",
           "description": "Aligns the given UI element to a specific side"
-        },{
+        },
+        {
           "text": "placeElementTopRight",
-          "snippet": "placeElementTopRight(${1:element})",
+          "snippet": "placeElementTopRight(${1:element})${20}",
           "description": "Aligns the given UI element to a specific side"
-        },{
+        },
+        {
           "text": "placeElementBottomLeft",
-          "snippet": "placeElementBottomLeft(${1:element})",
+          "snippet": "placeElementBottomLeft(${1:element})${20}",
           "description": "Aligns the given UI element to a specific side"
-        },{
+        },
+        {
           "text": "placeElementBottomRight",
-          "snippet": "placeElementBottomRight(${1:element})",
+          "snippet": "placeElementBottomRight(${1:element})${20}",
           "description": "Aligns the given UI element to a specific side"
         }
       ],
-      "properties":[
+      "properties": [
         {
           "text": "paddingLeft",
           "type": "property"
-        },{
+        },
+        {
           "text": "paddingRight",
           "type": "property"
-        },{
+        },
+        {
           "text": "paddingTop",
           "type": "property"
-        },{
+        },
+        {
           "text": "paddingBottom",
           "type": "property"
-        },{
+        },
+        {
           "text": "marginLeft",
           "type": "property"
-        },{
+        },
+        {
           "text": "marginRight",
           "type": "property"
-        },{
+        },
+        {
           "text": "marginTop",
           "type": "property"
-        },{
+        },
+        {
           "text": "marginBottom",
           "type": "property"
-        },{
+        },
+        {
           "text": "inner",
           "type": "property"
-        },{
+        },
+        {
           "text": "padding",
           "type": "property"
-        },{
+        },
+        {
           "text": "margin",
           "type": "property"
-        },{
+        },
+        {
           "text": "rect",
           "type": "property"
         }
       ]
     }
   ],
-  "UIContainer":[
+  "UIContainer": [
     {
-      "members":[
+      "members": [
         {
           "text": "createInputWindow",
-          "snippet": "createInputWindow()"
-        },{
+          "snippet": "createInputWindow()${20}"
+        },
+        {
           "text": "createListBoxEx",
-          "snippet": "createListBoxEx(${1:rect})"
-        },{
+          "snippet": "createListBoxEx(${1:rect})${20}"
+        },
+        {
           "text": "createListBox",
-          "snippet": "createListBox(${1:rect})"
-        },{
+          "snippet": "createListBox(${1:rect})${20}"
+        },
+        {
           "text": "createContainer",
-          "snippet": "createContainer(${1:rect})"
-        },{
+          "snippet": "createContainer(${1:rect})${20}"
+        },
+        {
           "text": "createScrollFrame",
-          "snippet": "createScrollFrame(${1:rect})"
-        },{
+          "snippet": "createScrollFrame(${1:rect})${20}"
+        },
+        {
           "text": "createPlanDisplayer",
-          "snippet": "createPlanDisplayer(${1:rect})"
-        },{
+          "snippet": "createPlanDisplayer(${1:rect})${20}"
+        },
+        {
           "text": "createCheckBox",
-          "snippet": "createCheckBox(${1:rect}, ${2:caption}, ${3:onCheckedFunction})"
-        },{
+          "snippet": "createCheckBox(${1:rect}, ${2:caption}, ${3:onCheckedFunction})${20}"
+        },
+        {
           "text": "createComboBox",
-          "snippet": "createComboBox(${1:rect}, ${2:onSelectedFunction})"
-        },{
+          "snippet": "createComboBox(${1:rect}, ${2:onSelectedFunction})${20}"
+        },
+        {
           "text": "createTextBox",
-          "snippet": "createTextBox(${1:rect}, ${2:onTextChangedFunction})"
-        },{
+          "snippet": "createTextBox(${1:rect}, ${2:onTextChangedFunction})${20}"
+        },
+        {
           "text": "createPicture",
-          "snippet": "createPicture(${1:rect}, ${2:path})"
-        },{
+          "snippet": "createPicture(${1:rect}, ${2:path})${20}"
+        },
+        {
           "text": "createTextField",
-          "snippet": "createTextField(${1:rect}, ${2:text})"
-        },{
+          "snippet": "createTextField(${1:rect}, ${2:text})${20}"
+        },
+        {
           "text": "createSlider",
-          "snippet": "createSlider(${1:rect}, ${2:min}, ${3:max}, ${4:steps}, ${5:caption}, ${6:onValueChangedFunction})"
-        },{
+          "snippet": "createSlider(${1:rect}, ${2:min}, ${3:max}, ${4:steps}, ${5:caption}, ${6:onValueChangedFunction})${20}"
+        },
+        {
           "text": "createLabel",
-          "snippet": "createLabel(${1:position}, ${2:caption}, ${3:fontSize})"
-        },{
+          "snippet": "createLabel(${1:position}, ${2:caption}, ${3:fontSize})${20}"
+        },
+        {
           "text": "createButton",
-          "snippet": "createButton(${1:rect}, ${2:caption}, ${3:function})"
-        },{
+          "snippet": "createButton(${1:rect}, ${2:caption}, ${3:function})${20}"
+        },
+        {
           "text": "createFrame",
-          "snippet": "createFrame(${1:rect})"
-        },{
+          "snippet": "createFrame(${1:rect})${20}"
+        },
+        {
           "text": "createLine",
-          "snippet": "createLine(${1:a}, ${2:b})"
-        },{
+          "snippet": "createLine(${1:a}, ${2:b})${20}"
+        },
+        {
           "text": "createTabbedWindow",
-          "snippet": "createTabbedWindow(${1:rect})"
-        },{
+          "snippet": "createTabbedWindow(${1:rect})${20}"
+        },
+        {
           "text": "createWindow",
-          "snippet": "createWindow(${1:rect})"
-        },{
+          "snippet": "createWindow(${1:rect})${20}"
+        },
+        {
           "text": "createNumbersBar",
-          "snippet": "createNumbersBar(${1:rect})"
-        },{
+          "snippet": "createNumbersBar(${1:rect})${20}"
+        },
+        {
           "text": "createStatisticsBar",
-          "snippet": "createStatisticsBar(${1:rect}, ${2:color})"
-        },{
+          "snippet": "createStatisticsBar(${1:rect}, ${2:color})${20}"
+        },
+        {
           "text": "createMultiLineTextBox",
-          "snippet": "createMultiLineTextBox(${1:rect})"
-        },{
+          "snippet": "createMultiLineTextBox(${1:rect})${20}"
+        },
+        {
           "text": "createSelection",
-          "snippet": "createSelection(${1:rect}, ${2:width})"
-        },{
+          "snippet": "createSelection(${1:rect}, ${2:width})${20}"
+        },
+        {
           "text": "createInventorySelection",
-          "snippet": "createInventorySelection(${1:rect}, ${2:width})"
+          "snippet": "createInventorySelection(${1:rect}, ${2:width})${20}"
         }
       ]
     }
   ],
-  "UIElement":[
+  "UIElement": [
     {
-      "members":[
+      "members": [
         {
           "text": "hide",
-          "snippet": "hide()"
-        },{
+          "snippet": "hide()${20}"
+        },
+        {
           "text": "show",
-          "snippet": "show()"
+          "snippet": "show()${20}"
         }
       ],
-      "properties":[
+      "properties": [
         {
           "text": "index",
           "type": "property"
-        },{
+        },
+        {
           "text": "mouseOver",
           "type": "property"
-        },{
+        },
+        {
           "text": "visible",
           "type": "property"
-        },{
+        },
+        {
           "text": "position",
           "type": "property"
-        },{
+        },
+        {
           "text": "size",
           "type": "property"
-        },{
+        },
+        {
           "text": "lower",
           "type": "property"
-        },{
+        },
+        {
           "text": "upper",
           "type": "property"
-        },{
+        },
+        {
           "text": "center",
           "type": "property"
-        },{
+        },
+        {
           "text": "tooltip",
           "type": "property"
-        },{
+        },
+        {
           "text": "rect",
           "type": "property"
-        },{
+        },
+        {
           "text": "width",
           "type": "property"
-        },{
+        },
+        {
           "text": "height",
+          "type": "property"
+        }
+      ]
+    }
+  ],
+  "Entity": [
+    {
+      "members": [
+        {
+          "text": "hasComponent",
+          "snippet": "hasComponent(${1:type})${20}"
+        },
+        {
+          "text": "getNearestDistance",
+          "snippet": "getNearestDistance(${1:other})${20}"
+        },
+        {
+          "text": "setPlan",
+          "snippet": "setPlan(${1:blockPlan})${20}"
+        },
+        {
+          "text": "getPlan",
+          "snippet": "getPlan()${20}"
+        },
+        {
+          "text": "getUndamagedPlanMoneyValue",
+          "snippet": "getUndamagedPlanMoneyValue()${20}"
+        },
+        {
+          "text": "getUndamagedPlanResourceValue",
+          "snippet": "getUndamagedPlanResourceValue()${20}"
+        },
+        {
+          "text": "getPlanMoneyValue",
+          "snippet": "getPlanMoneyValue()${20}"
+        },
+        {
+          "text": "getPlanResourceValue",
+          "snippet": "getPlanResourceValue()${20}"
+        },
+        {
+          "text": "heal",
+          "snippet": "heal(${1:damage}, ${2:index}, ${3:location}, ${4:inflictorId})${20}"
+        },
+        {
+          "text": "inflictDamage",
+          "snippet": "inflictDamage(${1:damage}, ${2:index}, ${3:location}, ${4:inflictorId}, ${2:damageType})${20}"
+        },
+        {
+          "text": "destroyBlock",
+          "snippet": "destroyBlock(${1:index}, ${2:inflictorId}, ${3:damageType})${20}"
+        },
+        {
+          "text": "destroy",
+          "snippet": "destroy(${1:inflictorId}, ${2:damageType})${20}"
+        },
+        {
+          "text": "setAccumulatingBlockHealth",
+          "snippet": "setAccumulatingBlockHealth(${1:bool})${20}"
+        },
+        {
+          "text": "getBoundingBox",
+          "snippet": "getBoundingBox()${20}"
+        },
+        {
+          "text": "getBoundingSphere",
+          "snippet": "getBoundingSphere()${20}"
+        },
+        {
+          "text": "moveBy",
+          "snippet": "moveBy(${1:delta})${20}"
+        },
+        {
+          "text": "getBoostedValue",
+          "snippet": "getBoostedValue(${1:type}, ${2:value})${20}"
+        },
+        {
+          "text": "addBaseMultiplier",
+          "snippet": "addBaseMultiplier(${1:type}, ${2:factor})${20}"
+        },
+        {
+          "text": "addMultiplier",
+          "snippet": "addMultiplier(${1:type}, ${2:factor})${20}"
+        },
+        {
+          "text": "addMultiplyableBias",
+          "snippet": "addMultiplyableBias(${1:type}, ${2:factor})${20}"
+        },
+        {
+          "text": "addAbsoluteBias",
+          "snippet": "addAbsoluteBias(${1:type}, ${2:factor})${20}"
+        },
+        {
+          "text": "addKeyedBaseMultiplier",
+          "snippet": "addKeyedBaseMultiplier(${1:type}, ${2:key}, ${3:factor})${20}"
+        },
+        {
+          "text": "addKeyedMultiplier",
+          "snippet": "addKeyedMultiplier(${1:type}, ${2:key}, ${3:factor})${20}"
+        },
+        {
+          "text": "addKeyedMultiplyableBias",
+          "snippet": "addKeyedMultiplyableBias(${1:type}, ${2:key}, ${3:factor})${20}"
+        },
+        {
+          "text": "addKeyedAbsoluteBias",
+          "snippet": "addKeyedAbsoluteBias(${1:type}, ${2:key}, ${3:factor})${20}"
+        },
+        {
+          "text": "removeBonus",
+          "snippet": "removeBonus(${1:key})${20}"
+        },
+        {
+          "text": "damageShield",
+          "snippet": "damageShield(${1:amount}, ${2:location}, ${3:inflictorID})${20}"
+        },
+        {
+          "text": "healShield",
+          "snippet": "healShield(${1:amount})${20}"
+        },
+        {
+          "text": "changeShield",
+          "snippet": "changeShield(${1:delta})${20}"
+        },
+        {
+          "text": "isInsideShield",
+          "snippet": "isInsideShield(${1:point})${20}"
+        },
+        {
+          "text": "getMineableResources",
+          "snippet": "getMineableResources()${20}"
+        },
+        {
+          "text": "getMineableMaterial",
+          "snippet": "getMineableMaterial()${20}"
+        },
+        {
+          "text": "isCollectable",
+          "snippet": "isCollectable(${1:entity})${20}"
+        },
+        {
+          "text": "registerCallback",
+          "snippet": "registerCallback(${1:callbackName}, ${2:functionName})${20}"
+        },
+        {
+          "text": "unregisterCallback",
+          "snippet": "unregisterCallback(${1:callbackName}, ${2:functionName})${20}"
+        },
+        {
+          "text": "getTurretPositions",
+          "snippet": "getTurretPositions(${1:turret}, ${2:number})${20}"
+        },
+        {
+          "text": "addTurret",
+          "snippet": "addTurret(${1:turret}, ${2:position}, ${3:part})${20}"
+        },
+        {
+          "text": "getTurret",
+          "snippet": "getTurret(${1:index})${20}"
+        },
+        {
+          "text": "getTurrets",
+          "snippet": "getTurrets()${20}"
+        },
+        {
+          "text": "getNumArmedTurrets",
+          "snippet": "getNumArmedTurrets()${20}"
+        },
+        {
+          "text": "getNumUnarmedTurrets",
+          "snippet": "getNumUnarmedTurrets()${20}"
+        },
+        {
+          "text": "isTurretAllowed",
+          "snippet": "isTurretAllowed(${1:turret})${20}"
+        },
+        {
+          "text": "getFreeArbitraryTurrets",
+          "snippet": "getFreeArbitraryTurrets()${20}"
+        },
+        {
+          "text": "getFreeArmedTurrets",
+          "snippet": "getFreeArmedTurrets()${20}"
+        },
+        {
+          "text": "getFreeUnarmedTurrets",
+          "snippet": "getFreeUnarmedTurrets()${20}"
+        },
+        {
+          "text": "getAllowedArbitraryTurrets",
+          "snippet": "getAllowedArbitraryTurrets()${20}"
+        },
+        {
+          "text": "getAllowedUnarmedTurrets",
+          "snippet": "getAllowedUnarmedTurrets()${20}"
+        },
+        {
+          "text": "getAllowedArmedTurrets",
+          "snippet": "getAllowedArmedTurrets()${20}"
+        },
+        {
+          "text": "getAttachedBlockIndex",
+          "snippet": "getAttachedBlockIndex()${20}"
+        },
+        {
+          "text": "getTurretSize",
+          "snippet": "getTurretSize()${20}"
+        },
+        {
+          "text": "getTurretTurningSpeed",
+          "snippet": "getTurretTurningSpeed()${20}"
+        },
+        {
+          "text": "isManned",
+          "snippet": "isManned()${20}"
+        },
+        {
+          "text": "setTurretSize",
+          "snippet": "setTurretSize(${1:float})${20}"
+        },
+        {
+          "text": "setTurretTurningSpeed",
+          "snippet": "setTurretTurningSpeed(${1:floar})${20}"
+        },
+        {
+          "text": "setAttachedBlockIndex",
+          "snippet": "setAttachedBlockIndex(${1:int})${20}"
+        },
+        {
+          "text": "setManned",
+          "snippet": "setManned(${1:bool})${20}"
+        },
+        {
+          "text": "canAddCrew",
+          "snippet": "canAddCrew(${1:number}, ${2:proffession}, ${3:change})${20}"
+        },
+        {
+          "text": "changeCrew",
+          "snippet": "changeCrew(${1:number}, ${2:profession})${20}"
+        },
+        {
+          "text": "addCrew",
+          "snippet": "addCrew(${1:number}, ${2:crewman})${20}"
+        },
+        {
+          "text": "removeCrew",
+          "snippet": "removeCrew(${1:number}, ${2:crewman})${20}"
+        },
+        {
+          "text": "getCrewMembers",
+          "snippet": "getCrewMembers(${1:profession})${20}"
+        },
+        {
+          "text": "addCargo",
+          "snippet": "addCargo(${1:good}, ${2:amount})${20}"
+        },
+        {
+          "text": "removeCargo",
+          "snippet": "removeCargo(${1:good}, ${2:amount})${20}"
+        },
+        {
+          "text": "destroyCargo",
+          "snippet": "destroyCargo(${1:volume})${20}"
+        },
+        {
+          "text": "getCargo",
+          "snippet": "getCargo(${1:int})${20}"
+        },
+        {
+          "text": "getCargos",
+          "snippet": "getCargos()${20}"
+        },
+        {
+          "text": "findCargos",
+          "snippet": "findCargos(${1:name})${20}"
+        },
+        {
+          "text": "getCargoAmount",
+          "snippet": "getCargoAmount(${1:name})${20}"
+        },
+        {
+          "text": "resolveScriptPath",
+          "snippet": "resolveScriptPath(${1:path})${20}"
+        },
+        {
+          "text": "invokeFunction",
+          "snippet": "invokeFunction(${1:scriptName}, ${2:functionName}, ${3:arguments})${20}"
+        },
+        {
+          "text": "addScript",
+          "snippet": "addScript(${1:scriptName}, ${2:arguments})${20}"
+        },
+        {
+          "text": "addScriptOnce",
+          "snippet": "addScriptOnce(${1:scriptName}, ${2:arguments})${20}"
+        },
+        {
+          "text": "removeScript",
+          "snippet": "removeScript(${1:script})${20}"
+        },
+        {
+          "text": "hasScript",
+          "snippet": "hasScript(${1:name})${20}"
+        },
+        {
+          "text": "getScripts",
+          "snippet": "getScripts()${20}"
+        },
+        {
+          "text": "getRandomDockingPosition",
+          "snippet": "getRandomDockingPosition(${1:radius})${20}"
+        },
+        {
+          "text": "isDocked",
+          "snippet": "isDocked(${1:other})${20}"
+        },
+        {
+          "text": "getDockingPositions",
+          "snippet": "getDockingPositions()${20}"
+        },
+        {
+          "text": "getDamageContributors",
+          "snippet": "getDamageContributors()${20}"
+        },
+        {
+          "text": "getDamageContributorPlayers",
+          "snippet": "getDamageContributorPlayers()${20}"
+        },
+        {
+          "text": "hyperspaceBlocked",
+          "snippet": "hyperspaceBlocked()${20}"
+        },
+        {
+          "text": "blockHyperspace",
+          "snippet": "blockHyperspace(${1:time})${20}"
+        },
+        {
+          "text": "getValue",
+          "snippet": "getValue(${1:key})${20}"
+        },
+        {
+          "text": "getValues",
+          "snippet": "getValues()${20}"
+        },
+        {
+          "text": "setValue",
+          "snippet": "setValue(${1:key}, ${2:value})${20}"
+        },
+        {
+          "text": "setTitle",
+          "snippet": "setTitle(${1:string}, ${2:stringPair})${20}"
+        },
+        {
+          "text": "setTitleArguments",
+          "snippet": "setTitleArguments(${1:stringPair})${20}"
+        },
+        {
+          "text": "getTitleArguments",
+          "snippet": "getTitleArguments()${20}"
+        },
+        {
+          "text": "getPilotIndices",
+          "snippet": "getPilotIndices()${20}"
+        },
+        {
+          "text": "getAimedPositions",
+          "snippet": "getAimedPositions()${20}"
+        },
+        {
+          "text": "getAimedPositionBySeat",
+          "snippet": "getAimedPositionBySeat(${1:seat})${20}"
+        },
+        {
+          "text": "setAimedPosition",
+          "snippet": "setAimedPosition(${1:seat}, ${2:vec3})${20}"
+        }
+      ],
+      "properties": [
+        {
+          "text": "index",
+          "type": "property"
+        },
+        {
+          "text": "id",
+          "type": "property"
+        },
+        {
+          "text": "type",
+          "type": "property"
+        },
+        {
+          "text": "typename",
+          "type": "property"
+        },
+        {
+          "text": "isTurning",
+          "type": "property"
+        },
+        {
+          "text": "desiredVelocity",
+          "type": "property"
+        },
+        {
+          "text": "controlActions",
+          "type": "property"
+        },
+        {
+          "text": "selectedObject",
+          "type": "property"
+        },
+        {
+          "text": "hasPilot",
+          "type": "property"
+        },
+        {
+          "text": "name",
+          "type": "property"
+        },
+        {
+          "text": "damageMultiplier",
+          "type": "property"
+        },
+        {
+          "text": "title",
+          "type": "property"
+        },
+        {
+          "text": "translatedTitle",
+          "type": "property"
+        },
+        {
+          "text": "factionIndex",
+          "type": "property"
+        },
+        {
+          "text": "hyperspaceCooldown",
+          "type": "property"
+        },
+        {
+          "text": "position",
+          "type": "property"
+        },
+        {
+          "text": "orientation",
+          "type": "property"
+        },
+        {
+          "text": "translation",
+          "type": "property"
+        },
+        {
+          "text": "translationf",
+          "type": "property"
+        },
+        {
+          "text": "look",
+          "type": "property"
+        },
+        {
+          "text": "right",
+          "type": "property"
+        },
+        {
+          "text": "up",
+          "type": "property"
+        },
+        {
+          "text": "size",
+          "type": "property"
+        },
+        {
+          "text": "volume",
+          "type": "property"
+        },
+        {
+          "text": "mass",
+          "type": "property"
+        },
+        {
+          "text": "durability",
+          "type": "property"
+        },
+        {
+          "text": "invincible",
+          "type": "property"
+        },
+        {
+          "text": "maxDurability",
+          "type": "property"
+        },
+        {
+          "text": "numTurrets",
+          "type": "property"
+        },
+        {
+          "text": "isUnarmedTurret",
+          "type": "property"
+        },
+        {
+          "text": "isArmedTurret",
+          "type": "property"
+        },
+        {
+          "text": "firePower",
+          "type": "property"
+        },
+        {
+          "text": "maxCrewSize",
+          "type": "property"
+        },
+        {
+          "text": "crewSize",
+          "type": "property"
+        },
+        {
+          "text": "crew",
+          "type": "property"
+        },
+        {
+          "text": "minCrew",
+          "type": "property"
+        },
+        {
+          "text": "numCargos",
+          "type": "property"
+        },
+        {
+          "text": "occupiedCargoSpace",
+          "type": "property"
+        },
+        {
+          "text": "freeCargoSpace",
+          "type": "property"
+        },
+        {
+          "text": "maxCargoSpace",
+          "type": "property"
+        },
+        {
+          "text": "isShieldActive",
+          "type": "property"
+        },
+        {
+          "text": "shieldDurability",
+          "type": "property"
+        },
+        {
+          "text": "shieldMaxDurability",
+          "type": "property"
+        },
+        {
+          "text": "reservedPlayer",
+          "type": "property"
+        },
+        {
+          "text": "excludedPlayer",
+          "type": "property"
+        },
+        {
+          "text": "reservationTime",
+          "type": "property"
+        },
+        {
+          "text": "exclusionTime",
+          "type": "property"
+        },
+        {
+          "text": "timeAlive",
+          "type": "property"
+        },
+        {
+          "text": "isStation",
+          "type": "property"
+        },
+        {
+          "text": "isDrone",
+          "type": "property"
+        },
+        {
+          "text": "isShip",
+          "type": "property"
+        },
+        {
+          "text": "isTurret",
+          "type": "property"
+        },
+        {
+          "text": "isAsteroid",
+          "type": "property"
+        },
+        {
+          "text": "isWreckage",
+          "type": "property"
+        },
+        {
+          "text": "isAnomaly",
+          "type": "property"
+        },
+        {
+          "text": "isUnknown",
+          "type": "property"
+        },
+        {
+          "text": "isOther",
+          "type": "property"
+        },
+        {
+          "text": "isLoot",
+          "type": "property"
+        },
+        {
+          "text": "isWormHole",
+          "type": "property"
+        },
+        {
+          "text": "isWormHole",
+          "type": "property"
+        },
+        {
+          "text": "isFighter",
+          "type": "property"
+        },
+        {
+          "text": "isFlyable",
           "type": "property"
         }
       ]

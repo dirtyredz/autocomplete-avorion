@@ -1,19 +1,27 @@
-# atom-autocomplete-avorion
+# autocomplete-avorion
 
-1. Clone the repo.
+lua autocomplete for the Avorion Scripting API
 
-2. Make sure you have apm installed.
+![](https://imgur.com/VidxtoO.gif)
 
-On Mac, you might need to start Atom and go to Atom > Install Shell Commands.
-On Windows, it’s probably already there.
+## Features
+* Autocomplete on all objects, and thier members/properties
+* Autocomplete on all enums
+* Autocomplete on all callbacks
+* Snippets for commenly used Avorion functions. ie: initialize
+* Descriptions, Server/Client usage (Copied from documentation, will expand on my own experience later)
 
-3. Open your terminal, navigate into the repo directory, then run
+## Requirments
+* language-lua (or another language package to detect/identify .lua files)
 
-    apm link.
+## Contributing
+Any help expanding/maintaining the scripting api in the json files, is much appreciated.
 
-4. Back in Atom, you should now see atom-autocomplete-boilerplate installed.
+## Roadmap
+* More descriptions
+* Return values
+* Link to local documentation
+* Extend to vscode
 
-On Mac, you’ll find it under Atom > Preferences… > Packages > Community Packages.
-On Windows, you’ll find it under File > Settings > Packages > Community Packages.
-
-5. Restart atom or refresh it (ctrl-shift-f5)
+## Installation
+* ATOM - go to settings->install and search autocomplete-avorion

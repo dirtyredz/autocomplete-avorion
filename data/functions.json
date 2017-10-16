@@ -1,451 +1,486 @@
 [
   {
     "text": "onServer",
-    "snippet": "onServer()",
+    "snippet": "onServer()${1}",
     "description": "A function to find out in a script, whether it's currently executed on the server."
   },
   {
     "text": "onClient",
-    "snippet": "onClient()",
+    "snippet": "onClient()${1}",
     "description": "A function to find out in a script, whether it's currently executed on the client."
   },
   {
     "text": "invokeClientFunction",
-    "snippet": "invokeClientFunction(${1:playerIndex}, ${2:functionName}, ${3:arguments})",
+    "snippet": "invokeClientFunction(${1:playerIndex}, ${2:functionName}, ${3:arguments})${20}",
     "svc": "Server"
   },
   {
     "text": "broadcastInvokeClientFunction",
-    "snippet": "broadcastInvokeClientFunction(${1:functionName}, ${2:arguments})",
+    "snippet": "broadcastInvokeClientFunction(${1:functionName}, ${2:arguments})${20}",
     "svc": "Server"
   },
   {
     "text": "async",
-    "snippet": "async(${1:callbackFunction}, ${2:code}, ${3:arguments})",
+    "snippet": "async(${1:callbackFunction}, ${2:code}, ${3:arguments})${20}",
     "description": "Starts an async call that will be executed in a separate thread. Once finished, the given callback function will be called with the values returned by the run() function, which is required to be in the code to run. During the running of this function, only players and factions can be accessed, other objects like sector and entities can't be accessed."
   },
   {
     "text": "getWorkshopShips",
-    "snippet": "getWorkshopShips()",
+    "snippet": "getWorkshopShips()${1}",
     "svc": "Client"
   },
   {
     "text": "playSound",
-    "snippet": "playSound(${1:soundName}, ${1:type}, ${2:volume})",
+    "snippet": "playSound(${1:soundName}, ${1:type}, ${2:volume})${20}",
     "svc": "Client"
   },
   {
     "text": "play3DSound",
-    "snippet": "play3DSound(${1:soundName}, ${2:type}, ${3:position}, ${4:radius}, ${5:volume}, ${6:[entity]})",
+    "snippet": "play3DSound(${1:soundName}, ${2:type}, ${3:position}, ${4:radius}, ${5:volume}, ${6:[entity]})${20}",
     "svc": "Client"
   },
   {
     "text": "displayMissionAccomplishedText",
-    "snippet": "displayMissionAccomplishedText(${1:bigText}, ${2:smallText})",
+    "snippet": "displayMissionAccomplishedText(${1:bigText}, ${2:smallText})${20}",
     "svc": "Client"
   },
   {
     "text": "registerBoss",
-    "snippet": "registerBoss(${1:index}, ${2:healthColor}, ${3:shielColor})",
+    "snippet": "registerBoss(${1:index}, ${2:healthColor}, ${3:shielColor})${20}",
     "svc": "Client"
   },
   {
     "text": "unregisterBoss",
-    "snippet": "unregisterBoss(${1:index})",
+    "snippet": "unregisterBoss(${1:index})${20}",
     "svc": "Client"
   },
   {
     "text": "setBossHealth",
-    "snippet": "setBossHealth(${1:index}, ${2:health}, ${3:maxHealth}, ${4:shield}, ${1:maxShield})",
+    "snippet": "setBossHealth(${1:index}, ${2:health}, ${3:maxHealth}, ${4:shield}, ${1:maxShield})${20}",
     "svc": "Client"
   },
   {
     "text": "setBossHealthColor",
-    "snippet": "setBossHealthColor(${1:index}, ${2:health}, ${3:shield})",
+    "snippet": "setBossHealthColor(${1:index}, ${2:health}, ${3:shield})${20}",
     "svc": "Client"
   },
   {
     "text": "displayChatMessage",
-    "snippet": "displayChatMessage(${1:message}, ${2:sender}, ${3:type})",
+    "snippet": "displayChatMessage(${1:message}, ${2:sender}, ${3:type})${20}",
     "svc": "Client",
     "description": "This function displays a chat message on the Chat window of the client."
   },
   {
     "text": "invokeServerFunction",
-    "snippet": "invokeServerFunction(${1:functionName}, ${2:arguments})",
+    "snippet": "invokeServerFunction(${1:functionName}, ${2:arguments})${20}",
     "svc": "Client",
     "description": "Invokes a function on the remote server, in the server instance of the caller script. Example usage would be a server Resource Trader calling the getData() function of its server instance. Return values of the remotely executed functions are not retrieved. On the server side, a variable called callingPlayer will be created or set before executing the called function. callingPlayer contains the index of the calling player. Use this variable to verify that the calling player is actually the player you'd expect. After the call finishes on the server, callingPlayer is set to nil."
   },
   {
     "text": "copy",
-    "snippet": "copy(${1:value})",
+    "snippet": "copy(${1:value})${20}",
     "description": "Copies the given Object"
   },
   {
     "text": "valid",
-    "snippet": "valid(${1:value})",
+    "snippet": "valid(${1:value})${20}",
     "description": "Checks if the given object is valid. Some objects can become invalid, for example when an entity is deleted the instances of the Entity in the scripts will become invalid."
   },
   {
     "text": "terminate",
-    "snippet": "terminate()",
+    "snippet": "terminate()${1}",
     "description": "Terminates the script. This function returns normally and the current function will run until finished, but no more following calls will be made to the script. The script will be removed from the entity on the next occasion."
   },
   {
     "text": "getReadableValue",
-    "snippet": "getReadableValue(${1:number})",
+    "snippet": "getReadableValue(${1:number})${20}",
     "description": "Rounds a large number and adds a suffix such as k or M. For example, 10.000 will become 10k."
   },
   {
     "text": "deferredCallback",
-    "snippet": "deferredCallback(${1:time}, ${2:function}, ${3:args})",
+    "snippet": "deferredCallback(${1:time}, ${2:function}, ${3:args})${20}",
     "description": "Registers a deferred callback in the script. The given function will be executed after the given time. Depending on the tick rate of the simulation, the callback might get called slightly later than the given time. The callback will never happen before the given time hasn't passed."
   },
   {
     "text": "systemTimeMs",
-    "snippet": "systemTimeMs()",
+    "snippet": "systemTimeMs()${1}",
     "description": "The system time in milliseconds"
   },
   {
     "text": "systemTime",
-    "snippet": "systemTime()",
+    "snippet": "systemTime()${1}",
     "description": "Returns the system time in seconds. Since lua doesn't support clocks that are accurate down to milliseconds."
   },
   {
     "text": "appTimeMs",
-    "snippet": "appTimeMs()",
+    "snippet": "appTimeMs()${1}",
     "description": "Returns the system time in seconds. Since lua doesn't support clocks that are accurate down to milliseconds."
   },
   {
     "text": "appTime",
-    "snippet": "appTime()",
+    "snippet": "appTime()${1}",
     "description": "Returns the system time in seconds. Since lua doesn't support clocks that are accurate down to milliseconds."
   },
   {
     "text": "getGlobal",
-    "snippet": "getGlobal(${1:name})",
+    "snippet": "getGlobal(${1:name})${20}",
     "description": "Retrieves a global variable. These variables are shared over the entire process."
   },
   {
     "text": "setGlobal",
-    "snippet": "setGlobal(${1:name}, ${2:value})",
+    "snippet": "setGlobal(${1:name}, ${2:value})${20}",
     "description": "Sets a global variable. These variables are shared over the entire process."
   },
   {
     "text": "print",
-    "snippet": "print(${1:args})",
+    "snippet": "print(${1:args})${20}",
     "description": "Prints to the console. In the ingame console, server output will be printed in cyan, client output will be printed in white."
   },
   {
     "text": "printlog",
-    "snippet": "printlog(${1:args})",
+    "snippet": "printlog(${1:args})${20}",
     "description": "Similar to print, but prints to the log file."
   },
   {
     "text": "writeTrace",
-    "snippet": "writeTrace(${1:args})",
+    "snippet": "writeTrace(${1:args})${20}",
     "description": "Similar to print, but prints to the user trace stream. This trace stream can be enabled by passing -t user to the command line arguments of client or server."
   },
   {
     "text": "createMonetaryString",
-    "snippet": "createMonetaryString(${1:number})",
+    "snippet": "createMonetaryString(${1:number})${20}",
     "description": "Inserts dots into a large number to create an easily human readable money string. Example: 10000000 will become 10.000.000"
   },
   {
     "text": "getParentFaction",
-    "snippet": "getParentFaction()"
+    "snippet": "getParentFaction()${1}"
   },
   {
     "text": "getPlayerCraft",
-    "snippet": "getPlayerCraft()",
+    "snippet": "getPlayerCraft()${1}",
     "svc": "Client"
   },
   {
     "text": "drawText",
-    "snippet": "drawText(${1:text}, ${2:px}, ${3:py}, ${4:color}, ${5:size}, ${6:bold}, ${7:italic}, ${8:style})",
+    "snippet": "drawText(${1:text}, ${2:px}, ${3:py}, ${4:color}, ${5:size}, ${6:bold}, ${7:italic}, ${8:style})${20}",
     "svc": "Client",
     "description": "Draw text. This function should only be called in valid rendering steps. This function is expensive, don't overuse it."
   },
   {
     "text": "drawTextRect",
-    "snippet": "drawTextRect(${1:text}, ${2:rect}, ${3:horizontalAlignment}, ${4:verticalAlignment}, ${5:color}, ${6:size}, ${7:int bold}, ${8:italic}, ${9:style})",
+    "snippet": "drawTextRect(${1:text}, ${2:rect}, ${3:horizontalAlignment}, ${4:verticalAlignment}, ${5:color}, ${6:size}, ${7:int bold}, ${8:italic}, ${9:style})${20}",
     "svc": "Client",
     "description": "Draw text inside a rect. This function should only be called in valid rendering steps. This function is expensive, don't overuse it."
   },
   {
     "text": "drawRect",
-    "snippet": "drawRect(${1:rect}, ${2:color})",
+    "snippet": "drawRect(${1:rect}, ${2:color})${20}",
     "svc": "Client",
     "description": "Draw a rect. This function should only be called in valid rendering steps. This function is expensive, don't overuse it."
   },
   {
     "text": "drawBorder",
-    "snippet": "drawBorder(${1:rect}, ${2:color})",
+    "snippet": "drawBorder(${1:rect}, ${2:color})${20}",
     "svc": "Client",
     "description": "Draw a border. This function should only be called in valid rendering steps. This function is expensive, don't overuse it."
   },
   {
     "text": "drawTurretTooltip",
-    "snippet": "drawTurretTooltip(${1:turret})",
+    "snippet": "drawTurretTooltip(${1:turret})${20}",
     "svc": "Client"
   },
   {
     "text": "drawFighterTooltip",
-    "snippet": "drawFighterTooltip(${1:fighter})",
+    "snippet": "drawFighterTooltip(${1:fighter})${20}",
     "svc": "Client"
   },
   {
     "text": "drawDebugSphere",
-    "snippet": "drawDebugSphere(${1:sphere}, ${2:color})",
+    "snippet": "drawDebugSphere(${1:sphere}, ${2:color})${20}",
     "svc": "Client"
   },
   {
     "text": "drawDebugBox",
-    "snippet": "drawDebugBox(${1:box}, ${2:matrix}, ${3:color})",
+    "snippet": "drawDebugBox(${1:box}, ${2:matrix}, ${3:color})${20}",
     "svc": "Client"
   },
   {
     "text": "drawDebugLine",
-    "snippet": "drawDebugLine(${1:vec3}, ${2:vec3}, ${3:color})",
+    "snippet": "drawDebugLine(${1:vec3}, ${2:vec3}, ${3:color})${20}",
     "svc": "Client"
   },
   {
     "text": "projectPoint",
-    "snippet": "projectPoint(${1:vec3})",
+    "snippet": "projectPoint(${1:vec3})${20}",
     "svc": "Client"
   },
   {
     "text": "getResolution",
-    "snippet": "getResolution()",
+    "snippet": "getResolution()${1}",
     "svc": "Client"
   },
   {
     "text": "GetLocalizedString",
-    "snippet": "GetLocalizedString(${1:string})"
+    "snippet": "GetLocalizedString(${1:string})${20}"
   },
   {
     "text": "ColorHSV",
-    "snippet": "ColorHSV(${1:float}, ${2:float}, ${3:float})"
+    "snippet": "ColorHSV(${1:float}, ${2:float}, ${3:float})${20}"
   },
   {
     "text": "ColorARGB",
-    "snippet": "ColorARGB(${1:float}, ${2:float}, ${3:float}, ${4:float})"
+    "snippet": "ColorARGB(${1:float}, ${2:float}, ${3:float}, ${4:float})${20}"
   },
   {
     "text": "ColorRGB",
-    "snippet": "ColorRGB(${1:float}, ${2:float}, ${3:float})"
+    "snippet": "ColorRGB(${1:float}, ${2:float}, ${3:float})${20}"
   },
   {
     "text": "ColorInt",
-    "snippet": "ColorInt(${1:int})"
+    "snippet": "ColorInt(${1:int})${20}"
   },
   {
     "text": "dot",
-    "snippet": "dot(${1:a}, ${2:b})",
+    "snippet": "dot(${1:a}, ${2:b})${20}",
     "description": "Calculates the dot product between 2 vectors. The vectors must have the same type."
   },
   {
     "text": "cross",
-    "snippet": "cross(${1:a}, ${2:b})",
+    "snippet": "cross(${1:a}, ${2:b})${20}",
     "description": "Calculates the dot product between two vec3s. The vectors must have the same underlying type (double or float)."
   },
   {
     "text": "normalize",
-    "snippet": "normalize(${1:vec})",
+    "snippet": "normalize(${1:vec})${20}",
     "description": "Normalizes a given vector. This function creates a new normalized vector, the given vector is not changed."
   },
   {
     "text": "normalize_ip",
-    "snippet": "normalize_ip(${1:vec})",
+    "snippet": "normalize_ip(${1:vec})${20}",
     "description": "Normalizes a given vector. This function normalizes the vector in place."
   },
   {
     "text": "length",
-    "snippet": "length(${1:vec})",
+    "snippet": "length(${1:vec})${20}",
     "description": "Calculates the length of a vector"
   },
   {
     "text": "length2",
-    "snippet": "length2(${1:vec})",
+    "snippet": "length2(${1:vec})${20}",
     "description": "Calculates the squared length of a vector"
   },
   {
     "text": "distance",
-    "snippet": "distance(${1:a}, ${1:b})",
+    "snippet": "distance(${1:a}, ${1:b})${20}",
     "description": "Calculates the linear distance between two vectors. The vectors must have the same type."
   },
   {
     "text": "distance2",
-    "snippet": "distance2(${1:a}, ${1:b})",
+    "snippet": "distance2(${1:a}, ${1:b})${20}",
     "description": "Calculates the squared linear distance between two vectors. The vectors must have the same type."
   },
   {
     "text": "MatrixLookUp",
-    "snippet": "MatrixLookUp(${1:look}, ${2:up})"
+    "snippet": "MatrixLookUp(${1:look}, ${2:up})${20}"
   },
   {
     "text": "MatrixLookUpRight",
-    "snippet": "MatrixLookUpRight(${1:look}, ${2:up}, ${3:right})"
+    "snippet": "MatrixLookUpRight(${1:look}, ${2:up}, ${3:right})${20}"
   },
   {
     "text": "MatrixLookUpPosition",
-    "snippet": "MatrixLookUpPosition(${1:look}, ${2:up}, ${3:pos})"
+    "snippet": "MatrixLookUpPosition(${1:look}, ${2:up}, ${3:pos})${20}"
   },
   {
     "text": "translate",
-    "snippet": "translate(${1:matrix}, ${2:pos})"
+    "snippet": "translate(${1:matrix}, ${2:pos})${20}"
   },
   {
     "text": "scale",
-    "snippet": "scale(${1:matrix}, ${2:size})"
+    "snippet": "scale(${1:matrix}, ${2:size})${20}"
   },
   {
     "text": "rotate",
-    "snippet": "rotate(${1:matrix}, ${2:angle}, ${3:acis})"
+    "snippet": "rotate(${1:matrix}, ${2:angle}, ${3:acis})${20}"
   },
   {
     "text": "lookAt",
-    "snippet": "lookAt(${1:eye}, ${2:at}, ${3:up})"
+    "snippet": "lookAt(${1:eye}, ${2:at}, ${3:up})${20}"
   },
   {
     "text": "perspective",
-    "snippet": "perspective(${1:fov}, ${2:aspect}, ${3:nearClip}, ${4:farClip})"
+    "snippet": "perspective(${1:fov}, ${2:aspect}, ${3:nearClip}, ${4:farClip})${20}"
   },
   {
     "text": "SeedStr",
-    "snippet": "SeedStr(${1:string})"
+    "snippet": "SeedStr(${1:string})${20}"
   },
   {
     "text": "makeFastHash",
-    "snippet": "makeFastHash(${1:x}, ${2:y}, ${3:seed})"
+    "snippet": "makeFastHash(${1:x}, ${2:y}, ${3:seed})${20}"
   },
   {
     "text": "makeHash",
-    "snippet": "makeHash(${1:values...})"
+    "snippet": "makeHash(${1:values...})${20}"
   },
   {
     "text": "makeHash64",
-    "snippet": "makeHash64(${1:values...})"
+    "snippet": "makeHash64(${1:values...})${20}"
   },
   {
     "text": "GenerateFighterTemplate",
-    "snippet": "GenerateFighterTemplate(${1:seed}, ${2:weaponType}, ${3:dps}, ${4:tech}, ${5:rarity}, ${6:material})"
+    "snippet": "GenerateFighterTemplate(${1:seed}, ${2:weaponType}, ${3:dps}, ${4:tech}, ${5:rarity}, ${6:material})${20}"
   },
   {
     "text": "GenerateStationStyle",
-    "snippet": "GenerateStationStyle(${1:seed}, ${2:noDisks}, ${3:noSpikes}, ${4:rings}, ${5:shape}, ${6:color1}, ${7:color2}, ${8:color3})"
+    "snippet": "GenerateStationStyle(${1:seed}, ${2:noDisks}, ${3:noSpikes}, ${4:rings}, ${5:shape}, ${6:color1}, ${7:color2}, ${8:color3})${20}"
   },
   {
     "text": "GenerateShipStyle",
-    "snippet": "GenerateShipStyle(${1:seed}, ${2:noSpikes}, ${3:rings}, ${4:shape}, ${5color1}, ${6:color2}, ${7:color3})"
+    "snippet": "GenerateShipStyle(${1:seed}, ${2:noSpikes}, ${3:rings}, ${4:shape}, ${5color1}, ${6:color2}, ${7:color3})${20}"
   },
   {
     "text": "GeneratePlanFromStyle",
-    "snippet": "GeneratePlanFromStyle(${1:style}, ${2:seed}, ${3:volume}, ${4:maxBlocks}, ${5:scaleToFit}, ${6:material})"
+    "snippet": "GeneratePlanFromStyle(${1:style}, ${2:seed}, ${3:volume}, ${4:maxBlocks}, ${5:scaleToFit}, ${6:material})${20}"
   },
   {
     "text": "GeneratePlanFromFile",
-    "snippet": "GeneratePlanFromFile(${1:file}, ${2:seed}, ${3:volume}, ${4:maxBlocks}, ${5:scaleToFit}, ${6:material})"
+    "snippet": "GeneratePlanFromFile(${1:file}, ${2:seed}, ${3:volume}, ${4:maxBlocks}, ${5:scaleToFit}, ${6:material})${20}"
   },
   {
     "text": "LoadPlanFromFile",
-    "snippet": "LoadPlanFromFile(${1:file})"
+    "snippet": "LoadPlanFromFile(${1:file})${20}"
   },
   {
     "text": "CorrectInefficiencies",
-    "snippet": "CorrectInefficiencies(${1:plan}, ${2:addEngines})"
+    "snippet": "CorrectInefficiencies(${1:plan}, ${2:addEngines})${20}"
   },
   {
     "text": "StationDescriptor",
-    "snippet": "StationDescriptor()"
+    "snippet": "StationDescriptor()${1}"
   },
   {
     "text": "ShipDescriptor",
-    "snippet": "ShipDescriptor()"
+    "snippet": "ShipDescriptor()${1}"
   },
   {
     "text": "DroneDescriptor",
-    "snippet": "DroneDescriptor()"
+    "snippet": "DroneDescriptor()${1}"
   },
   {
     "text": "AsteroidDescriptor",
-    "snippet": "AsteroidDescriptor()"
+    "snippet": "AsteroidDescriptor()${1}"
   },
   {
     "text": "FighterDescriptor",
-    "snippet": "FighterDescriptor()"
+    "snippet": "FighterDescriptor()${1}"
   },
   {
     "text": "WreckageDescriptor",
-    "snippet": "WreckageDescriptor()"
+    "snippet": "WreckageDescriptor()${1}"
   },
   {
     "text": "TurretDescriptor",
-    "snippet": "TurretDescriptor()"
+    "snippet": "TurretDescriptor()${1}"
   },
   {
     "text": "WormholeDescriptor",
-    "snippet": "WormholeDescriptor()"
+    "snippet": "WormholeDescriptor()${1}"
   },
   {
     "text": "CargoLootDescriptor",
-    "snippet": "CargoLootDescriptor()"
+    "snippet": "CargoLootDescriptor()${1}"
   },
   {
     "text": "CrewLootDescriptor",
-    "snippet": "CrewLootDescriptor()"
+    "snippet": "CrewLootDescriptor()${1}"
   },
   {
     "text": "ColorLootDescriptor",
-    "snippet": "ColorLootDescriptor()"
+    "snippet": "ColorLootDescriptor()${1}"
   },
   {
     "text": "TurretLootDescriptor",
-    "snippet": "TurretLootDescriptor()"
+    "snippet": "TurretLootDescriptor()${1}"
   },
   {
     "text": "MoneyLootDescriptor",
-    "snippet": "MoneyLootDescriptor()"
+    "snippet": "MoneyLootDescriptor()${1}"
   },
   {
     "text": "ResourceLootDescriptor",
-    "snippet": "ResourceLootDescriptor()"
+    "snippet": "ResourceLootDescriptor()${1}"
   },
   {
     "text": "SystemUpgradeLootDescriptor",
-    "snippet": "SystemUpgradeLootDescriptor()"
+    "snippet": "SystemUpgradeLootDescriptor()${1}"
   },
   {
     "text": "CreateTemplateFromTurret",
-    "snippet": "CreateTemplateFromTurret(${1:turret})"
+    "snippet": "CreateTemplateFromTurret(${1:turret})${20}"
   },
   {
     "text": "GenerateTurretTemplate",
-    "snippet": "GenerateTurretTemplate(${1:seed}, ${2:weaponType}, ${3:dps}, ${4:tech}, ${5:rarity}, ${6:material})",
+    "snippet": "GenerateTurretTemplate(${1:seed}, ${2:weaponType}, ${3:dps}, ${4:tech}, ${5:rarity}, ${6:material})${20}",
     "description": "Generates a turret with assigned values into the target slot. All other values will be chosen randomly, but matching to the given arguments."
   },
   {
     "text": "ColorPalette",
-    "snippet": "ColorPalette()"
+    "snippet": "ColorPalette()${1}"
   },
   {
     "text": "getSectorSeed",
-    "snippet": "getSectorSeed(${1:x}, ${2:y})"
+    "snippet": "getSectorSeed(${1:x}, ${2:y})${20}"
   },
   {
     "text": "getGameSeed",
-    "snippet": "getGameSeed()"
+    "snippet": "getGameSeed()${1}"
   },
   {
     "text": "getParentEntity",
-    "snippet": "getParentEntity()"
+    "snippet": "getParentEntity()${1}"
   },
   {
     "text": "NumMaterials",
-    "snippet": "NumMaterials()"
+    "snippet": "NumMaterials()${1}"
   },
   {
     "text": "IsValidMaterial",
-    "snippet": "IsValidMaterial(${1:int})"
+    "snippet": "IsValidMaterial(${1:int})${20}"
+  },
+  {
+    "text": "secure",
+    "snippet": "function ${1}secure()\n  local DataToReturn = {\n    ${2:dummyValue} = ${2:dummyValue}\n    ${3}\n  }\n  return DataToReturn\nend",
+    "description": "This function will be called when the player/entity is saved into the database"
+  },
+  {
+    "text": "restore",
+    "snippet": "function ${1}restore(data)\n  ${2:dummyValue} = data.${2:dummyValue}\n  ${3}\nend",
+    "description": "if previously there was a table returned by secure(), this function will be called when the player is restored from the database and the table returned by secure() will be given as parameter here."
+  },
+  {
+    "text": "initialize",
+    "snippet": "function ${1}initialize()\n  ${2}\nend",
+    "description": "this function gets called when the script is attached to the player/entity"
+  },
+  {
+    "text": "getUpdateInterval",
+    "snippet": "function ${1}getUpdateInterval()\n  return ${2:5}\nend",
+    "description": "will control how often update/updateClient/updateServer are called"
+  },
+  {
+    "text": "update",
+    "snippet": "function ${1}update(timestep)\n  ${2}\nend",
+    "description": "when getUpdateInterval() returns false then update() is called every frame"
+  },
+  {
+    "text": "updateServer",
+    "snippet": "function ${1}updateServer(timestep)\n  ${2}\nend",
+    "description": "when getUpdateInterval() returns false then updateServer() is called every frame"
+  },
+  {
+    "text": "updateClient",
+    "snippet": "function ${1}updateClient(timestep)\n  ${2}\nend",
+    "description": "when getUpdateInterval() returns false then updateClient() is called every frame"
   }
 ]

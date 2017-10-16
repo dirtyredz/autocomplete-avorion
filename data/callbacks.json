@@ -1,0 +1,443 @@
+[
+  {
+    "text": "onPreRenderHud",
+    "snippet": "onPreRenderHud()${1}",
+    "description": "Executed every frame during rendering before rendering the HUD. All render calls that are not supposed to overlay the HUD should be done here",
+    "type": "callback",
+    "svc": "ClientSector"
+  },
+  {
+    "text": "onPostRenderHud",
+    "snippet": "onPostRenderHud()${1}",
+    "description": "Executed every frame during rendering after rendering the HUD. All render calls that should overlay the HUD should be done here",
+    "type": "callback",
+    "svc": "ClientSector"
+  },
+  {
+    "text": "onCollision",
+    "snippet": "onCollision(objectIndexA, objectIndexB)${1}",
+    "description": "Executed whenever two block objects collided in the sector",
+    "type": "callback",
+    "svc": "Entity/Sector"
+  },
+  {
+    "text": "onShotHit",
+    "snippet": "onShotHit(objectIndex, shooterIndex, location)${1}",
+    "description": "Executed whenever a block object is hit by a shot in the sector. This callback is executed *before* the damage is dealt to the object",
+    "type": "callback",
+    "svc": "Entity/Sector"
+  },
+  {
+    "text": "onHullHit",
+    "snippet": "onHullHit(objectIndex, blockIndex, shooterIndex, damage, location)${1}",
+    "description": "Executed whenever a block object is hit by a shot in the sector. This callback is executed *before* the damage is dealt to the object. Don't delete the block that is hit by the shot, this will lead to a crash",
+    "type": "callback",
+    "svc": "Entity/Sector"
+  },
+  {
+    "text": "onShieldHit",
+    "snippet": "onShieldHit(objectIndex, shooterIndex, damage, location)${1}",
+    "description": "Executed whenever an object's shield is hit by a shot in the sector. This callback is executed *before* the damage is dealt to the object",
+    "type": "callback",
+    "svc": "Entity/Sector"
+  },
+  {
+    "text": "destinationSectorReady",
+    "snippet": "destinationSectorReady(sectorReady)${1}",
+    "description": "Executed when the availability state of the destination sector changes. When the sector is loaded into memory, it's set to true. When the sector is unloaded from memory, because there's no player near it, it's set to false",
+    "type": "callback",
+    "svc": "Entity"
+  },
+  {
+    "text": "onCargoChanged",
+    "snippet": "onCargoChanged(objectIndex, delta, name, pluralName, price, size)${1}",
+    "description": "Executed whenever the cargo of an entity in the sector changes. This callback is executed *after* the cargo was changed on the entity.",
+    "type": "callback",
+    "svc": "Entity/Sector"
+  },
+  {
+    "text": "onBlockHealed",
+    "snippet": "onBlockHealed(objectIndex, blockIndex, damage)${1}",
+    "description": "Executed whenever a block of the entity is healed. This callback is executed *before* the healing is done to the block. Don't remove the block in this callback, this will lead to a crash.",
+    "type": "callback",
+    "svc": "Entity/Sector"
+  },
+  {
+    "text": "onBlockPlanChanged",
+    "snippet": "onBlockPlanChanged(objectIndex, allBlocksChanged)${1}",
+    "description": "Executed whenever the plan of the entity is changed.",
+    "type": "callback",
+    "svc": "Entity/Sector"
+  },
+  {
+    "text": "onBlockChanged",
+    "snippet": "onBlockChanged(objectIndex, blockIndex, changeFlags)${1}",
+    "description": "Executed whenever the plan of the entity is changed.",
+    "type": "callback",
+    "svc": "Entity/Sector"
+  },
+  {
+    "text": "onBlockDestroyed",
+    "snippet": "onBlockDestroyed(objectIndex, damageType, index)${1}",
+    "description": "Executed whenever a block of the block object got destroyed This callback is executed *after* the block was destroyed",
+    "type": "callback",
+    "svc": "Entity/Sector"
+  },
+  {
+    "text": "onBlockDamaged",
+    "snippet": "onBlockDamaged(objectIndex, blockIndex, inflictorId, damage, damageType)${1}",
+    "description": "Executed whenever a block object is damaged in the sector. This callback is executed *after* the damage is dealt to the block, and before the block may be destroyed due to damage. Don't remove the block in this callback, this will lead to a crash.",
+    "type": "callback",
+    "svc": "Entity/Sector"
+  },
+  {
+    "text": "onBlockRemove",
+    "snippet": "onBlockRemoved(objectIndex, blockIndex)${1}",
+    "description": "Executed whenever a block is removed from the plan by a player. This callback is executed before the block is removed.",
+    "type": "callback",
+    "svc": "Entity/Sector"
+  },
+  {
+    "text": "onBlockRemoved",
+    "snippet": "onBlockRemoved(objectIndex, blockIndex)${1}",
+    "description": "Executed whenever a block is removed from the plan by a player. This callback is executed after the block is removed.",
+    "type": "callback",
+    "svc": "Entity/Sector"
+  },
+  {
+    "text": "onBlockAdded",
+    "snippet": "onBlockAdded(objectIndex, blockIndex})${1}",
+    "description": "Executed whenever a new block is added to the entity. This callback is executed after the block was added.",
+    "type": "callback",
+    "svc": "Entity/Sector"
+  },
+  {
+    "text": "onBreak",
+    "snippet": "onBreak(objectIndex, objectIndex)${1}",
+    "description": "Executed when the plan of the entity breaks. This callback is executed after the block broke. This callback is expensive, don't register for it if you don't absolutely need it.",
+    "type": "callback",
+    "svc": "Entity"
+  },
+  {
+    "text": "onPlanModifiedByBuilding",
+    "snippet": "onPlanModifiedByBuilding(shipIndex)${1}",
+    "description": "Executed whenever the plan of an entity was modified by building, meaning adding or removing blocks.",
+    "type": "callback",
+    "svc": "Entity/Sector"
+  },
+  {
+    "text": "onSystemsChanged",
+    "snippet": "onSystemsChanged(shipIndex)${1}",
+    "description": "Executed whenever the systems of a ship in the sector changed. This callback is executed *after* the system was changed on the entity.",
+    "type": "callback",
+    "svc": "Entity/Sector"
+  },
+  {
+    "text": "onDamaged",
+    "snippet": "onDamaged(objectIndex, amount, inflictor, damageType)${1}",
+    "description": "Executed whenever an entity is damaged in the sector. This callback is executed *before* the damage is dealtExecuted whenever an entity is damaged in the sector. This callback is executed *before* the damage is dealt.",
+    "type": "callback",
+    "svc": "Entity/Sector"
+  },
+  {
+    "text": "onHealed",
+    "snippet": "onHealed(objectIndex, amount, inflictor)${1}",
+    "description": "Executed whenever an entity is healed in the sector. This callback is executed *before* the damage is healed.",
+    "type": "callback",
+    "svc": "Entity/Sector"
+  },
+  {
+    "text": "onDestroyed",
+    "snippet": "onDestroyed(index, lastDamageInflictor)${1}",
+    "description": "Executed when the entity was destroyed.",
+    "type": "callback",
+    "svc": "Entity/Sector"
+  },
+  {
+    "text": "onCrewChanged",
+    "snippet": "onCrewChanged(index)${1}",
+    "description": "Executed whenever the crew of the entity changes. This callback is executed *after* the crew was changed on the entity.",
+    "type": "callback",
+    "svc": "Entity/Sector"
+  },
+  {
+    "text": "onCrewChanged",
+    "snippet": "onCrewChanged(index, delta, profession)${1}",
+    "description": "Executed whenever the crew of an entity in the sector changes. This callback is executed *after* the crew was changed on the entity.",
+    "type": "callback",
+    "svc": "Entity/Sector"
+  },
+  {
+    "text": "onLootCollected",
+    "snippet": "onLootCollected(collector, lootIndex)${1}",
+    "description": "Executed whenever loot gets collected by anyone, be it player or AI faction.",
+    "type": "callback",
+    "svc": "Entity/Sector"
+  },
+  {
+    "text": "onMoneyLootCollected",
+    "snippet": "onMoneyLootCollected(collector, lootIndex, value)${1}",
+    "description": "Executed whenever money loot gets collected by the entity.",
+    "type": "callback",
+    "svc": "Entity/Sector"
+  },
+  {
+    "text": "onMaterialLootCollected",
+    "snippet": "onMaterialLootCollected(collector, lootIndex, materialType, value)${1}",
+    "description": "Executed whenever material loot gets collected by.",
+    "type": "callback",
+    "svc": "Entity/Sector"
+  },
+  {
+    "text": "onSystemUpgradeLootCollected",
+    "snippet": "onSystemUpgradeLootCollected(collector, lootIndex)${1}",
+    "description": "Executed whenever material loot gets collected by.",
+    "type": "callback",
+    "svc": "Entity/Sector"
+  },
+  {
+    "text": "onTurretLootCollected",
+    "snippet": "onTurretLootCollected(collector, lootIndex)${1}",
+    "description": "Executed whenever turret loot gets collected by the entity.",
+    "type": "callback",
+    "svc": "Entity/Sector"
+  },
+  {
+    "text": "onColorLootCollected",
+    "snippet": "onColorLootCollected(collector, lootIndex)${1}",
+    "description": "Executed whenever color loot gets collected by the entity.",
+    "type": "callback",
+    "svc": "Entity/Sector"
+  },
+  {
+    "text": "onCargoLootCollected",
+    "snippet": "onCargoLootCollected(collector, lootIndex, amount, name, pluralName, description, icon, price, size, ${10:owner)${1}",
+    "description": "Executed whenever trading good loot gets collected by a player.",
+    "type": "callback",
+    "svc": "Entity/Sector"
+  },
+  {
+    "text": "onTurretDestroyed",
+    "snippet": "onTurretDestroyed(turretIndex, shipIndex)${1}",
+    "description": "Executed whenever a turret of the entity was destroyed.",
+    "type": "callback",
+    "svc": "Entity/Sector"
+  },
+  {
+    "text": "onShieldDamaged",
+    "snippet": "onShieldDamaged(entityId, amount, inflictorId)${1}",
+    "description": "Executed whenever the entities shield is damaged.",
+    "type": "callback",
+    "svc": "Entity/Sector"
+  },
+  {
+    "text": "onShieldHealed",
+    "snippet": "onShieldHealed(entityId, amount)${1}",
+    "description": "Executed whenever the entities shield is healed.",
+    "type": "callback",
+    "svc": "Entity/Sector"
+  },
+  {
+    "text": "onShieldActivate",
+    "snippet": "onShieldActivate(entityId)${1}",
+    "description": "Executed whenever the entities shield activates.",
+    "type": "callback",
+    "svc": "Entity/Sector"
+  },
+  {
+    "text": "onShieldDeactivate",
+    "snippet": "onShieldDeactivate(entityId)${1}",
+    "description": "Executed whenever the entities shield deactivates.",
+    "type": "callback",
+    "svc": "Entity/Sector"
+  },
+  {
+    "text": "onShotFired",
+    "snippet": "onShotFired(entityId)${1}",
+    "description": "Executed whenever the entity fires a shot.",
+    "type": "callback",
+    "svc": "Entity/Sector"
+  },
+  {
+    "text": "onStartFiring",
+    "snippet": "onStartFiring(entityId)${1}",
+    "description": "Executed whenever the entity starts firing.",
+    "type": "callback",
+    "svc": "Entity/Sector"
+  },
+  {
+    "text": "onStopFiring",
+    "snippet": "onStopFiring(entityId)${1}",
+    "description": "Executed whenever the entity stops firing.",
+    "type": "callback",
+    "svc": "Entity/Sector"
+  },
+  {
+    "text": "onAllianceCreated",
+    "snippet": "onAllianceCreated(index)${1}",
+    "description": "Executed whenever a new alliance is created on the server.",
+    "type": "callback",
+    "svc": "Galaxy"
+  },
+  {
+    "text": "onFactionCreated",
+    "snippet": "onFactionCreated(index)${1}",
+    "description": "Executed whenever a new faction is created on the server.",
+    "type": "callback",
+    "svc": "Galaxy"
+  },
+  {
+    "text": "onPlayerCreated",
+    "snippet": "onPlayerCreated(index)${1}",
+    "description": "Executed whenever a new player is created on the server.",
+    "type": "callback",
+    "svc": "Galaxy"
+  },
+  {
+    "text": "onRelationsChanged",
+    "snippet": "onRelationsChanged(indexA, indexB, relations, status)${1}",
+    "description": "Executed whenever a the relations between two factions change.",
+    "type": "callback",
+    "svc": "Galaxy"
+  },
+  {
+    "text": "onShipChanged",
+    "snippet": "onShipChanged(playerIndex, craftIndex)${1}",
+    "description": "Executed whenever the player changes the ship he is currently flying.",
+    "type": "callback",
+    "svc": "Player"
+  },
+  {
+    "text": "onSectorLeft",
+    "snippet": "onSectorLeft(playerIndex, x, y)${1}",
+    "description": "Executed whenever the player leaves his current sector.",
+    "type": "callback",
+    "svc": "Player"
+  },
+  {
+    "text": "onSectorEntered",
+    "snippet": "onSectorEntered(playerIndex, x, y)${1}",
+    "description": "Executed whenever the player enters a new sector.",
+    "type": "callback",
+    "svc": "Player"
+  },
+  {
+    "text": "onResourcesChanged",
+    "snippet": "onResourcesChanged(playerIndex)${1}",
+    "description": "Executed whenever the money or resources of the player change.",
+    "type": "callback",
+    "svc": "Player"
+  },
+  {
+    "text": "onMailReceived",
+    "snippet": "onMailReceived(playerIndex, index)${1}",
+    "description": "Executed whenever the player receives a new mail.",
+    "type": "callback",
+    "svc": "Player"
+  },
+  {
+    "text": "onMailDeleted",
+    "snippet": "onMailDeleted(playerIndex)${1}",
+    "description": "Executed whenever the player deletes a mail.",
+    "type": "callback",
+    "svc": "Player"
+  },
+  {
+    "text": "onMailCleared",
+    "snippet": "onMailCleared(playerIndex, mailIndex)${1}",
+    "description": "Executed whenever the player takes the contents of a mail.",
+    "type": "callback",
+    "svc": "Player"
+  },
+  {
+    "text": "onMailRead",
+    "snippet": "onMailRead(playerIndex, mailIndex)${1}",
+    "description": "Executed whenever the player reads a mail.",
+    "type": "callback",
+    "svc": "Player"
+  },
+  {
+    "text": "onRelationLevelChanged",
+    "snippet": "onRelationLevelChanged(playerIndex, factionIndex, reltions)${1}",
+    "description": "Executed whenever the relations of the player to another faction changes.",
+    "type": "callback",
+    "svc": "Player"
+  },
+  {
+    "text": "onRelationStatusChanged",
+    "snippet": "onRelationStatusChanged(playerIndex, factionIndex, status)${1}",
+    "description": "Executed whenever the relation status of the player to another faction changes.",
+    "type": "callback",
+    "svc": "Player"
+  },
+  {
+    "text": "onItemChanged",
+    "snippet": "onItemChanged(playerIndex, amount, amountBefore)${1}",
+    "description": "Executed whenever the number of items in a particular item slot in the player's inventory changes.",
+    "type": "callback",
+    "svc": "Player"
+  },
+  {
+    "text": "onItemRemoved",
+    "snippet": "onItemRemoved(playerIndex, amount, amountBefore)${1}",
+    "description": "Executed whenever the number of items in a particular item slot in the player's inventory decreases or the item was removed.",
+    "type": "callback",
+    "svc": "Player"
+  },
+  {
+    "text": "onItemAdded",
+    "snippet": "onItemAdded(playerIndex, amount, amountBefore)${1}",
+    "description": "Executed whenever the number of items in a particular item slot in the player's inventory increases or a new item was added.",
+    "type": "callback",
+    "svc": "Player"
+  },
+  {
+    "text": "onStartDialog",
+    "snippet": "onStartDialog(objectIndex)${1}",
+    "description": "Executed when a dialog is started.",
+    "type": "callback",
+    "svc": "Player"
+  },
+  {
+    "text": "onPlayerLeft",
+    "snippet": "onPlayerLeft(playerIndex)${1}",
+    "description": "Executed whenever a player leaves the sector.",
+    "type": "callback",
+    "svc": "Sector"
+  },
+  {
+    "text": "onPlayerEntered",
+    "snippet": "onPlayerEntered(playerIndex)${1}",
+    "description": "Executed whenever a player enters the sector.",
+    "type": "callback",
+    "svc": "Sector"
+  },
+  {
+    "text": "onShotCreated",
+    "snippet": "onShotCreated(shotIndex)${1}",
+    "description": "Executed whenever a new shot is created in the sector.",
+    "type": "callback",
+    "svc": "Sector"
+  },
+  {
+    "text": "onPlayerLogOff",
+    "snippet": "onPlayerLogOff(playerIndex)${1}",
+    "description": "Executed whenever a player was logged off.",
+    "type": "callback",
+    "svc": "Server"
+  },
+  {
+    "text": "onPlayerLogIn",
+    "snippet": "onPlayerLogIn(playerIndex)${1}",
+    "description": "Executed whenever a player was logged in.",
+    "type": "callback",
+    "svc": "Server"
+  },
+  {
+    "text": "onDestroyed",
+    "snippet": "onDestroyed(turretIndex)${1}",
+    "description": "Executed whenever a turret of the entity was destroyed.",
+    "type": "callback",
+    "svc": "Turret"
+  }
+]
