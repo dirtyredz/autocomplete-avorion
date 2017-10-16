@@ -8,7 +8,7 @@
     "provider",
     "avorion"
   ],
-  "repository": "https://github.com/dirtyredz/atom-autocomplete-avorion",
+  "repository": "https://github.com/dirtyredz/autocomplete-avorion",
   "author": "Dirtyredz|David McClain <dirtyredz@live.com> (http://dirtyredz.com)",
   "license": "MIT",
   "engines": {
