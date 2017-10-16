@@ -1,5 +1,5 @@
 {
-  "name": "atom-autocomplete-avorion",
+  "name": "autocomplete-avorion",
   "main": "./lib/main",
   "version": "1.0.0",
   "description": "Autocomplete for avorion scripting api.",
